@@ -34,7 +34,7 @@ msgstr "Ark"
 #: app/org.kde.ark.desktop.cmake:162
 msgctxt "Comment"
 msgid "Work with file archives"
-msgstr ""
+msgstr "Arxivlar bilan ishlash"
 
 #: kerfuffle/kerfufflePlugin.desktop:4
 msgctxt "Comment"
