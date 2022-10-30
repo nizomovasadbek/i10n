@@ -19,7 +19,7 @@ msgstr ""
 #: addons/sessionapplet/plasma-dataengine-katesessions.desktop:2
 msgctxt "Name"
 msgid "Kate Sessions"
-msgstr ""
+msgstr "Kate sessiyalari"
 
 #: addons/sessionapplet/applet/metadata.desktop:49
 #: addons/sessionapplet/plasma-dataengine-katesessions.desktop:49
@@ -35,7 +35,7 @@ msgstr ""
 #: apps/kate/data/org.kde.kate.desktop:2
 msgctxt "GenericName"
 msgid "Advanced Text Editor"
-msgstr ""
+msgstr "Kuchli matn tahrirlagich"
 
 #: apps/kate/data/org.kde.kate.desktop:64
 msgctxt "Name"
