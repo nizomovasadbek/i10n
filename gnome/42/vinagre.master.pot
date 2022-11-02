@@ -20,7 +20,7 @@ msgstr ""
 
 #: ../data/org.gnome.Vinagre.gschema.xml.h:1
 msgid "Whether we should leave other clients connected"
-msgstr ""
+msgstr "Boshqa foydalanuvchilarni aloqada qoldirishimiz kerak"
 
 #: ../data/org.gnome.Vinagre.gschema.xml.h:2
 msgid ""
