@@ -8,7 +8,7 @@ Tarjima qilinmagan DE yoki WM dasturlari uchun o'zbek tilida tarjimalar yetkazis
 Asosan hamma protsessni sentrallashtirish uchun yaratilgan repozitoriya hisoblanadi va kuzatib borish, hamda
 birga ishlash osonlashtiradi.
 
-## Qatnashish uchun
+## Qatnashish  uchun
 
 Ushbu repozitoriyada tarjima ishlari boshlashdan avval, telegramdagi asosiy guruhimizad
 qaysi qismlarni qilish kerakligi haqida ko'proq ma'lumot so'rab oling va kelishing! Agar muammolar
