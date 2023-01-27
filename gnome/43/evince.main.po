@@ -10,9 +10,9 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/evince/issues\n"
 "POT-Creation-Date: 2022-09-22 20:27+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"Last-Translator: Otabek Ismoilov <ismoilovdev@gmail.com>\n"
+"Language-Team: Uzbek <cctld@uzinfocom.uz>\n"
+"Language: uz\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -20,128 +20,132 @@ msgstr ""
 
 #: backend/comics/comics-document.c:190 backend/comics/comics-document.c:214
 msgid "File is corrupted"
-msgstr ""
+msgstr "Fayl buzilgan"
 
 #: backend/comics/comics-document.c:255
 msgid "Archive is encrypted"
-msgstr ""
+msgstr "Arxiv shifrlangan"
 
 #: backend/comics/comics-document.c:260
 msgid "No supported images in archive"
-msgstr ""
+msgstr "Arxivda qoʻllab-quvvatlanadigan rasm yoʻq"
 
 #: backend/comics/comics-document.c:265
 msgid "No files in archive"
-msgstr ""
+msgstr "Arxivda hech qanday fayl yo'q"
 
 #: backend/comics/comics-document.c:315
 #, c-format
 msgid "Not a comic book MIME type: %s"
-msgstr ""
+msgstr "Komiks emas MIME turi: %s"
 
 #: backend/comics/comics-document.c:322
 msgid ""
 "libarchive lacks support for this comic book’s compression, please contact "
 "your distributor"
 msgstr ""
+"Libarchive ushbu komiksni siqish uchun qo'llab-quvvatlamaydi, iltimos, bog'laning"
+"sizning distribyutoringiz"
 
 #: backend/comics/comics-document.c:362
 msgid "Can not get local path for archive"
-msgstr ""
+msgstr "Arxiv uchun mahalliy yoʻlni olib boʻlmadi"
 
 #: backend/comics/comicsdocument.evince-backend.desktop.in.in:4
 #: backend/comics/evince-comicsdocument.metainfo.xml.in.in:5
 msgid "Comic Books"
-msgstr ""
+msgstr "Comic Books"
 
 #: backend/comics/evince-comicsdocument.metainfo.xml.in.in:6
 msgid "Adds support for reading comic books"
-msgstr ""
+msgstr "Komikslarni o'qishni qo'llab-quvvatlaydi"
 
 #: backend/djvu/djvu-document.c:179
 msgid "DjVu document has incorrect format"
-msgstr ""
+msgstr "DjVu hujjat formati noto'g'ri"
 
 #: backend/djvu/djvu-document.c:266
 msgid ""
 "The document is composed of several files. One or more of these files cannot "
 "be accessed."
 msgstr ""
+"Hujjat bir nechta fayllardan iborat. Bu fayllardan biri yoki bir nechtasiga "
+"kirish mumkin."
 
 #: backend/djvu/djvudocument.evince-backend.desktop.in.in:4
 #: backend/djvu/evince-djvudocument.metainfo.xml.in.in:5
 msgid "DjVu Documents"
-msgstr ""
+msgstr "DjVu hujjatlari"
 
 #: backend/djvu/evince-djvudocument.metainfo.xml.in.in:6
 msgid "Adds support for reading DjVu documents"
-msgstr ""
+msgstr "DjVu hujjatlarini o'qishni qo'llab-quvvatlaydi"
 
 #: backend/dvi/dvi-document.c:110
 msgid "DVI document has incorrect format"
-msgstr ""
+msgstr "DVI hujjat formati noto'g'ri"
 
 #: backend/dvi/dvidocument.evince-backend.desktop.in.in:4
 #: backend/dvi/evince-dvidocument.metainfo.xml.in.in:5
 msgid "DVI Documents"
-msgstr ""
+msgstr "DVI hujjatlari"
 
 #: backend/dvi/evince-dvidocument.metainfo.xml.in.in:6
 msgid "Adds support for reading DVI documents"
-msgstr ""
+msgstr "DVI hujjatlarini o'qishni qo'llab-quvvatlaydi"
 
 #: backend/pdf/evince-pdfdocument.metainfo.xml.in.in:5
 #: backend/pdf/pdfdocument.evince-backend.desktop.in.in:5
 msgid "PDF Documents"
-msgstr ""
+msgstr "PDF hujjatlar"
 
 #: backend/pdf/evince-pdfdocument.metainfo.xml.in.in:6
 msgid "Adds support for reading PDF Documents"
-msgstr ""
+msgstr "PDF hujjatlarini o'qishni qo'llab-quvvatlaydi"
 
 #. translators: this is the document security state
 #: backend/pdf/ev-poppler.c:731 backend/pdf/ev-poppler.c:737
 #: properties/ev-properties-view.c:433
 msgid "Yes"
-msgstr ""
+msgstr "Ha"
 
 #. translators: this is the document security state
 #: backend/pdf/ev-poppler.c:734 backend/pdf/ev-poppler.c:737
 #: properties/ev-properties-view.c:435
 msgid "No"
-msgstr ""
+msgstr "Yo'q"
 
 #: backend/pdf/ev-poppler.c:879
 msgid "Type 1"
-msgstr ""
+msgstr "1-turi"
 
 #: backend/pdf/ev-poppler.c:881
 msgid "Type 1C"
-msgstr ""
+msgstr "1C turi"
 
 #: backend/pdf/ev-poppler.c:883
 msgid "Type 3"
-msgstr ""
+msgstr "3-turi"
 
 #: backend/pdf/ev-poppler.c:885
 msgid "TrueType"
-msgstr ""
+msgstr "TrueType"
 
 #: backend/pdf/ev-poppler.c:887
 msgid "Type 1 (CID)"
-msgstr ""
+msgstr "1-toifa (CID)"
 
 #: backend/pdf/ev-poppler.c:889
 msgid "Type 1C (CID)"
-msgstr ""
+msgstr "1C turi (CID)"
 
 #: backend/pdf/ev-poppler.c:891
 msgid "TrueType (CID)"
-msgstr ""
+msgstr "TrueType (CID)"
 
 #: backend/pdf/ev-poppler.c:893
 msgid "Unknown font type"
-msgstr ""
+msgstr "Noma'lum shrift turi"
 
 #: backend/pdf/ev-poppler.c:937
 msgid ""
@@ -149,14 +153,17 @@ msgid ""
 "14 fonts. If the substitute fonts selected by fontconfig are not the same as "
 "the fonts used to create the PDF, the rendering may not be correct."
 msgstr ""
+"Ushbu hujjat PDF standartidan bo'lmagan o'rnatilgan shriftlarni o'z ichiga oladi"
+"14 shrift. Agar fontconfig tomonidan tanlangan o'rinini bosuvchi shriftlar bir xil bo'lmasa "
+"PDF yaratish uchun ishlatiladigan shriftlar, renderlash to'g'ri bo'lmasligi mumkin."
 
 #: backend/pdf/ev-poppler.c:942
 msgid "All fonts are either standard or embedded."
-msgstr ""
+msgstr "Barcha shriftlar standart yoki o'rnatilgan."
 
 #: backend/pdf/ev-poppler.c:972
 msgid "No name"
-msgstr ""
+msgstr "Nomsiz"
 
 #. translators: When a font type does not have
 #. encoding information or it is unknown.  Example:
@@ -171,19 +178,19 @@ msgstr ""
 #: backend/pdf/ev-poppler.c:981 libview/ev-print-operation.c:2722
 #: properties/ev-properties-view.c:233
 msgid "None"
-msgstr ""
+msgstr "Yo'q"
 
 #: backend/pdf/ev-poppler.c:989
 msgid "Embedded subset"
-msgstr ""
+msgstr "Oʻrnatilgan quyi toʻplam"
 
 #: backend/pdf/ev-poppler.c:991
 msgid "Embedded"
-msgstr ""
+msgstr "Oʻrnatilgan"
 
 #: backend/pdf/ev-poppler.c:993
 msgid "Not embedded"
-msgstr ""
+msgstr "Oʻrnatilmagan"
 
 #. Translators: string starting with a space
 #. * because it is directly appended to the font
@@ -192,7 +199,7 @@ msgstr ""
 #.
 #: backend/pdf/ev-poppler.c:1000
 msgid " (One of the Standard 14 Fonts)"
-msgstr ""
+msgstr " (Standart 14 shriftdan biri)"
 
 #. Translators: string starting with a space
 #. * because it is directly appended to the font
@@ -201,7 +208,7 @@ msgstr ""
 #.
 #: backend/pdf/ev-poppler.c:1007
 msgid " (Not one of the Standard 14 Fonts)"
-msgstr ""
+msgstr " (Standart 14 shriftdan biri emas)"
 
 #. Translators: string is a concatenation of previous
 #. * translated strings to indicate the fonts properties
@@ -222,6 +229,11 @@ msgid ""
 "Substituting with <b>%s</b>\n"
 "(%s)"
 msgstr ""
+"%s%s\n"
+"Kodlash: %s\n"
+"%s\n"
+"<b>%s</b> bilan almashtirilmoqda\n"
+"(%s)"
 
 #. Translators: string is a concatenation of previous
 #. * translated strings to indicate the fonts properties
@@ -239,134 +251,142 @@ msgid ""
 "Encoding: %s\n"
 "%s"
 msgstr ""
+"%s%s\n"
+"Kodlash: %s\n"
+"%s"
 
 #: backend/ps/evince-psdocument.metainfo.xml.in.in:5
 #: backend/ps/psdocument.evince-backend.desktop.in.in:5
 msgid "PostScript Documents"
-msgstr ""
+msgstr "PostScript hujjatlari"
 
 #: backend/ps/evince-psdocument.metainfo.xml.in.in:6
 msgid "Adds support for reading PostScript documents"
-msgstr ""
+msgstr "PostScript hujjatlarini o'qishni qo'llab-quvvatlaydi"
 
 #: backend/ps/ev-spectre.c:98
 #, c-format
 msgid "Failed to load document “%s”"
-msgstr ""
+msgstr "“%s” hujjatini yuklab bo‘lmadi"
 
 #: backend/ps/ev-spectre.c:131
 #, c-format
 msgid "Failed to save document “%s”"
-msgstr ""
+msgstr "“%s” hujjatini saqlab bo‘lmadi"
 
 #: backend/tiff/evince-tiffdocument.metainfo.xml.in.in:5
 #: backend/tiff/tiffdocument.evince-backend.desktop.in.in:4
 msgid "TIFF Documents"
-msgstr ""
+msgstr "TIFF hujjatlari"
 
 #: backend/tiff/evince-tiffdocument.metainfo.xml.in.in:6
 msgid "Adds support for reading TIFF documents"
-msgstr ""
+msgstr "TIFF hujjatlarini o'qishni qo'llab-quvvatlaydi"
 
 #: backend/tiff/tiff-document.c:124
 msgid "Invalid document"
-msgstr ""
+msgstr "Yaroqsiz hujjat"
 
 #: backend/xps/evince-xpsdocument.metainfo.xml.in.in:5
 #: backend/xps/xpsdocument.evince-backend.desktop.in.in:5
 msgid "XPS Documents"
-msgstr ""
+msgstr "XPS hujjatlari"
 
 #: backend/xps/evince-xpsdocument.metainfo.xml.in.in:6
 msgid "Adds support for reading XPS documents"
-msgstr ""
+msgstr "XPS hujjatlarini o'qishni qo'llab-quvvatlaydi"
 
 #. Manually set name and icon
 #: data/org.gnome.Evince.desktop.in.in:3 org.gnome.Evince.appdata.xml.in:23
 #: shell/ev-window-title.c:134 shell/main.c:300
 msgid "Document Viewer"
-msgstr ""
+msgstr "Hujjat ko'ruvchi"
 
 #: data/org.gnome.Evince.desktop.in.in:4
 msgid "View multi-page documents"
-msgstr ""
+msgstr "Ko'p sahifali hujjatlarni ko'rish"
 
 #. Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
 #: data/org.gnome.Evince.desktop.in.in:6
 msgid ""
 "pdf;ps;postscript;dvi;xps;djvu;tiff;document;presentation;viewer;evince;"
 msgstr ""
+"pdf;ps;postscript;dvi;xps;djvu;tiff;document;presentation;viewer;evince;"
 
 #: data/org.gnome.Evince.desktop.in.in:19
 msgid "New Window"
-msgstr ""
+msgstr "Yangi oyna"
 
 #: data/org.gnome.Evince.gschema.xml:14
 msgid "Override document restrictions"
-msgstr ""
+msgstr "Hujjat cheklovlarini bekor qilish"
 
 #: data/org.gnome.Evince.gschema.xml:15
 msgid "Override document restrictions, like restriction to copy or to print."
-msgstr ""
+msgstr "Nusxa olish yoki chop etish cheklovi kabi hujjat cheklovlarini bekor qiling."
 
 #: data/org.gnome.Evince.gschema.xml:19
 msgid "Automatically reload the document"
-msgstr ""
+msgstr "Hujjatni avtomatik ravishda qayta yuklash"
 
 #: data/org.gnome.Evince.gschema.xml:20
 msgid "The document is automatically reloaded on file change."
-msgstr ""
+msgstr "Fayl o'zgartirilganda hujjat avtomatik ravishda qayta yuklanadi."
 
 #: data/org.gnome.Evince.gschema.xml:24
 msgid "The URI of the directory last used to open or save a document"
-msgstr ""
+msgstr "Katalogning URI oxirgi marta hujjatni ochish yoki saqlash uchun ishlatilgan"
 
 #: data/org.gnome.Evince.gschema.xml:28
 msgid "The URI of the directory last used to save a picture"
-msgstr ""
+msgstr "Katalogning URI oxirgi marta rasmni saqlash uchun ishlatilgan"
 
 #: data/org.gnome.Evince.gschema.xml:32
 msgid "Page cache size in MiB"
-msgstr ""
+msgstr "Sahifa keshi hajmi MiB"
 
 #: data/org.gnome.Evince.gschema.xml:33
 msgid ""
 "The maximum size that will be used to cache rendered pages, limits maximum "
 "zoom level."
 msgstr ""
+"Ko'rsatilgan sahifalarni keshlash uchun ishlatiladigan maksimal o'lcham, maksimal chegaralar"
+"kattalashtirish darajasi".
 
 #: data/org.gnome.Evince.gschema.xml:37
 msgid ""
 "Show a dialog to confirm that the user wants to activate the caret "
 "navigation."
 msgstr ""
+"Foydalanuvchi karetani faollashtirmoqchi ekanligini tasdiqlash uchun dialog oynasini ko'rsating"
+"navigatsiya."
 
 #: data/org.gnome.Evince.gschema.xml:41
 msgid "Allow links to change the zoom level."
-msgstr ""
+msgstr "Havolalarga masshtab darajasini oʻzgartirishga ruxsat bering."
 
 #: data/org.gnome.Evince-previewer.desktop.in.in:3
 msgid "Print Preview"
-msgstr ""
+msgstr "Chop etishni oldindan ko‘rish"
 
 #: data/org.gnome.Evince-previewer.desktop.in.in:4
 msgid "Preview before printing"
-msgstr ""
+msgstr "Chop etishdan oldin ko'rib chiqing"
 
 #: libdocument/ev-attachment.c:330 libdocument/ev-attachment.c:351
 #, c-format
 msgid "Couldn’t save attachment “%s”: %s"
-msgstr ""
+msgstr "“%s” biriktirmasini saqlab bo‘lmadi: %s"
 
 #: libdocument/ev-attachment.c:398
 #, c-format
 msgid "Couldn’t open attachment “%s”: %s"
-msgstr ""
+msgstr "“%s” ilovasini ochib bo‘lmadi: %s"
 
 #: libdocument/ev-attachment.c:437
 #, c-format
 msgid "Couldn’t open attachment “%s”"
-msgstr ""
+msgstr "“%s” biriktirmasini ochib bo‘lmadi"
 
 #: libdocument/ev-document-factory.c:105
 #, c-format
@@ -377,148 +397,148 @@ msgstr ""
 #: libdocument/ev-file-helpers.c:464 libdocument/ev-file-helpers.c:483
 #: libdocument/ev-file-helpers.c:564 libdocument/ev-file-helpers.c:573
 msgid "Unknown MIME Type"
-msgstr ""
+msgstr "Noma'lum MIME turi"
 
 #: libdocument/ev-document-factory.c:647
 msgid "All Documents"
-msgstr ""
+msgstr "Barcha Hujjatlar"
 
 #: libdocument/ev-document-factory.c:674 shell/ev-utils.c:272
 msgid "All Files"
-msgstr ""
+msgstr "Barcha fayllar"
 
 #: libdocument/ev-file-helpers.c:158
 #, c-format
 msgid "Failed to create a temporary file: %s"
-msgstr ""
+msgstr "Vaqtinchalik fayl yaratib bo‘lmadi: %s"
 
 #: libdocument/ev-file-helpers.c:235
 #, c-format
 msgid "Failed to create a temporary directory: %s"
-msgstr ""
+msgstr "Vaqtinchalik katalog yaratib bo‘lmadi: %s"
 
 #: libdocument/ev-xmp.c:350
 msgid "This work is in the Public Domain"
-msgstr ""
+msgstr "Bu ish Public Domainda"
 
 #: libmisc/ev-page-action-widget.c:86 libmisc/ev-page-action-widget.c:125
 #, c-format
 msgid "(%d of %d)"
-msgstr ""
+msgstr "(%d dan %d)"
 
 #: libmisc/ev-page-action-widget.c:88 libmisc/ev-page-action-widget.c:129
 #, c-format
 msgid "of %d"
-msgstr ""
+msgstr "dan %d"
 
 #: libmisc/ev-page-action-widget.c:187 shell/ev-history.c:455
 #: shell/ev-sidebar-bookmarks.c:343 shell/ev-window.c:966
 #: shell/ev-window.c:5164
 #, c-format
 msgid "Page %s"
-msgstr ""
+msgstr "%s sahifa"
 
 #: libmisc/ev-search-box.c:113
 msgid "Not found, click to change search options"
-msgstr ""
+msgstr "Topilmadi, qidiruv parametrlarini o'zgartirish uchun bosing"
 
 #: libmisc/ev-search-box.c:187 libmisc/ev-search-box.c:243
 msgid "Search options"
-msgstr ""
+msgstr "Qidiruv parametrlari"
 
 #: libmisc/ev-search-box.c:319
 msgid "_Whole Words Only"
-msgstr ""
+msgstr "_Faqat butun so'zlar"
 
 #: libmisc/ev-search-box.c:332
 msgid "C_ase Sensitive"
-msgstr ""
+msgstr "Harflar katta-kichikligiga sezgir"
 
 #: libmisc/ev-search-box.c:601
 msgid "Find previous occurrence of the search string"
-msgstr ""
+msgstr "Qidiruv qatorining oldingi holatini toping"
 
 #: libmisc/ev-search-box.c:607
 msgid "Find next occurrence of the search string"
-msgstr ""
+msgstr "Qidiruv qatorining keyingi takrorlanishini toping"
 
 #: libview/ev-jobs.c:658
 #, c-format
 msgid "Failed to render page %d: %s"
-msgstr ""
+msgstr "%d sahifani ko‘rsatib bo‘lmadi: %s"
 
 #: libview/ev-jobs.c:665
 #, c-format
 msgid "Failed to render page %d"
-msgstr ""
+msgstr "%d sahifani ko‘rsatib bo‘lmadi"
 
 #: libview/ev-jobs.c:918
 #, c-format
 msgid "Failed to create thumbnail for page %d"
-msgstr ""
+msgstr "%d sahifa uchun eskiz yaratib bo‘lmadi"
 
 #: libview/ev-jobs.c:2367
 #, c-format
 msgid "Failed to print page %d: %s"
-msgstr ""
+msgstr "%d sahifani chop etib bo‘lmadi: %s"
 
 #. Initial state
 #: libview/ev-print-operation.c:353
 msgid "Preparing preview…"
-msgstr ""
+msgstr "Ko‘rib chiqish tayyorlanmoqda…"
 
 #: libview/ev-print-operation.c:355 libview/ev-print-operation.c:365
 msgid "Finishing…"
-msgstr ""
+msgstr "Tugallanmoqda…"
 
 #: libview/ev-print-operation.c:357
 #, c-format
 msgid "Generating preview: page %d of %d"
-msgstr ""
+msgstr "Ko‘rib chiqish yaratilmoqda: %d sahifaning %d sahifasi"
 
 #. Initial state
 #: libview/ev-print-operation.c:363
 msgid "Preparing to print…"
-msgstr ""
+msgstr "Chop etishga tayyorlanmoqda…"
 
 #: libview/ev-print-operation.c:367
 #, c-format
 msgid "Printing page %d of %d…"
-msgstr ""
+msgstr "%d sahifadan %d sahifa chop etilmoqda…"
 
 #: libview/ev-print-operation.c:1589 libview/ev-print-operation.c:2056
 msgid "Your print range selection does not include any pages"
-msgstr ""
+msgstr "Chop etish diapazoni tanlaganingizda hech qanday sahifa mavjud emas"
 
 #. translators: Title of the print dialog
 #: libview/ev-print-operation.c:1730 libview/ev-print-operation.c:1828
 #: libview/ev-print-operation.c:2107
 msgid "Print"
-msgstr ""
+msgstr "Chop etish"
 
 #: libview/ev-print-operation.c:2030
 msgid "Requested format is not supported by this printer."
-msgstr ""
+msgstr "Bu printer tomonidan so‘ralgan format qo‘llab-quvvatlanmaydi."
 
 #: libview/ev-print-operation.c:2053
 msgid "Invalid page selection"
-msgstr ""
+msgstr "Yaroqsiz sahifa tanlovi"
 
 #: libview/ev-print-operation.c:2054
 msgid "Warning"
-msgstr ""
+msgstr "Ogohlantirish"
 
 #: libview/ev-print-operation.c:2716
 msgid "Page Scaling:"
-msgstr ""
+msgstr "Sahifani masshtablash:"
 
 #: libview/ev-print-operation.c:2723
 msgid "Shrink to Printable Area"
-msgstr ""
+msgstr "Chop etish maydoniga qisqartirish"
 
 #: libview/ev-print-operation.c:2724
 msgid "Fit to Printable Area"
-msgstr ""
+msgstr "Chop etish maydoniga mos"
 
 #: libview/ev-print-operation.c:2727
 msgid ""
@@ -533,46 +553,60 @@ msgid ""
 "• “Fit to Printable Area”: Document pages are enlarged or reduced as "
 "required to fit the printable area of the printer page.\n"
 msgstr ""
+"Hujjat sahifalarini tanlangan printer sahifasiga moslashtirish uchun masshtablashtiring. "
+"quyidagilar:\n"
+"\n"
+"• ”Yo'q”: Sahifani masshtablash bajarilmaydi.\n"
+"\n"
+"• ”Chop etish maydoniga qisqartirish”: Hujjat sahifalari chop etiladigan maydondan kattaroq "
+"printer sahifasining chop etiladigan maydoniga moslash uchun qisqartiriladi.\n"
+"\n"
+"• ”Chop etish maydoniga qisqartirish”: Hujjat sahifalari kattalashtiriladi yoki kichraytiriladi "
+"printer sahifasining chop etiladigan maydoniga mos kelishi kerak.\n"
 
 #: libview/ev-print-operation.c:2739
 msgid "Auto Rotate and Center"
-msgstr ""
+msgstr "Avtomatik aylantirish va markazlashtirish"
 
 #: libview/ev-print-operation.c:2742
 msgid ""
 "Rotate printer page orientation of each page to match orientation of each "
 "document page. Document pages will be centered within the printer page."
 msgstr ""
+"Har bir sahifaning yo'nalishiga mos keladigan printer sahifasi yo'nalishini aylantiring"
+"hujjat sahifasi. Hujjat sahifalari printer sahifasi ichida markazlashtiriladi."
 
 #: libview/ev-print-operation.c:2747
 msgid "Select page size using document page size"
-msgstr ""
+msgstr "Hujjat sahifasi o'lchamidan foydalanib sahifa o'lchamini tanlang"
 
 #: libview/ev-print-operation.c:2749
 msgid ""
 "When enabled, each page will be printed on the same size paper as the "
 "document page."
 msgstr ""
+"Agar yoqilgan bo'lsa, har bir sahifa bir xil o'lchamdagi qog'ozga chop etiladi"
+"hujjat sahifasi".
 
 #: libview/ev-print-operation.c:2754
 msgid "Draw border around pages"
-msgstr ""
+msgstr "Sahifalar atrofida chegara chizish"
 
 #: libview/ev-print-operation.c:2756
 msgid "When enabled, a border will be drawn around each page."
-msgstr ""
+msgstr "Yoqilganda, har bir sahifa atrofida chegara chiziladi."
 
 #: libview/ev-print-operation.c:2858
 msgid "Page Handling"
-msgstr ""
+msgstr "Sahifa bilan ishlash"
 
 #: libview/ev-view-accessible.c:43
 msgid "Scroll Up"
-msgstr ""
+msgstr "Yuqoriga aylantiring"
 
 #: libview/ev-view-accessible.c:44
 msgid "Scroll Down"
-msgstr ""
+msgstr "Pastga aylantiring"
 
 #: libview/ev-view-accessible.c:50
 msgid "Scroll View Up"
@@ -584,233 +618,237 @@ msgstr ""
 
 #: libview/ev-view-accessible.c:132
 msgid "Document View"
-msgstr ""
+msgstr "Hujjat ko'rinishi"
 
 #: libview/ev-view.c:2117
 msgid "Go to first page"
-msgstr ""
+msgstr "Birinchi sahifaga o'ting"
 
 #: libview/ev-view.c:2119
 msgid "Go to previous page"
-msgstr ""
+msgstr "Oldingi sahifaga o'ting"
 
 #: libview/ev-view.c:2121
 msgid "Go to next page"
-msgstr ""
+msgstr "Keyingi sahifaga o'ting"
 
 #: libview/ev-view.c:2123
 msgid "Go to last page"
-msgstr ""
+msgstr "Oxirgi sahifaga o'ting"
 
 #: libview/ev-view.c:2125
 msgid "Go to page"
-msgstr ""
+msgstr "Sahifaga o'tish"
 
 #: libview/ev-view.c:2127
 msgid "Find"
-msgstr ""
+msgstr "Toping"
 
 #: libview/ev-view.c:2155
 #, c-format
 msgid "Go to page %s"
-msgstr ""
+msgstr "%s sahifasiga o‘ting"
 
 #: libview/ev-view.c:2161
 #, c-format
 msgid "Go to %s on file “%s”"
-msgstr ""
+msgstr "“%s” faylidagi %s sahifasiga o‘ting"
 
 #: libview/ev-view.c:2164
 #, c-format
 msgid "Go to file “%s”"
-msgstr ""
+msgstr "“%s” fayliga o‘tish"
 
 #: libview/ev-view.c:2172
 #, c-format
 msgid "Launch %s"
-msgstr ""
+msgstr "%s ni ishga tushiring"
 
 #: libview/ev-view.c:2179
 msgid "Reset form"
-msgstr ""
+msgstr "Shaklni tiklash"
 
 #: libview/ev-view-presentation.c:740
 msgid "Jump to page:"
-msgstr ""
+msgstr "Sahifaga o'tish:"
 
 #: libview/ev-view-presentation.c:1034
 msgid "End of presentation. Press Esc or click to exit."
-msgstr ""
+msgstr "Taqdimot oxiri. Chiqish uchun Esc tugmasini bosing"
 
 #: org.gnome.Evince.appdata.xml.in:24
 msgid "Document viewer for popular document formats"
-msgstr ""
+msgstr "Mashhur hujjat formatlari uchun hujjatlarni ko'rish dasturi"
 
 #: org.gnome.Evince.appdata.xml.in:26
 msgid ""
 "A document viewer for the GNOME desktop. You can view, search or annotate "
 "documents in many different formats."
 msgstr ""
+"GNOME ish stoli uchun hujjatlarni ko'rish dasturi. Siz ko'rishingiz, qidirishingiz yoki izoh qo'shishingiz mumkin "
+"Hujjatlar ko'p turli formatlarda."
 
 #: org.gnome.Evince.appdata.xml.in:27
 msgid ""
 "Evince supports documents in: PDF, PS, EPS, XPS, DjVu, TIFF, DVI (with "
 "SyncTeX), and Comic Books archives (CBR, CBT, CBZ, CB7)."
 msgstr ""
+"Evince hujjatlarni qo'llab-quvvatlaydi: PDF, PS, EPS, XPS, DjVu, TIFF, DVI (bilan"
+"SyncTeX) va Komikslar arxivlari (CBR, CBT, CBZ, CB7)."
 
 #: org.gnome.Evince.appdata.xml.in:35
 msgid "A clear, simple UI"
-msgstr ""
+msgstr "Aniq, oddiy foydalanuvchi interfeysi"
 
 #: org.gnome.Evince.appdata.xml.in:39
 msgid "Advanced highlighting and annotation"
-msgstr ""
+msgstr "Kengaytirilgan ta'kidlash va izohlash"
 
 #: previewer/ev-previewer.c:57
 msgid "Delete the temporary file"
-msgstr ""
+msgstr "Vaqtinchalik faylni o'chiring"
 
 #: previewer/ev-previewer.c:59
 msgid "File specifying print settings"
-msgstr ""
+msgstr "Chop etish sozlamalarini belgilovchi fayl"
 
 #: previewer/ev-previewer.c:59
 msgid "FILE"
-msgstr ""
+msgstr "FAYL"
 
 #: previewer/ev-previewer.c:61
 msgid "File descriptor of input file"
-msgstr ""
+msgstr "Kirish faylining fayl deskriptori"
 
 #: previewer/ev-previewer.c:61 previewer/ev-previewer.c:65
 msgid "FD"
-msgstr ""
+msgstr "FD"
 
 #: previewer/ev-previewer.c:63
 msgid "MIME type of input file"
-msgstr ""
+msgstr "Kirish faylining MIME turi"
 
 #: previewer/ev-previewer.c:63
 msgid "TYPE"
-msgstr ""
+msgstr "TURI"
 
 #: previewer/ev-previewer.c:65
 msgid "File descriptor of print settings file"
-msgstr ""
+msgstr "Chop etish sozlamalari faylining fayl deskriptori"
 
 #: previewer/ev-previewer.c:297 previewer/ev-previewer.c:317
 msgid "GNOME Document Previewer"
-msgstr ""
+msgstr "GNOME Document Previewer"
 
 #: previewer/ev-previewer-toolbar.c:112 shell/ev-toolbar.c:218
 msgid "Select page or search in the index"
-msgstr ""
+msgstr "Sahifani tanlang yoki indeksda qidiring"
 
 #: previewer/ev-previewer-toolbar.c:114 shell/ev-toolbar.c:219
 msgid "Select page"
-msgstr ""
+msgstr "Sahifani tanlang"
 
 #: previewer/ev-previewer-window.c:78 shell/ev-window.c:3675
 msgid "Failed to print document"
-msgstr ""
+msgstr "Hujjatni chop etib bo‘lmadi"
 
 #: previewer/ev-previewer-window.c:193 previewer/ev-previewer-window.c:590
 msgid "Evince Document Viewer"
-msgstr ""
+msgstr "Evince Document Viewer"
 
 #: previewer/ev-previewer-window.c:229
 #, c-format
 msgid "The selected printer “%s” could not be found"
-msgstr ""
+msgstr "Tanlangan “%s” printeri topilmadi"
 
 #: previewer/ev-previewer-window.c:568 shell/ev-window.c:4220
 msgid "Evince"
-msgstr ""
+msgstr "Evince"
 
 #: previewer/previewer.ui:7
 msgid "_Print"
-msgstr ""
+msgstr "_Chop etish"
 
 #: previewer/previewer.ui:10
 msgid "Print this document"
-msgstr ""
+msgstr "Hujjatni chop eting"
 
 #: previewer/previewer.ui:20 shell/evince-menus.ui:232
 msgid "Previous Page"
-msgstr ""
+msgstr "Oldingi sahifa"
 
 #: previewer/previewer.ui:27 shell/evince-menus.ui:236
 msgid "Next Page"
-msgstr ""
+msgstr "Keyingi sahifa"
 
 #: previewer/previewer.ui:34
 msgid "Enlarge the document"
-msgstr ""
+msgstr "Hujjatni kattalashtiring"
 
 #: previewer/previewer.ui:42
 msgid "Shrink the document"
-msgstr ""
+msgstr "Hujjatni qisqartiring"
 
 #: previewer/previewer.ui:49
 msgid "Reset zoom and make the page fit in the window"
-msgstr ""
+msgstr "Masshtabni qayta o'rnating va sahifani oynaga moslang"
 
 #: properties/ev-properties-main.c:116
 msgid "Document"
-msgstr ""
+msgstr "Hujjat"
 
 #: properties/ev-properties-view.c:62
 msgid "Title:"
-msgstr ""
+msgstr "Sarlavha:"
 
 #: properties/ev-properties-view.c:63
 msgid "Location:"
-msgstr ""
+msgstr "Manzil:"
 
 #: properties/ev-properties-view.c:64
 msgid "Subject:"
-msgstr ""
+msgstr "Mavzu:"
 
 #: properties/ev-properties-view.c:65
 #: shell/ev-annotation-properties-dialog.c:172
 msgid "Author:"
-msgstr ""
+msgstr "Muallif:"
 
 #: properties/ev-properties-view.c:66
 msgid "Keywords:"
-msgstr ""
+msgstr "Kalit so‘zlar:"
 
 #: properties/ev-properties-view.c:67
 msgid "Producer:"
-msgstr ""
+msgstr "Ishlab chiqaruvchi:"
 
 #: properties/ev-properties-view.c:68
 msgid "Creator:"
-msgstr ""
+msgstr "Yaratuvchi:"
 
 #: properties/ev-properties-view.c:69
 msgid "Created:"
-msgstr ""
+msgstr "Yaratilgan:"
 
 #: properties/ev-properties-view.c:70
 msgid "Modified:"
-msgstr ""
+msgstr "O'zgartirilgan:"
 
 #: properties/ev-properties-view.c:71
 msgid "Number of Pages:"
-msgstr ""
+msgstr "Sahifalar soni:"
 
 #: properties/ev-properties-view.c:72
 msgid "Optimized:"
-msgstr ""
+msgstr "Optimallashtirilgan:"
 
 #: properties/ev-properties-view.c:73
 msgid "Format:"
-msgstr ""
+msgstr "Format:"
 
 #: properties/ev-properties-view.c:74
 msgid "Security:"
-msgstr ""
+msgstr "Xavfsizlik:"
 
 #: properties/ev-properties-view.c:75
 msgid "Contains Javascript:"
@@ -818,11 +856,11 @@ msgstr ""
 
 #: properties/ev-properties-view.c:76
 msgid "Paper Size:"
-msgstr ""
+msgstr "Qog'oz o'lchami:"
 
 #: properties/ev-properties-view.c:77
 msgid "Size:"
-msgstr ""
+msgstr "O'lchami"
 
 #. Translate to the default units to use for presenting
 #. * lengths to the user. Translate to default:inch if you
@@ -832,7 +870,7 @@ msgstr ""
 #.
 #: properties/ev-properties-view.c:270
 msgid "default:mm"
-msgstr ""
+msgstr "standart: mm"
 
 #: properties/ev-properties-view.c:314
 #, c-format
@@ -842,58 +880,58 @@ msgstr ""
 #: properties/ev-properties-view.c:318
 #, c-format
 msgid "%.2f × %.2f inch"
-msgstr ""
+msgstr "%.2f × %.2f dyuym"
 
 #. Note to translators: first placeholder is the paper name (eg.
 #. * A4), second placeholder is the paper size (eg. 297x210 mm)
 #: properties/ev-properties-view.c:342
 #, c-format
 msgid "%s, Portrait (%s)"
-msgstr ""
+msgstr "%s, Portret (%s)"
 
 #. Note to translators: first placeholder is the paper name (eg.
-#. * A4), second placeholder is the paper size (eg. 297x210 mm)
+#. * A4), second placehold%s, portret (%s)er is the paper size (eg. 297x210 mm)
 #: properties/ev-properties-view.c:349
 #, c-format
 msgid "%s, Landscape (%s)"
-msgstr ""
+msgstr "%s, Landshaft (%s)"
 
 #: properties/ev-properties-view.c:437
 #: shell/ev-annotation-properties-dialog.c:112
 msgid "Unknown"
-msgstr ""
+msgstr "Noma'lum"
 
 #: shell/ev-annotation-properties-dialog.c:97
 msgid "Icon:"
-msgstr ""
+msgstr "Ikonka"
 
 #: shell/ev-annotation-properties-dialog.c:103
 msgid "Note"
-msgstr ""
+msgstr "Eslatma"
 
 #: shell/ev-annotation-properties-dialog.c:104
 msgid "Comment"
-msgstr ""
+msgstr "Izoh"
 
 #: shell/ev-annotation-properties-dialog.c:105
 msgid "Key"
-msgstr ""
+msgstr "Kalit"
 
 #: shell/ev-annotation-properties-dialog.c:106
 msgid "Help"
-msgstr ""
+msgstr "Yordam"
 
 #: shell/ev-annotation-properties-dialog.c:107
 msgid "New Paragraph"
-msgstr ""
+msgstr "Yangi paragraf"
 
 #: shell/ev-annotation-properties-dialog.c:108
 msgid "Paragraph"
-msgstr ""
+msgstr "Paragraf"
 
 #: shell/ev-annotation-properties-dialog.c:109
 msgid "Insert"
-msgstr ""
+msgstr "Kiritish"
 
 #: shell/ev-annotation-properties-dialog.c:110
 msgid "Cross"
@@ -901,423 +939,426 @@ msgstr ""
 
 #: shell/ev-annotation-properties-dialog.c:111
 msgid "Circle"
-msgstr ""
+msgstr "Doira"
 
 #: shell/ev-annotation-properties-dialog.c:123
 msgid "Markup type:"
-msgstr ""
+msgstr "Belgilash turi:"
 
 #: shell/ev-annotation-properties-dialog.c:129
 msgid "Highlight"
-msgstr ""
+msgstr "Ajratish"
 
 #: shell/ev-annotation-properties-dialog.c:130
 msgid "Strike out"
-msgstr ""
+msgstr "Chiqib ketish"
 
 #: shell/ev-annotation-properties-dialog.c:131
 msgid "Underline"
-msgstr ""
+msgstr "Tagiga chizish"
 
 #: shell/ev-annotation-properties-dialog.c:132
 msgid "Squiggly"
-msgstr ""
+msgstr "Squiggly"
 
 #: shell/ev-annotation-properties-dialog.c:153
 msgid "Annotation Properties"
-msgstr ""
+msgstr "Izoh xususiyatlari"
 
 #: shell/ev-annotation-properties-dialog.c:157
 msgid "_Close"
-msgstr ""
+msgstr "_Yopish"
 
 #: shell/ev-annotation-properties-dialog.c:158
 msgid "_Apply"
-msgstr ""
+msgstr "_Qo'llash"
 
 #: shell/ev-annotation-properties-dialog.c:183
 msgid "Color:"
-msgstr ""
+msgstr "Rang:"
 
 #: shell/ev-annotation-properties-dialog.c:193
 msgid "Opacity:"
-msgstr ""
+msgstr "Shaffoflik:"
 
 #: shell/ev-annotation-properties-dialog.c:205
 msgid "Initial window state:"
-msgstr ""
+msgstr "Dastlabki oyna holati:"
 
 #: shell/ev-annotation-properties-dialog.c:211
 msgid "Open"
-msgstr ""
+msgstr "Ochish"
 
 #: shell/ev-annotation-properties-dialog.c:212
 msgid "Close"
-msgstr ""
+msgstr "Yopish"
 
 #. Translators: an annotation that looks like a "sticky note"
 #: shell/ev-annotations-toolbar.c:133
 msgid "Note text"
-msgstr ""
+msgstr "Eslatma matni"
 
 #: shell/ev-annotations-toolbar.c:135
 msgid "Add text annotation"
-msgstr ""
+msgstr "Matnga izoh qo'shish"
 
 #: shell/ev-annotations-toolbar.c:140
 msgid "Highlight text"
-msgstr ""
+msgstr "Matnni ajratib ko'rsatish"
 
 #: shell/ev-annotations-toolbar.c:142
 msgid "Add highlight annotation"
-msgstr ""
+msgstr "Izohni ajratib ko'rsatish"
 
 #: shell/evince-menus.ui:25 shell/ev-sidebar-links.c:351
 msgid "Print…"
-msgstr ""
+msgstr "Chop etish…"
 
 #: shell/evince-menus.ui:30
 msgid "Fullscreen"
-msgstr ""
+msgstr "To'liq ekran"
 
 #: shell/evince-menus.ui:35
 msgid "Send To…"
-msgstr ""
+msgstr "Yuborish…"
 
 #: shell/evince-menus.ui:42
 msgid "New _Window"
-msgstr ""
+msgstr "Yangi _Oyna"
 
 #: shell/evince-menus.ui:48
 msgid "Open a C_opy"
-msgstr ""
+msgstr "Nusxasini oching"
 
 #: shell/evince-menus.ui:52 shell/evince-menus.ui:218
 msgid "Open Containing _Folder"
-msgstr ""
+msgstr "O'z ichiga olgan jildni ochish"
 
 #: shell/evince-menus.ui:58
 msgid "_Save As…"
-msgstr ""
+msgstr "_Boshqa saqlash…"
 
 #: shell/evince-menus.ui:64
 msgid "Present as _Slideshow"
-msgstr ""
+msgstr "_Slideshow sifatida taqdim eting"
 
 #: shell/evince-menus.ui:70
 msgid "_Continuous"
-msgstr ""
+msgstr "_Davomiy"
 
 #: shell/evince-menus.ui:74
 msgid "_Dual"
-msgstr ""
+msgstr "_Ikkilik"
 
 #: shell/evince-menus.ui:78
 msgid "_Odd Pages Left"
-msgstr ""
+msgstr "_G'alati sahifalar qoldi"
 
 #: shell/evince-menus.ui:82
 msgid "Right to Left Document"
-msgstr ""
+msgstr "O'ngdan chapga hujjat"
 
 #: shell/evince-menus.ui:88
 msgid "Ro_tate ⤵"
-msgstr ""
+msgstr "_Aylantirish"
 
 #: shell/evince-menus.ui:94
 msgid "Ni_ght Mode"
-msgstr ""
+msgstr "Tungi rejimi"
 
 #: shell/evince-menus.ui:100
 msgid "Prop_erties"
-msgstr ""
+msgstr "Xususiyatlari"
 
 #: shell/evince-menus.ui:106
 msgid "Save Current Settings as Defa_ult"
-msgstr ""
+msgstr "Joriy sozlamalarni standart sifatida saqlang"
 
 #: shell/evince-menus.ui:110
 msgid "_Keyboard Shortcuts"
-msgstr ""
+msgstr "_Klaviatura yorliqlari"
 
 #: shell/evince-menus.ui:114
 msgid "_Help"
-msgstr ""
+msgstr "_Yordam"
 
 #: shell/evince-menus.ui:118
 msgid "_About Document Viewer"
-msgstr ""
+msgstr "Document Viewer haqida"
 
 #: shell/evince-menus.ui:127
 msgid "_Open Link"
-msgstr ""
+msgstr "_Havolani ochish"
 
 #: shell/evince-menus.ui:132
 msgid "_Copy Link Address"
-msgstr ""
+msgstr "_Havola manzilini nusxalash"
 
 #: shell/evince-menus.ui:137
 msgid "_Go To"
-msgstr ""
+msgstr "_Oʻtish"
 
 #: shell/evince-menus.ui:142
 msgid "Open in New _Window"
-msgstr ""
+msgstr "Yangi _Oynada ochish"
 
 #: shell/evince-menus.ui:149
 msgid "_Previous Page"
-msgstr ""
+msgstr "_Oldingi sahifa"
 
 #: shell/evince-menus.ui:153
 msgid "_Next Page"
-msgstr ""
+msgstr "_Keyingi sahifa"
 
 #: shell/evince-menus.ui:157 shell/ev-window.c:3974
 msgid "_Reload"
-msgstr ""
+msgstr "_Qayta yuklash"
 
 #: shell/evince-menus.ui:161
 msgid "Auto_scroll"
-msgstr ""
+msgstr "Avtomatik _aylantirish"
 
 #: shell/evince-menus.ui:167
 msgid "_Copy"
-msgstr ""
+msgstr "_Nusxa olish"
 
 #: shell/evince-menus.ui:171
 msgid "Select _All"
-msgstr ""
+msgstr "_Hammasini belgilash"
 
 #: shell/evince-menus.ui:177
 msgid "_Save Image As…"
-msgstr ""
+msgstr "_Rasmni shunday saqlash…"
 
 #: shell/evince-menus.ui:182
 msgid "Copy _Image"
-msgstr ""
+msgstr "_Rasmni nusxalash"
 
 #: shell/evince-menus.ui:189 shell/evince-menus.ui:260
 #: shell/evince-menus.ui:283
 msgid "_Open Attachment"
-msgstr ""
+msgstr "_Ilovani oching"
 
 #: shell/evince-menus.ui:194 shell/evince-menus.ui:264
 #: shell/evince-menus.ui:288
 msgid "_Save Attachment As…"
-msgstr ""
+msgstr "_Biriktirmani saqlash…"
 
 #: shell/evince-menus.ui:201
 msgid "Annotation _Properties…"
-msgstr ""
+msgstr "Izoh _Xususiyatlar…"
 
 #: shell/evince-menus.ui:206
 msgid "R_emove Annotation"
-msgstr ""
+msgstr "Izohni o'chirish"
 
 #: shell/evince-menus.ui:213
 msgid "_Highlight Selected Text"
-msgstr ""
+msgstr "_Tanlangan matnni ajratib ko'rsatish"
 
 #: shell/evince-menus.ui:226
 msgid "Navigation"
-msgstr ""
+msgstr "Navigatsiya"
 
 #: shell/evince-menus.ui:228
 msgid "First Page"
-msgstr ""
+msgstr "Birinchi sahifa"
 
 #: shell/evince-menus.ui:240
 msgid "Last Page"
-msgstr ""
+msgstr "Oxirgi sahifa"
 
 #: shell/evince-menus.ui:245
 msgid "History"
-msgstr ""
+msgstr "Tarix"
 
 #: shell/evince-menus.ui:247
 msgid "Back"
-msgstr ""
+msgstr "Orqaga"
 
 #: shell/evince-menus.ui:251
 msgid "Forward"
-msgstr ""
+msgstr "Oldinga"
 
 #: shell/evince-menus.ui:273
 msgid "Annotation Properties…"
-msgstr ""
+msgstr "Izoh xususiyatlari…"
 
 #: shell/evince-menus.ui:278
 msgid "Remove Annotation"
-msgstr ""
+msgstr "Izohni o'chirish"
 
 #: shell/evince-menus.ui:298
 msgid "_Open Bookmark"
-msgstr ""
+msgstr "_Xatcho‘pni ochish"
 
 #: shell/evince-menus.ui:304
 msgid "_Rename Bookmark"
-msgstr ""
+msgstr "_Xatcho‘pni tahrirlash"
 
 #: shell/evince-menus.ui:308
 msgid "_Delete Bookmark"
-msgstr ""
+msgstr "_Xatcho‘pni o‘chirish"
 
 #: shell/evince-password-view.ui:22
 msgid ""
 "This document is locked and can only be read by entering the correct "
 "password."
 msgstr ""
+"Ushbu hujjat qulflangan va uni faqat parolini kiritish orqali o'qish mumkin"
+"parol".
 
 #: shell/evince-password-view.ui:37
 msgid "_Unlock Document"
-msgstr ""
+msgstr "_Hujjatni qulfdan chiqarish"
 
 #: shell/evince-properties-fonts.ui:40
 msgid "Font"
-msgstr ""
+msgstr "Shrift"
 
 #: shell/evince-sidebar-bookmarks.ui:55
 msgid "Add bookmark"
-msgstr ""
+msgstr "Xatcho‘p qo‘shish"
 
 #: shell/evince-sidebar-bookmarks.ui:64
 msgid "Remove bookmark"
-msgstr ""
+msgstr "Xatcho‘pni o'chirish"
 
 #: shell/evince-zoom-action.ui:5
 msgid "Select or set the zoom level of the document"
-msgstr ""
+msgstr "Hujjatni kattalashtirish darajasini tanlang yoki o'rnating"
 
 #: shell/evince-zoom-action.ui:30
 msgid "Fit Pa_ge"
-msgstr ""
+msgstr "Sahifani moslash"
 
 #: shell/evince-zoom-action.ui:35
 msgid "Fit _Width"
-msgstr ""
+msgstr "Mos kenglik"
 
 #: shell/evince-zoom-action.ui:40
 msgid "_Automatic"
-msgstr ""
+msgstr "_Avtomatik"
 
 #: shell/ev-keyring.c:86
 #, c-format
 msgid "Password for document %s"
-msgstr ""
+msgstr "%s hujjati uchun parol"
 
 #. Create tree view
 #: shell/ev-loading-message.c:50 shell/ev-sidebar-annotations.c:148
 #: shell/ev-sidebar-layers.c:123 shell/ev-sidebar-links.c:276
 msgid "Loading…"
-msgstr ""
+msgstr "Yuklanmoqda…"
 
 #: shell/ev-password-view.c:228
 #, c-format
 msgid ""
 "The document “%s” is locked and requires a password before it can be opened."
 msgstr ""
+"“%s” hujjati qulflangan va uni ochishdan oldin parol talab qilinadi."
 
 #: shell/ev-password-view.c:235
 msgid "Password required"
-msgstr ""
+msgstr "Parol talab qilinadi"
 
 #: shell/ev-password-view.c:242 shell/ev-sidebar-attachments.c:493
 #: shell/ev-window.c:2915 shell/ev-window.c:3213 shell/ev-window.c:4098
 #: shell/ev-window.c:7092 shell/ev-window.c:7318
 msgid "_Cancel"
-msgstr ""
+msgstr "_Bekor qilish"
 
 #: shell/ev-password-view.c:243
 msgid "_Unlock"
-msgstr ""
+msgstr "_Qulfni ochish"
 
 #: shell/ev-password-view.c:255
 msgid "_Password:"
-msgstr ""
+msgstr "_Parol:"
 
 #: shell/ev-password-view.c:289
 msgid "Forget password _immediately"
-msgstr ""
+msgstr "Parolni _darhol unutish"
 
 #: shell/ev-password-view.c:300
 msgid "Remember password until you _log out"
-msgstr ""
+msgstr "Tizimdan chiqmaguningizcha parolni eslab qoling"
 
 #: shell/ev-password-view.c:311
 msgid "Remember _forever"
-msgstr ""
+msgstr "Eslab _qoling"
 
 #: shell/ev-properties-dialog.c:63
 msgid "Properties"
-msgstr ""
+msgstr "Xususiyatlari"
 
 #: shell/ev-properties-dialog.c:85
 msgid "General"
-msgstr ""
+msgstr "Umumiy"
 
 #: shell/ev-properties-dialog.c:95
 msgid "Fonts"
-msgstr ""
+msgstr "Shriftlar"
 
 #: shell/ev-properties-dialog.c:108
 msgid "Document License"
-msgstr ""
+msgstr "Hujjat litsenziyasi"
 
 #: shell/ev-properties-fonts.c:137
 #, c-format
 msgid "Gathering font information… %3d%%"
-msgstr ""
+msgstr "Shrift ma’lumotlari yig‘ilmoqda… %3d%%"
 
 #: shell/ev-properties-license.c:146
 msgid "Usage terms"
-msgstr ""
+msgstr "Foydalanish shartlari"
 
 #: shell/ev-properties-license.c:158
 msgid "Text License"
-msgstr ""
+msgstr "Matn litsenziyasi"
 
 #: shell/ev-properties-license.c:169
 msgid "Further Information"
-msgstr ""
+msgstr "Qo'shimcha ma'lumot"
 
 #: shell/ev-sidebar-annotations.c:373
 msgid "Document contains no annotations"
-msgstr ""
+msgstr "Hujjatda izohlar mavjud emas"
 
 #: shell/ev-sidebar-annotations.c:410
 #, c-format
 msgid "Page %d"
-msgstr ""
+msgstr "%d sahifa"
 
 #: shell/ev-sidebar-annotations.c:622 shell/ev-window.c:7718
 msgid "Annotations"
-msgstr ""
+msgstr "Izohlar"
 
 #: shell/ev-sidebar-attachments.c:485
 #, c-format
 msgid "A file named “%s” already exists. Do you want to replace it?"
-msgstr ""
+msgstr "“%s” nomli fayl allaqachon mavjud. Uni almashtirmoqchimisiz?"
 
 #: shell/ev-sidebar-attachments.c:489
 #, c-format
 msgid "The file “%s” already exists. Replacing it will overwrite its contents."
-msgstr ""
+msgstr "“%s” fayli allaqachon mavjud. Uni almashtirsangiz, uning mazmuni qayta yoziladi."
 
 #: shell/ev-sidebar-attachments.c:494
 msgid "_Replace"
-msgstr ""
+msgstr "_Almashtirish"
 
 #: shell/ev-sidebar-attachments.c:899 shell/ev-window.c:7742
 msgid "Attachments"
-msgstr ""
+msgstr "Qo'shimchalar"
 
 #: shell/ev-sidebar-bookmarks.c:571 shell/ev-window.c:7726
 msgid "Bookmarks"
-msgstr ""
+msgstr "Xatcho‘plar"
 
 #: shell/ev-sidebar-layers.c:444 shell/ev-window.c:7754
 msgid "Layers"
-msgstr ""
+msgstr "Qatlamlar"
 
 #: shell/ev-sidebar-links.c:357
 msgid "Collapse all tree"
@@ -1329,7 +1370,7 @@ msgstr ""
 
 #: shell/ev-sidebar-links.c:371
 msgid "Expand all under this element"
-msgstr ""
+msgstr "Ushbu element ostida hammasini kengaytiring"
 
 #. Translators: This is the title for the sidebar pane that
 #. * shows the Outline or Table of Contents of the document.
@@ -1340,150 +1381,150 @@ msgstr ""
 
 #: shell/ev-sidebar-thumbnails.c:1045 shell/ev-window.c:7689
 msgid "Thumbnails"
-msgstr ""
+msgstr "Eskizlar"
 
 #: shell/ev-toolbar.c:173
 msgid "Find a word or phrase in the document"
-msgstr ""
+msgstr "Hujjatda so'z yoki iborani toping"
 
 #: shell/ev-toolbar.c:179
 msgid "Search not available for this document"
-msgstr ""
+msgstr "Bu hujjat uchun qidiruv mavjud emas"
 
 #: shell/ev-toolbar.c:203
 msgid "Open…"
-msgstr ""
+msgstr "Ochish…"
 
 #: shell/ev-toolbar.c:204
 msgid "Open an existing document"
-msgstr ""
+msgstr "Mavjud hujjatni oching"
 
 #: shell/ev-toolbar.c:211
 msgid "Side pane"
-msgstr ""
+msgstr "Yon panel"
 
 #: shell/ev-toolbar.c:227
 msgid "Annotate the document"
-msgstr ""
+msgstr "Hujjatga izoh bering"
 
 #: shell/ev-toolbar.c:228
 msgid "Annotate document"
-msgstr ""
+msgstr "Hujjatga izoh berish"
 
 #: shell/ev-toolbar.c:236 shell/ev-toolbar.c:237
 msgid "File options"
-msgstr ""
+msgstr "Fayl parametrlari"
 
 #: shell/ev-toolbar.c:255
 msgid "Set zoom level"
-msgstr ""
+msgstr "Masshtab darajasini belgilang"
 
 #: shell/ev-utils.c:268
 msgid "Supported Image Files"
-msgstr ""
+msgstr "Qo'llab-quvvatlanadigan rasm fayllari"
 
 #: shell/ev-window.c:1765
 msgid "The document contains no pages"
-msgstr ""
+msgstr "Hujjatda hech qanday sahifa mavjud emas"
 
 #: shell/ev-window.c:1768
 msgid "The document contains only empty pages"
-msgstr ""
+msgstr "Hujjatda faqat bo'sh sahifalar mavjud"
 
 #: shell/ev-window.c:2013 shell/ev-window.c:2195
 #, c-format
 msgid "Unable to open document “%s”."
-msgstr ""
+msgstr "“%s” hujjatini ochib bo‘lmadi."
 
 #: shell/ev-window.c:2160
 #, c-format
 msgid "Loading document from “%s”"
-msgstr ""
+msgstr "Hujjat “%s”dan yuklanmoqda"
 
 #: shell/ev-window.c:2165 shell/ev-window.c:2637 shell/ev-window.c:3003
 #: shell/ev-window.c:3739 shell/ev-window.c:3987
 msgid "C_ancel"
-msgstr ""
+msgstr "Bekor qilish"
 
 #: shell/ev-window.c:2319 shell/ev-window.c:2688
 #, c-format
 msgid "Downloading document (%d%%)"
-msgstr ""
+msgstr "Hujjat yuklab olinmoqda (%d%%)"
 
 #: shell/ev-window.c:2352
 msgid "Failed to load remote file."
-msgstr ""
+msgstr "Masofaviy faylni yuklab boʻlmadi."
 
 #: shell/ev-window.c:2633
 #, c-format
 msgid "Reloading document from %s"
-msgstr ""
+msgstr "Hujjat %s dan qayta yuklanmoqda"
 
 #: shell/ev-window.c:2663
 msgid "Failed to reload document."
-msgstr ""
+msgstr "Hujjatni qayta yuklab bo‘lmadi."
 
 #: shell/ev-window.c:2911
 msgid "Open Document"
-msgstr ""
+msgstr "Hujjatni ochish"
 
 #: shell/ev-window.c:2914
 msgid "_Open"
-msgstr ""
+msgstr "_Ochish"
 
 #: shell/ev-window.c:2989
 #, c-format
 msgid "Saving document to %s"
-msgstr ""
+msgstr "Hujjat %s ga saqlanmoqda"
 
 #: shell/ev-window.c:2992
 #, c-format
 msgid "Saving attachment to %s"
-msgstr ""
+msgstr "Biriktirma %s ga saqlanmoqda"
 
 #: shell/ev-window.c:2995
 #, c-format
 msgid "Saving image to %s"
-msgstr ""
+msgstr "Rasm %s ga saqlanmoqda"
 
 #: shell/ev-window.c:3037 shell/ev-window.c:3152
 #, c-format
 msgid "The file could not be saved as “%s”."
-msgstr ""
+msgstr "Faylni “%s” sifatida saqlab bo‘lmadi."
 
 #: shell/ev-window.c:3069
 #, c-format
 msgid "Uploading document (%d%%)"
-msgstr ""
+msgstr "Hujjat yuklanmoqda (%d%%)"
 
 #: shell/ev-window.c:3073
 #, c-format
 msgid "Uploading attachment (%d%%)"
-msgstr ""
+msgstr "Biriktirma yuklanmoqda (%d%%)"
 
 #: shell/ev-window.c:3077
 #, c-format
 msgid "Uploading image (%d%%)"
-msgstr ""
+msgstr "Rasm yuklanmoqda (%d%%)"
 
 #: shell/ev-window.c:3210
 msgid "Save As…"
-msgstr ""
+msgstr "Boshqa saqlash…"
 
 #: shell/ev-window.c:3212 shell/ev-window.c:7091 shell/ev-window.c:7317
 msgid "_Save"
-msgstr ""
+msgstr "_Saqlash"
 
 #: shell/ev-window.c:3299
 msgid "Could not send current document"
-msgstr ""
+msgstr "Joriy hujjat yuborilmadi"
 
 #: shell/ev-window.c:3626
 #, c-format
 msgid "%d pending job in queue"
 msgid_plural "%d pending jobs in queue"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Navbatda kutilayotgan %d ish"
+msgstr[1] "Navbatda kutilayotgan %d ish"
 
 #: shell/ev-window.c:3735
 #, c-format
@@ -1492,46 +1533,46 @@ msgstr ""
 
 #: shell/ev-window.c:3953
 msgid "Document contains form fields that have been filled out."
-msgstr ""
+msgstr "Hujjatda to'ldirilgan shakl maydonlari mavjud."
 
 #: shell/ev-window.c:3956
 msgid "Document contains new or modified annotations."
-msgstr ""
+msgstr "Hujjatda yangi yoki o'zgartirilgan izohlar mavjud."
 
 #: shell/ev-window.c:3968
 #, c-format
 msgid "Reload document “%s”?"
-msgstr ""
+msgstr "“%s” hujjati qayta yuklansinmi?"
 
 #: shell/ev-window.c:3970
 msgid "If you reload the document, changes will be permanently lost."
-msgstr ""
+msgstr "Hujjatni qayta yuklasangiz, o'zgarishlar butunlay yo'qoladi."
 
 #: shell/ev-window.c:3972
 msgid "_No"
-msgstr ""
+msgstr "_Yo'q"
 
 #: shell/ev-window.c:3981
 #, c-format
 msgid "Save a copy of document “%s” before closing?"
-msgstr ""
+msgstr "Yopishdan oldin “%s” hujjatining nusxasi saqlansinmi?"
 
 #: shell/ev-window.c:3983
 msgid "If you don’t save a copy, changes will be permanently lost."
-msgstr ""
+msgstr "Agar nusxasini saqlamasangiz, o'zgarishlar butunlay yo'qoladi."
 
 #: shell/ev-window.c:3985
 msgid "Close _without Saving"
-msgstr ""
+msgstr "Saqlamasdan yopish"
 
 #: shell/ev-window.c:3989
 msgid "Save a _Copy"
-msgstr ""
+msgstr "_Nusxasini saqlash"
 
 #: shell/ev-window.c:4071
 #, c-format
 msgid "Wait until print job “%s” finishes before closing?"
-msgstr ""
+msgstr "Yopishdan oldin chop etish ishi “%s” tugashini kutingizmi?"
 
 #. TRANS: the singular form is not really used as n_print_jobs > 1
 #. but some languages distinguish between different plurals forms,
@@ -1546,43 +1587,43 @@ msgstr[1] ""
 
 #: shell/ev-window.c:4092
 msgid "If you close the window, pending print jobs will not be printed."
-msgstr ""
+msgstr "Agar siz oynani yopsangiz, kutilayotgan chop etish ishlari chop etilmaydi."
 
 #: shell/ev-window.c:4096
 msgid "Cancel _print and Close"
-msgstr ""
+msgstr "Bekor qilish _chop etish va yopish"
 
 #: shell/ev-window.c:4100
 msgid "Close _after Printing"
-msgstr ""
+msgstr "Chop etishdan keyin yopish"
 
 #: shell/ev-window.c:4222
 msgid "© 1996–2022 The Evince document viewer authors"
-msgstr ""
+msgstr "© 1996–2022 Evince document viewer mualliflari"
 
 #: shell/ev-window.c:4225
 msgid "Evince is a simple document viewer for GNOME"
-msgstr ""
+msgstr "Evince - bu GNOME uchun oddiy hujjatlarni ko'rish dasturi"
 
 #: shell/ev-window.c:4228
 msgid "translator-credits"
-msgstr ""
+msgstr "tarjimon-kreditlar"
 
 #: shell/ev-window.c:4658
 msgid "Running in presentation mode"
-msgstr ""
+msgstr "Taqdimot rejimida ishlash"
 
 #: shell/ev-window.c:5709
 msgid "The attachment could not be saved."
-msgstr ""
+msgstr "Biriktirmani saqlab bo‘lmadi."
 
 #: shell/ev-window.c:6031
 msgid "Enable caret navigation?"
-msgstr ""
+msgstr "Karet navigatsiyasi yoqilsinmi?"
 
 #: shell/ev-window.c:6032
 msgid "_Enable"
-msgstr ""
+msgstr "_Yoqish"
 
 #: shell/ev-window.c:6035
 msgid ""
@@ -1590,215 +1631,219 @@ msgid ""
 "moveable cursor in text pages, allowing you to move around and select text "
 "with your keyboard. Do you want to enable the caret navigation?"
 msgstr ""
+"F7 tugmachasini bosish karet navigatsiyasini yoqadi yoki o'chiradi. Bu xususiyat "
+"matn sahifalarida harakatlanuvchi kursor, bu sizga matnni aylantirish va tanlash imkonini beradi"
+"klaviaturangiz bilan. Karet navigatsiyasini yoqmoqchimisiz?"
 
 #: shell/ev-window.c:6040
 msgid "Don’t show this message again"
-msgstr ""
+msgstr "Bu xabar boshqa koʻrsatilmasin"
 
 #: shell/ev-window.c:6718
 #, c-format
 msgid ""
 "Security alert: this document has been prevented from opening the file “%s”"
 msgstr ""
+"Xavfsizlik ogohlantirishi: bu hujjat “%s” faylini ochishdan saqlandi"
 
 #: shell/ev-window.c:6783
 msgid "Unable to open external link"
-msgstr ""
+msgstr "Tashqi havolani ochib bo‘lmadi"
 
 #: shell/ev-window.c:7020
 msgid "Couldn’t find appropriate format to save image"
-msgstr ""
+msgstr "Rasmni saqlash uchun mos format topilmadi"
 
 #: shell/ev-window.c:7052
 msgid "The image could not be saved."
-msgstr ""
+msgstr "Rasmni saqlab bo‘lmadi."
 
 #: shell/ev-window.c:7088
 msgid "Save Image"
-msgstr ""
+msgstr "Rasmni saqlash"
 
 #: shell/ev-window.c:7246
 msgid "Unable to open attachment"
-msgstr ""
+msgstr "Biriktirmani ochib boʻlmadi"
 
 #: shell/ev-window.c:7314
 msgid "Save Attachment"
-msgstr ""
+msgstr "Qo'shimchani saqlash"
 
 #: shell/ev-window-title.c:108
 msgid "Recent Documents"
-msgstr ""
+msgstr "Oxirgi hujjatlar"
 
 #: shell/ev-window-title.c:154 shell/ev-window-title.c:156
 #: shell/ev-window-title.c:161
 msgid "Password Required"
-msgstr ""
+msgstr "Parol talab qilinadi"
 
 #: shell/ev-zoom-action.c:48
 msgid "50%"
-msgstr ""
+msgstr "50%"
 
 #: shell/ev-zoom-action.c:49
 msgid "70%"
-msgstr ""
+msgstr "70%"
 
 #: shell/ev-zoom-action.c:50
 msgid "85%"
-msgstr ""
+msgstr "85%"
 
 #: shell/ev-zoom-action.c:51
 msgid "100%"
-msgstr ""
+msgstr "100%"
 
 #: shell/ev-zoom-action.c:52
 msgid "125%"
-msgstr ""
+msgstr "125%"
 
 #: shell/ev-zoom-action.c:53
 msgid "150%"
-msgstr ""
+msgstr "150%"
 
 #: shell/ev-zoom-action.c:54
 msgid "175%"
-msgstr ""
+msgstr "175%"
 
 #: shell/ev-zoom-action.c:55
 msgid "200%"
-msgstr ""
+msgstr "200%"
 
 #: shell/ev-zoom-action.c:56
 msgid "300%"
-msgstr ""
+msgstr "300%"
 
 #: shell/ev-zoom-action.c:57
 msgid "400%"
-msgstr ""
+msgstr "400%"
 
 #: shell/ev-zoom-action.c:58
 msgid "800%"
-msgstr ""
+msgstr "800%"
 
 #: shell/ev-zoom-action.c:59
 msgid "1600%"
-msgstr ""
+msgstr "1600%"
 
 #: shell/ev-zoom-action.c:60
 msgid "3200%"
-msgstr ""
+msgstr "3200%"
 
 #: shell/ev-zoom-action.c:61
 msgid "6400%"
-msgstr ""
+msgstr "6400%"
 
 #: shell/help-overlay.ui:13
 msgctxt "shortcut window"
 msgid "Opening, closing, saving and printing"
-msgstr ""
+msgstr "Ochish, yopish, saqlash va chop etish"
 
 #: shell/help-overlay.ui:17
 msgctxt "shortcut window"
 msgid "Open a document"
-msgstr ""
+msgstr "Hujjatni ochish"
 
 #: shell/help-overlay.ui:24
 msgctxt "shortcut window"
 msgid "Open a copy of the current document"
-msgstr ""
+msgstr "Joriy hujjatning nusxasini ochish"
 
 #: shell/help-overlay.ui:31
 msgctxt "shortcut window"
 msgid "Save a copy of the current document"
-msgstr ""
+msgstr "Joriy hujjatning nusxasini saqlash"
 
 #: shell/help-overlay.ui:38
 msgctxt "shortcut window"
 msgid "Print the current document"
-msgstr ""
+msgstr "Joriy hujjatni chop etish"
 
 #: shell/help-overlay.ui:45
 msgctxt "shortcut window"
 msgid "Close the current document window"
-msgstr ""
+msgstr "Joriy hujjat oynasini yopish"
 
 #: shell/help-overlay.ui:52
 msgctxt "shortcut window"
 msgid "Reload the document"
-msgstr ""
+msgstr "Hujjatni qayta yuklash"
 
 #: shell/help-overlay.ui:61
 msgctxt "shortcut window"
 msgid "Window"
-msgstr ""
+msgstr "Oyna"
 
 #: shell/help-overlay.ui:65
 msgctxt "shortcut window"
 msgid "Toggle fullscreen"
-msgstr ""
+msgstr "Toʻliq ekranga oʻtish"
 
 #: shell/help-overlay.ui:72
 msgctxt "shortcut window"
 msgid "Enter presentation mode"
-msgstr ""
+msgstr "Taqdimot rejimiga kirish"
 
 #: shell/help-overlay.ui:79
 msgctxt "shortcut window"
 msgid "Toggle sidebar"
-msgstr ""
+msgstr "Yon panelni almashtirish"
 
 #: shell/help-overlay.ui:86
 msgctxt "shortcut window"
 msgid "Toggle caret navigation"
-msgstr ""
+msgstr "Karet navigatsiyasini o'chirish"
 
 #: shell/help-overlay.ui:95
 msgctxt "shortcut window"
 msgid "Selecting and copying text"
-msgstr ""
+msgstr "Matnni tanlash va nusxalash"
 
 #: shell/help-overlay.ui:99
 msgctxt "shortcut window"
 msgid "Copy highlighted text"
-msgstr ""
+msgstr "Belgilangan matnni nusxalash"
 
 #: shell/help-overlay.ui:106
 msgctxt "shortcut window"
 msgid "Select all the text in a document"
-msgstr ""
+msgstr "Hujjatdagi barcha matnni tanlang"
 
 #: shell/help-overlay.ui:115
 msgctxt "shortcut window"
 msgid "Rotating and zooming"
-msgstr ""
+msgstr "Aylantirish va kattalashtirish"
 
 #: shell/help-overlay.ui:119
 msgctxt "shortcut window"
 msgid "Rotate the page 90 degrees counter-clockwise"
-msgstr ""
+msgstr "Sahifani soat miliga teskari 90 daraja aylantirish"
 
 #: shell/help-overlay.ui:126
 msgctxt "shortcut window"
 msgid "Rotate the page 90 degrees clockwise"
-msgstr ""
+msgstr "Sahifani soat yo'nalishi bo'yicha 90 daraja aylantirish"
 
 #: shell/help-overlay.ui:133 shell/help-overlay.ui:442
 msgctxt "shortcut window"
 msgid "Zoom in"
-msgstr ""
+msgstr "Kattalashtirish"
 
 #: shell/help-overlay.ui:140 shell/help-overlay.ui:449
 msgctxt "shortcut window"
 msgid "Zoom out"
-msgstr ""
+msgstr "Kichraytirish"
 
 #: shell/help-overlay.ui:147
 msgctxt "shortcut window"
 msgid "Zoom 1∶1"
-msgstr ""
+msgstr "Kattalashtirish 1∶1"
 
 #: shell/help-overlay.ui:154
 msgctxt "shortcut window"
 msgid "Zoom in (alternative)"
-msgstr ""
+msgstr "Kattalashtirish (muqobil)"
 
 #: shell/help-overlay.ui:161
 msgctxt "shortcut window"
@@ -1813,220 +1858,220 @@ msgstr ""
 #: shell/help-overlay.ui:175
 msgctxt "shortcut window"
 msgid "Automatic zoom"
-msgstr ""
+msgstr "Avtomatik masshtablash"
 
 #: shell/help-overlay.ui:184
 msgctxt "shortcut window"
 msgid "Moving around the document"
-msgstr ""
+msgstr "Hujjat atrofida harakatlanish"
 
 #: shell/help-overlay.ui:188 shell/help-overlay.ui:195
 msgctxt "shortcut window"
 msgid "Move around a page"
-msgstr ""
+msgstr "Bir sahifa atrofida harakatlaning"
 
 #: shell/help-overlay.ui:202
 msgctxt "shortcut window"
 msgid "Move up/down a page several lines at a time"
-msgstr ""
+msgstr "Sahifani bir vaqtning o'zida bir necha qatorga yuqoriga/pastga siljiting"
 
 #: shell/help-overlay.ui:209 shell/help-overlay.ui:463
 msgctxt "shortcut window"
 msgid "Go to previous page"
-msgstr ""
+msgstr "Oldingi sahifaga o'tish"
 
 #: shell/help-overlay.ui:216 shell/help-overlay.ui:456
 msgctxt "shortcut window"
 msgid "Go to next page"
-msgstr ""
+msgstr "Keyingi sahifaga o'tish"
 
 #: shell/help-overlay.ui:223
 msgctxt "shortcut window"
 msgid "Go to page number"
-msgstr ""
+msgstr "Sahifa raqamiga o'tish"
 
 #: shell/help-overlay.ui:230
 msgctxt "shortcut window"
 msgid "Go to previous page (fast)"
-msgstr ""
+msgstr "Oldingi sahifaga o'tish (tezkor)"
 
 #: shell/help-overlay.ui:237
 msgctxt "shortcut window"
 msgid "Go to next page (fast)"
-msgstr ""
+msgstr "Keyingi sahifaga o'tish (tezkor)"
 
 #: shell/help-overlay.ui:244
 msgctxt "shortcut window"
 msgid "Go to previous page visited"
-msgstr ""
+msgstr "Oldingi tashrif buyurilgan sahifaga o'tish"
 
 #: shell/help-overlay.ui:251
 msgctxt "shortcut window"
 msgid "Go to next page visited"
-msgstr ""
+msgstr "Keyingi tashrif buyurilgan sahifaga o'tish"
 
 #: shell/help-overlay.ui:258
 msgctxt "shortcut window"
 msgid "Go to the beginning/end of a page"
-msgstr ""
+msgstr "Sahifaning boshiga/oxiriga o'tish"
 
 #: shell/help-overlay.ui:265
 msgctxt "shortcut window"
 msgid "Go to the beginning of the document"
-msgstr ""
+msgstr "Hujjatning boshiga o'tish"
 
 #: shell/help-overlay.ui:272
 msgctxt "shortcut window"
 msgid "Go to the end of the document"
-msgstr ""
+msgstr "Hujjatning oxiriga o'tish"
 
 #: shell/help-overlay.ui:281
 msgctxt "shortcut window"
 msgid "Document view and handling"
-msgstr ""
+msgstr "Hujjatni ko'rish va qayta ishlash"
 
 #: shell/help-overlay.ui:285
 msgctxt "shortcut window"
 msgid "Add bookmark"
-msgstr ""
+msgstr "Xatcho‘p qo‘shish"
 
 #: shell/help-overlay.ui:292
 msgctxt "shortcut window"
 msgid "Remove bookmark"
-msgstr ""
+msgstr "Xatcho‘pni o'chirish"
 
 #: shell/help-overlay.ui:299
 msgctxt "shortcut window"
 msgid "Toggle night mode"
-msgstr ""
+msgstr "Tungi rejimga oʻtish"
 
 #: shell/help-overlay.ui:306
 msgctxt "shortcut window"
 msgid "Toggle continuous scrolling"
-msgstr ""
+msgstr "Uzluksiz aylantirishni o‘zgartirish"
 
 #: shell/help-overlay.ui:313
 msgctxt "shortcut window"
 msgid "Toggle dual page"
-msgstr ""
+msgstr "Ikki sahifani almashtirish"
 
 #: shell/help-overlay.ui:320
 msgctxt "shortcut window"
 msgid "Toggle odd pages left"
-msgstr ""
+msgstr "Toq sahifalarni chapga almashtirish"
 
 #: shell/help-overlay.ui:327
 msgctxt "shortcut window"
 msgid "Document properties"
-msgstr ""
+msgstr "Hujjat xususiyatlari"
 
 #: shell/help-overlay.ui:334
 msgctxt "shortcut window"
 msgid "Add a post-it like note"
-msgstr ""
+msgstr "Post-it like yozuvini qo'shing"
 
 #: shell/help-overlay.ui:341
 msgctxt "shortcut window"
 msgid "Highlight text"
-msgstr ""
+msgstr "Matnni ajratib ko'rsatish"
 
 #: shell/help-overlay.ui:350
 msgctxt "shortcut window"
 msgid "Finding text"
-msgstr ""
+msgstr "Matn topilmoqda"
 
 #: shell/help-overlay.ui:354
 msgctxt "shortcut window"
 msgid "Show the search bar"
-msgstr ""
+msgstr "Qidiruv panelini ko'rsatish"
 
 #: shell/help-overlay.ui:361
 msgctxt "shortcut window"
 msgid "Go to the next search result"
-msgstr ""
+msgstr "Keyingi qidiruv natijasiga o'tish"
 
 #: shell/help-overlay.ui:368
 msgctxt "shortcut window"
 msgid "Go to the previous search result"
-msgstr ""
+msgstr "Oldingi qidiruv natijasiga o'tish"
 
 #: shell/help-overlay.ui:377
 msgctxt "shortcut window"
 msgid "General"
-msgstr ""
+msgstr "Umumiy"
 
 #: shell/help-overlay.ui:381
 msgctxt "shortcut window"
 msgid "Show help"
-msgstr ""
+msgstr "Yordam ko'rsatish"
 
 #: shell/help-overlay.ui:388
 msgctxt "shortcut window"
 msgid "Toggle primary menu"
-msgstr ""
+msgstr "Asosiy menyuni almashtirish"
 
 #: shell/help-overlay.ui:395
 msgctxt "shortcut window"
 msgid "Keyboard shortcuts"
-msgstr ""
+msgstr "Klaviatura yorliqlari"
 
 #: shell/help-overlay.ui:402
 msgctxt "shortcut window"
 msgid "Close window"
-msgstr ""
+msgstr "Oynani yopish"
 
 #: shell/help-overlay.ui:409
 msgctxt "shortcut window"
 msgid "Save current settings as default"
-msgstr ""
+msgstr "Joriy sozlamalarni standart sifatida saqlang"
 
 #: shell/help-overlay.ui:418
 msgctxt "shortcut window"
 msgid "Presentation mode"
-msgstr ""
+msgstr "Taqdimot rejimi"
 
 #: shell/help-overlay.ui:422
 msgctxt "shortcut window"
 msgid "Toggle black screen"
-msgstr ""
+msgstr "Qora ekranni almashtirish"
 
 #: shell/help-overlay.ui:429
 msgctxt "shortcut window"
 msgid "Toggle white screen"
-msgstr ""
+msgstr "Oq ekranni almashtirish"
 
 #: shell/help-overlay.ui:438
 msgctxt "shortcut window"
 msgid "Touchpad gestures"
-msgstr ""
+msgstr "Sensorli panel ishoralari"
 
 #: shell/main.c:64 shell/main.c:271
 msgid "GNOME Document Viewer"
-msgstr ""
+msgstr "GNOME Document Viewer"
 
 #: shell/main.c:72
 msgid "Open a new window."
-msgstr ""
+msgstr "Yangi oyna oching."
 
 #: shell/main.c:73
 msgid "The page label of the document to display."
-msgstr ""
+msgstr "Ko'rsatiladigan hujjatning sahifa yorlig'i."
 
 #: shell/main.c:73
 msgid "PAGE"
-msgstr ""
+msgstr "SAHIFA"
 
 #: shell/main.c:74
 msgid "The page number of the document to display."
-msgstr ""
+msgstr "Ko'rsatiladigan hujjatning sahifa raqami."
 
 #: shell/main.c:74
 msgid "NUMBER"
-msgstr ""
+msgstr "RAQAM"
 
 #: shell/main.c:75
 msgid "Named destination to display."
-msgstr ""
+msgstr "Ko'rsatish uchun belgilangan manzil."
 
 #: shell/main.c:75
 msgid "DEST"
@@ -2034,24 +2079,24 @@ msgstr ""
 
 #: shell/main.c:76
 msgid "Run evince in fullscreen mode"
-msgstr ""
+msgstr "Evice-ni to'liq ekran rejimida ishga tushirish"
 
 #: shell/main.c:77
 msgid "Run evince in presentation mode"
-msgstr ""
+msgstr "Evice-ni taqdimot rejimida ishga tushirish"
 
 #: shell/main.c:78
 msgid "Run evince as a previewer"
-msgstr ""
+msgstr "Evence-ni ko'rib chiquvchi sifatida ishga tushirish"
 
 #: shell/main.c:79
 msgid "The word or phrase to find in the document"
-msgstr ""
+msgstr "Hujjatda topiladigan so'z yoki ibora"
 
 #: shell/main.c:79
 msgid "STRING"
-msgstr ""
+msgstr "STRING"
 
 #: shell/main.c:83
 msgid "[FILE…]"
-msgstr ""
+msgstr "[FAYL…]"

@@ -10,8 +10,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/epiphany/issues\n"
 "POT-Creation-Date: 2022-09-23 16:42+0000\n"
 "PO-Revision-Date: 2009-01-07 21:30+0500\n"
-"Last-Translator: Nurali Abdurahmonov <mavnur@gmail.com>\n"
-"Language-Team: Uzbek\n"
+"Last-Translator: Otabek Ismoilov <ismoilovdev@gmail.com>\n"
+"Language-Team: Uzbek <cctld@uzinfocom.uz>\n"
 "Language: uz\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -24,13 +24,13 @@ msgstr ""
 #: embed/ephy-about-handler.c:227 src/ephy-main.c:102 src/ephy-main.c:256
 #: src/ephy-main.c:409 src/window-commands.c:1013
 msgid "Web"
-msgstr ""
+msgstr "Veb"
 
 #: data/org.gnome.Epiphany.appdata.xml.in.in:7
 #, fuzzy
 #| msgid "Web Browser"
 msgid "Web browser for GNOME"
-msgstr "Veb brauzer"
+msgstr "GNOME uchun veb-brauzer"
 
 #: data/org.gnome.Epiphany.appdata.xml.in.in:9
 msgid ""
@@ -39,14 +39,18 @@ msgid ""
 "pages. If you’re looking for a simple, clean, beautiful view of the web, "
 "this is the browser for you."
 msgstr ""
+"GNOME uchun veb-brauzer ish stoli bilan chambarchas integratsiyaga ega va"
+"veb-sahifalaringizga e'tiboringizni qaratish imkonini beruvchi sodda va intuitiv"
+"foydalanuvchi interfeysi. Agar siz Internetning sodda, toza va chiroyli ko'rinishini"
+"qidirmoqchi bo'lsangiz, bu siz uchun brauzer."
 
 #: data/org.gnome.Epiphany.appdata.xml.in.in:15
 msgid "Web is often referred to by its code name, Epiphany."
-msgstr ""
+msgstr "Veb ko'pincha uning kod nomi bilan ataladi, Epiphany."
 
 #: data/org.gnome.Epiphany.appdata.xml.in.in:35
 msgid "The GNOME Project"
-msgstr ""
+msgstr "GNOME loyihasi"
 
 #: data/org.gnome.Epiphany.desktop.in.in:4
 msgid "Web Browser"
@@ -54,52 +58,52 @@ msgstr "Veb brauzer"
 
 #: data/org.gnome.Epiphany.desktop.in.in:5
 msgid "Browse the web"
-msgstr "Veb brauzer"
+msgstr "Internetni ko'rib chiqing"
 
 #. Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
 #: data/org.gnome.Epiphany.desktop.in.in:7
 msgid "web;browser;internet;"
-msgstr ""
+msgstr "web;browser;internet;"
 
 #: data/org.gnome.Epiphany.desktop.in.in:21
 #, fuzzy
 #| msgid "_New Window"
 msgid "New Window"
-msgstr "_Yangi oyna"
+msgstr "Yangi oyna"
 
 #: data/org.gnome.Epiphany.desktop.in.in:25
 #, fuzzy
 #| msgid "_New Window"
 msgid "New Incognito Window"
-msgstr "_Yangi oyna"
+msgstr "Yangi inkognito oyna"
 
 #: data/org.gnome.epiphany.gschema.xml:13
 msgid "Browse with caret"
-msgstr ""
+msgstr "Karet bilan ko'rib chiqing"
 
 #: data/org.gnome.epiphany.gschema.xml:17
 msgid "Home page"
-msgstr "Uy sahifasi"
+msgstr "Bosh sahifa"
 
 #: data/org.gnome.epiphany.gschema.xml:18
 #, fuzzy
 #| msgid "Address of the user's home page."
 msgid "Address of the user’s home page."
-msgstr "Foydalanuvchi uy sahifasi manzili."
+msgstr "Foydalanuvchi bosh sahifasining manzili."
 
 #: data/org.gnome.epiphany.gschema.xml:22
 #, fuzzy
 #| msgid "Default encoding"
 msgid "Default search engine."
-msgstr "Andoza kodlash usuli"
+msgstr "Standart qidiruv tizimi."
 
 #: data/org.gnome.epiphany.gschema.xml:23
 msgid "Name of the search engine selected by default."
-msgstr ""
+msgstr "Standart bo'yicha tanlangan qidiruv tizimining nomi."
 
 #: data/org.gnome.epiphany.gschema.xml:33
 msgid "Deprecated. Please use search-engine-providers instead."
-msgstr ""
+msgstr "Eskirgan. Buning oʻrniga qidiruv tizimi provayderlaridan foydalaning."
 
 #. TRANSLATORS: These are the prepopulated search engines. You should
 #. add country-specific URL query parameters if appropriate or change
@@ -128,12 +132,20 @@ msgid ""
 "'bang': <'!b'>}\n"
 "\t\t\t\t]"
 msgstr ""
+"[\n"
+"\t\t\t\t\t{'nomi': <'DuckDuckGo'>, 'url': <'https://duckduckgo.com/?q="
+"%s&t=epiphany'>, 'bang': <'!ddg'>},\n"
+"\t\t\t\t\t{'nomi': <'Google'>, 'url': <'https://www.google.com/search?q="
+"%s'>, 'bang': <'!g'>},\n"
+"\t\t\t\t\t{'nomi': <'Bing'>, 'url': <'https://www.bing.com/search?q=%s'>, "
+"'bang': <'!b'>}\n"
+"\t\t\t\t]"
 
 #: data/org.gnome.epiphany.gschema.xml:61
 #, fuzzy
 #| msgid "Lists the active extensions."
 msgid "List of the search engines."
-msgstr "Aktiv kengaytmalar roʻyxati."
+msgstr "Qidiruv tizimlari ro'yxati."
 
 #: data/org.gnome.epiphany.gschema.xml:62
 msgid ""
@@ -143,27 +155,32 @@ msgid ""
 "the search term replaced with %s. \"bang\" is the bang (shortcut word) of "
 "the search engine."
 msgstr ""
+"Qidiruv mexanizmlari ro'yxati. Bu har bir qidiruv tizimiga mos keladigan va quyidagi"
+"qo'llab-quvvatlanadigan kalitlarga ega bo'lgan vardiktlar massivi: \"name\" - qidiruv"
+"tizimining nomi. \"url\" - qidiruv. Qidiruv so'zi %s bilan almashtirilgan URL manzili."
+"\"bang\" qidiruv tizimining ishlamasligi (yorliq so'zi)."
 
 #: data/org.gnome.epiphany.gschema.xml:72
 msgid "Enable Google Search Suggestions"
-msgstr ""
+msgstr "Google Qidiruv takliflarini yoqish"
 
 #: data/org.gnome.epiphany.gschema.xml:73
 msgid "Whether to show Google Search Suggestion in url entry popdown."
-msgstr ""
+msgstr "Google Qidiruv taklifi url yozuvi qalqib chiquvchi oynasida ko'rsatilsinmi."
 
 #: data/org.gnome.epiphany.gschema.xml:77
 msgid "Force new windows to be opened in tabs"
-msgstr ""
+msgstr "Yorliqlarda yangi oynalarni ochishga majbur qiling"
 
 #: data/org.gnome.epiphany.gschema.xml:78
 msgid ""
 "Force new window requests to be opened in tabs instead of using a new window."
 msgstr ""
+"Yangi oynadan foydalanish o'rniga yangi oyna so'rovlarini tablarda ochishga majburlang."
 
 #: data/org.gnome.epiphany.gschema.xml:85
 msgid "Whether to automatically restore the last session"
-msgstr ""
+msgstr "Oxirgi seansni avtomatik ravishda tiklash kerakmi"
 
 #: data/org.gnome.epiphany.gschema.xml:86
 msgid ""
@@ -171,51 +188,61 @@ msgid ""
 "“always” (the previous state of the application is always restored) and "
 "“crashed” (the session is only restored if the application crashes)."
 msgstr ""
+"Ishga tushirish vaqtida sessiya qanday tiklanishini belgilaydi. Ruxsat berilgan"
+"qiymatlar ”har doim” (ilovaning oldingi holati har doim tiklanadi) va ”halokatga uchragan”"
+"(seans faqat dastur ishlamay qolsa tiklanadi)."
 
 #: data/org.gnome.epiphany.gschema.xml:90
 msgid ""
 "Whether to delay loading of tabs that are not immediately visible on session "
 "restore"
 msgstr ""
+"Seansni tiklashda darhol ko'rinmaydigan yorliqlarni yuklashni kechiktirish kerakmi"
 
 #: data/org.gnome.epiphany.gschema.xml:91
 msgid ""
 "When this option is set to true, tabs will not start loading until the user "
 "switches to them, upon session restore."
 msgstr ""
+"Ushbu parametr yoqilgan bo'lsa, seans qayta tiklangandan so'ng foydalanuvchi"
+"ularga o'tmaguncha yorliqlar yuklanmaydi."
 
 #: data/org.gnome.epiphany.gschema.xml:95
 msgid "List of adblock filters"
-msgstr ""
+msgstr "Adblock filtrlari ro'yxati"
 
 #: data/org.gnome.epiphany.gschema.xml:96
 msgid ""
 "List of URLs with content filtering rules in JSON format to be used by the "
 "ad blocker."
 msgstr ""
+"Reklamani bloklovchi tomonidan foydalaniladigan JSON formatidagi kontentni"
+"filtrlash qoidalariga ega URL manzillar ro'yxati."
 
 #: data/org.gnome.epiphany.gschema.xml:100
 msgid "Whether to ask for setting browser as default"
-msgstr ""
+msgstr "Brauzerni standart sifatida sozlashni so'rash kerakmi"
 
 #: data/org.gnome.epiphany.gschema.xml:101
 msgid ""
 "When this option is set to true, browser will ask for being default if it is "
 "not already set."
 msgstr ""
+"Ushbu parametr yoqilgan bo'lsa, brauzer hali o'rnatilmagan bo'lsa, standart bo'lishini so'raydi."
 
 #: data/org.gnome.epiphany.gschema.xml:105
 msgid "Start in incognito mode"
-msgstr ""
+msgstr "Inkognito rejimida boshlash"
 
 #: data/org.gnome.epiphany.gschema.xml:106
 msgid ""
 "When this option is set to true, browser will always start in incognito mode"
 msgstr ""
+"Ushbu parametr parametr yoqilgan bo'lsa brauzer har doim inkognito rejimida ishga tushadi"
 
 #: data/org.gnome.epiphany.gschema.xml:110
 msgid "Active clear data items."
-msgstr ""
+msgstr "Faol toza ma'lumotlar elementlari."
 
 #: data/org.gnome.epiphany.gschema.xml:111
 msgid ""
@@ -225,20 +252,27 @@ msgid ""
 "Plugins data, 128 = HSTS policies cache, 256 = Intelligent Tracking "
 "Prevention data."
 msgstr ""
+"Ma'lumotlar elementlarini tozalash standart bo'yicha faol bo'lishi kerak"
+"bo'lgan tanlov (bitmask). 1 = Cookie fayllari, 2 = HTTP disk keshi, 4 = Mahalliy saqlash ma'lumotlari,"
+"8 = Oflayn veb-ilova keshi, 16 = IndexDB ma'lumotlar bazalari, 32 = WebSQL ma'lumotlar bazalari,"
+"64 = Plaginlar ma'lumotlari, 128 = HSTS siyosatlari keshi, 256 = Intelligent Tracking Prevention"
+"ma'lumotlari."
 
 #: data/org.gnome.epiphany.gschema.xml:117
 msgid "Expand tabs size to fill the available space on the tabs bar."
-msgstr ""
+msgstr "Yorliqlar panelidagi bo'sh joyni to'ldirish uchun yorliqlar hajmini kengaytirish"
 
 #: data/org.gnome.epiphany.gschema.xml:118
 msgid ""
 "If enabled the tabs will expand to use the entire available space in the "
 "tabs bar. This setting is ignored in Pantheon desktop."
 msgstr ""
+"Agar yoqilgan bo'lsa, tablar tabbar panelidagi to'liq bo'sh joydan foydalanish"
+"uchun kengayadi. Pantheon ish stolida bu sozlama e'tiborga olinmaydi."
 
 #: data/org.gnome.epiphany.gschema.xml:122
 msgid "The visibility policy for the tabs bar."
-msgstr ""
+msgstr "Yorliqlar paneli uchun ko'rinish siyosati."
 
 #: data/org.gnome.epiphany.gschema.xml:123
 msgid ""
@@ -247,28 +281,35 @@ msgid ""
 "two or more tabs) and “never” (the tabs bar is never shown). This setting is "
 "ignored in Pantheon desktop, and “always” value is used."
 msgstr ""
+"Tablar paneli ko'rsatilganda boshqaradi. Mumkin qiymatlar ”har doim” (tablar"
+"paneli doimo ko'rsatiladi), ”birdan ortiq” (tablar paneli faqat ikkita yoki undan"
+"ortiq tablar mavjud bo'lganda ko'rsatiladi) va ”hech qachon” (tablar paneli hech"
+"qachon ko'rsatilmaydi). Bu sozlama Pantheon ish stolida e'tiborga olinmaydi va ”har doim”"
+"qiymati ishlatiladi."
 
 #: data/org.gnome.epiphany.gschema.xml:127
 msgid "Keep window open when closing last tab"
-msgstr ""
+msgstr "Oxirgi tabni yopayotganda oynani ochiq tutish"
 
 #: data/org.gnome.epiphany.gschema.xml:128
 msgid "If enabled application window is kept open when closing the last tab."
-msgstr ""
+msgstr "Agar yoqilgan bo'lsa, oxirgi tab yopilganda dastur oynasi ochiq qoladi."
 
 #: data/org.gnome.epiphany.gschema.xml:134
 msgid "Reader mode article font style."
-msgstr ""
+msgstr "O'quvchi rejimi maqola shrift uslubi."
 
 #: data/org.gnome.epiphany.gschema.xml:135
 msgid ""
 "Chooses the style of the main body text for articles in reader mode. "
 "Possible values are “sans” and “serif”."
 msgstr ""
+"O'quvchi rejimida maqolalar uchun asosiy matn uslubini tanlaydi. Mumkin"
+"qiymatlar ”sans” va ”serif”."
 
 #: data/org.gnome.epiphany.gschema.xml:139
 msgid "Reader mode color scheme."
-msgstr ""
+msgstr "O'quvchi rejimining rang sxemasi."
 
 #: data/org.gnome.epiphany.gschema.xml:140
 msgid ""
@@ -277,83 +318,94 @@ msgid ""
 "dark background). This setting is ignored on systems that provide a system-"
 "wide dark style preference, such as GNOME 42 and newer."
 msgstr ""
+"O'quvchi rejimida ko'rsatiladigan maqolalar uchun ranglar uslubini tanlaydi"
+"Mumkin bo'lgan qiymatlar ”ochiq” (ochiq fonda quyuq matn) va “qorong'i“ (quyuq"
+"fonda ochiq rangli matn). Bu sozlama butun tizimni ta'minlaydigan tizimlarda e'tiborga"
+"olinmaydi. GNOME 42 va undan keyingi versiyalar kabi qorong'u uslub afzalligi."
 
 #: data/org.gnome.epiphany.gschema.xml:146
 msgid "Minimum font size"
-msgstr "Shriftning minimal oʻlchami"
+msgstr "Minimal shrift o'chami"
 
 #: data/org.gnome.epiphany.gschema.xml:150
 #, fuzzy
 #| msgid "Use own fonts"
 msgid "Use GNOME fonts"
-msgstr "Foydalanuvchi shriftlaridan foydalanish"
+msgstr "GNOME shriftlaridan foydalaning"
 
 #: data/org.gnome.epiphany.gschema.xml:151
 msgid "Use GNOME font settings."
-msgstr ""
+msgstr "GNOME shrift sozlamalaridan foydalaning."
 
 #: data/org.gnome.epiphany.gschema.xml:155
 msgid "Custom sans-serif font"
-msgstr ""
+msgstr "Maxsus sans-serif shrifti"
 
 #: data/org.gnome.epiphany.gschema.xml:156
 msgid ""
 "A value to be used to override sans-serif desktop font when use-gnome-fonts "
 "is set."
 msgstr ""
+"Gnome-shriftlardan foydalanish o'rnatilganda sans-serif ish stoli shriftini"
+"bekor qilish uchun foydalaniladigan qiymat."
 
 #: data/org.gnome.epiphany.gschema.xml:160
 msgid "Custom serif font"
-msgstr ""
+msgstr "Maxsus serif shrifti"
 
 #: data/org.gnome.epiphany.gschema.xml:161
 msgid ""
 "A value to be used to override serif desktop font when use-gnome-fonts is "
 "set."
 msgstr ""
+"Gnome-shriftlardan foydalanish o'rnatilganda serif ish stoli shriftini"
+"bekor qilish uchun foydalaniladigan qiymat."
 
 #: data/org.gnome.epiphany.gschema.xml:165
 msgid "Custom monospace font"
-msgstr ""
+msgstr "Maxsus monospace shrifti"
 
 #: data/org.gnome.epiphany.gschema.xml:166
 msgid ""
 "A value to be used to override monospace desktop font when use-gnome-fonts "
 "is set."
 msgstr ""
+"Gnome-shriftlardan foydalanish o'rnatilganda monospace ish stoli shriftini"
+"bekor qilish uchun foydalaniladigan qiymat."
 
 #: data/org.gnome.epiphany.gschema.xml:170
 msgid "Use a custom CSS"
-msgstr ""
+msgstr "Maxsus CSS dan foydalanish"
 
 #: data/org.gnome.epiphany.gschema.xml:171
 msgid "Use a custom CSS file to modify websites own CSS."
-msgstr ""
+msgstr "Veb-saytlarning CSS-ni o'zgartirish uchun maxsus CSS faylidan foydalaning."
 
 #: data/org.gnome.epiphany.gschema.xml:175
 msgid "Use a custom JS"
-msgstr ""
+msgstr "Maxsus JS dan foydalanish"
 
 #: data/org.gnome.epiphany.gschema.xml:176
 msgid "Use a custom JS file to modify websites."
-msgstr ""
+msgstr "Veb-saytlarni o'zgartirish uchun maxsus JS faylidan foydalaning."
 
 #: data/org.gnome.epiphany.gschema.xml:180
 msgid "Enable spell checking"
-msgstr ""
+msgstr "Imlo tekshiruvini yoqish"
 
 #: data/org.gnome.epiphany.gschema.xml:181
 msgid "Spell check any text typed in editable areas."
-msgstr ""
+msgstr "Tahrirlanadigan maydonlarga kiritilgan har qanday matnning imlo tekshiruvi."
 
 #: data/org.gnome.epiphany.gschema.xml:185
 msgid "Default encoding"
-msgstr "Andoza kodlash usuli"
+msgstr "Standart kodlash"
 
 #: data/org.gnome.epiphany.gschema.xml:186
 msgid ""
 "Default encoding. Accepted values are the ones WebKitGTK can understand."
 msgstr ""
+"Standart kodlash. Qabul qilingan qiymatlar WebKitGTK tushuna oladigan qiymatlardir."
 
 #: data/org.gnome.epiphany.gschema.xml:190
 #: src/resources/gtk/prefs-general-page.ui:329
@@ -364,100 +416,107 @@ msgstr "Tillar"
 msgid ""
 "Preferred languages. Array of locale codes or “system” to use current locale."
 msgstr ""
+"Afzal tillar. Joriy tildan foydalanish uchun mahalliy kodlar qatori yoki ”tizim”."
 
 #: data/org.gnome.epiphany.gschema.xml:195
 msgid "Allow popups"
-msgstr "Popap oynaga ruxsat berish"
+msgstr "Qalqib chiquvchi oynalarga ruxsat berish"
 
 #: data/org.gnome.epiphany.gschema.xml:196
 msgid ""
 "Allow sites to open new windows using JavaScript (if JavaScript is enabled)."
 msgstr ""
-"Saytlarga JavaScript yordamida yangi oyna ochishga ruxsat berish (agar "
-"JavaScript yoqilgan boʻlsa)."
+"Saytlarga JavaScript yordamida yangi oyna ochishga ruxsat bering (agar JavaScript yoqilgan boʻlsa)."
 
 #: data/org.gnome.epiphany.gschema.xml:200
 #, fuzzy
 #| msgid "User Name"
 msgid "User agent"
-msgstr "Foydalanuvchi nomi"
+msgstr "Foydalanuvchi agenti"
 
 #: data/org.gnome.epiphany.gschema.xml:201
 msgid ""
 "String that will be used as user agent, to identify the browser to the web "
 "servers."
 msgstr ""
+"Veb-serverlarga brauzerni aniqlash uchun foydalanuvchi agenti sifatida foydalaniladigan string."
 
 #: data/org.gnome.epiphany.gschema.xml:205
 #, fuzzy
 #| msgid "Enable Java"
 msgid "Enable adblock"
-msgstr "Java'ni yoqish"
+msgstr "Reklama blokirovkasini yoqish"
 
 #: data/org.gnome.epiphany.gschema.xml:206
 msgid ""
 "Whether to block the embedded advertisements that web pages might want to "
 "show."
 msgstr ""
+"Veb-sahifalar ko'rsatmoqchi bo'lgan o'rnatilgan reklamalarni bloklash kerakmi."
 
 #: data/org.gnome.epiphany.gschema.xml:210
 msgid "Remember passwords"
-msgstr "Maxfiy soʻzlarni eslab qolish"
+msgstr "Parollarni eslab qolish"
 
 #: data/org.gnome.epiphany.gschema.xml:211
 #, fuzzy
 #| msgid "Whether to store and prefill passwords in web sites."
 msgid "Whether to store and prefill passwords in websites."
-msgstr ""
-"Veb sahifalar maxfiy soʻzlarini saqlash va maxfiy soʻz maydoniga qoʻyish"
+msgstr "Veb-saytlarda parollarni saqlash va oldindan to'ldirish."
 
 #: data/org.gnome.epiphany.gschema.xml:215
 msgid "Enable site-specific quirks"
-msgstr ""
+msgstr "Saytga xos nosozliklarni yoqing"
 
 #: data/org.gnome.epiphany.gschema.xml:216
 msgid ""
 "Enable quirks to make specific websites work better. You might want to "
 "disable this setting if debugging a specific issue."
 msgstr ""
+"Muayyan veb-saytlarning ishlashini yaxshilash uchun g'ayrioddiy xususiyatlarni"
+"yoqing. Muayyan muammoni tuzatishda ushbu sozlamani o'chirib qo'yishingiz mumkin."
 
 #: data/org.gnome.epiphany.gschema.xml:220
 msgid "Enable safe browsing"
-msgstr ""
+msgstr "Xavfsiz ko'rishni yoqish"
 
 #: data/org.gnome.epiphany.gschema.xml:221
 msgid ""
 "Whether to enable safe browsing. Safe browsing operates via Google Safe "
 "Browsing API v4."
 msgstr ""
+"Xavfsiz koʻrishni yoqish kerakmi. Xavfsiz koʻrish Google Safe Browsing API v4 orqali ishlaydi."
 
 #: data/org.gnome.epiphany.gschema.xml:225
 msgid "Enable Intelligent Tracking Prevention (ITP)"
-msgstr ""
+msgstr "Intelligent Tracking Prevention (ITP) funksiyasini yoqish"
 
 #: data/org.gnome.epiphany.gschema.xml:226
 msgid "Whether to enable Intelligent Tracking Prevention."
-msgstr ""
+msgstr "Intelligent Tracking Prevention funksiyasi yoqiladimi."
 
 #: data/org.gnome.epiphany.gschema.xml:230
 msgid "Allow websites to store local website data"
-msgstr ""
+msgstr "Veb-saytlarga mahalliy veb-sayt ma'lumotlarini saqlashga ruxsat bering"
 
 #: data/org.gnome.epiphany.gschema.xml:231
 msgid ""
 "Whether to allow websites to store cookies, local storage data, and "
 "IndexedDB databases. Disabling this will break many websites."
 msgstr ""
+"Veb-saytlarga cookie-fayllarni, mahalliy saqlash ma'lumotlarini va"
+"IndexedDB ma'lumotlar bazalarini saqlashga ruxsat berish kerakmi. Buni"
+"o'chirib qo'yish ko'plab veb-saytlarni buzadi."
 
 #: data/org.gnome.epiphany.gschema.xml:235
 msgid "Default zoom level for new pages"
-msgstr ""
+msgstr "Yangi sahifalar uchun standart kattalashtirish darajasi"
 
 #: data/org.gnome.epiphany.gschema.xml:239
 #, fuzzy
 #| msgid "Enable Java"
 msgid "Enable autosearch"
-msgstr "Java'ni yoqish"
+msgstr "Avtomatik qidiruvni yoqish"
 
 #: data/org.gnome.epiphany.gschema.xml:240
 msgid ""
@@ -466,40 +525,46 @@ msgid ""
 "everything will be loaded as a URL unless a search engine is explicitly "
 "selected from the dropdown menu."
 msgstr ""
+"Manzil satriga URL manziliga oʻxshamaydigan biror narsa kiritilganda avtomatik"
+"ravishda internetni qidirish kerakmi. Agar bu sozlama oʻchirilgan boʻlsa, ochiladigan"
+"menyudan qidiruv tizimi aniq tanlanmaguncha hamma narsa URL sifatida yuklanadi."
 
 #: data/org.gnome.epiphany.gschema.xml:244
 msgid "Enable mouse gestures"
-msgstr ""
+msgstr "Sichqoncha ishoralarini yoqish"
 
 #: data/org.gnome.epiphany.gschema.xml:245
 msgid ""
 "Whether to enable mouse gestures. Mouse gestures are based on Opera’s "
 "behaviour and are activated using the middle mouse button + gesture."
 msgstr ""
+"Sichqoncha imo-ishoralarini yoqish kerakmi. Sichqoncha imo-ishoralari"
+"Opera xatti-harakatlariga asoslanadi va sichqonchaning o'rta tugmasi + ishorasi"
+"yordamida faollashtiriladi."
 
 #: data/org.gnome.epiphany.gschema.xml:249
 #, fuzzy
 #| msgid "Select a Directory"
 msgid "Last upload directory"
-msgstr "Direktoriyani tanlang"
+msgstr "Oxirgi yuklash jildi"
 
 #: data/org.gnome.epiphany.gschema.xml:250
 msgid "Keep track of last upload directory"
-msgstr ""
+msgstr "Oxirgi yuklash jildingizni kuzatib boring"
 
 #: data/org.gnome.epiphany.gschema.xml:254
 #, fuzzy
 #| msgid "The downloads folder"
 msgid "Last download directory"
-msgstr "Yozib olish jildi"
+msgstr "So'nggi yuklab olish jildi"
 
 #: data/org.gnome.epiphany.gschema.xml:255
 msgid "Keep track of last download directory"
-msgstr ""
+msgstr "Oxirgi yuklab olish jildingizni kuzatib boring"
 
 #: data/org.gnome.epiphany.gschema.xml:259
 msgid "Hardware acceleration policy"
-msgstr ""
+msgstr "Qurilmani tezlashtirish siyosati"
 
 #: data/org.gnome.epiphany.gschema.xml:260
 msgid ""
@@ -510,14 +575,20 @@ msgid ""
 "When the policy is “on-demand”, hardware acceleration will be used only when "
 "required to display 3D transforms."
 msgstr ""
+"Qurilma tezlashuvini yoqish kerakmi. Mumkin qiymatlar “talab bo'yicha“, “har doim“"
+"va “hech qachon“. O'rnatilgan qurilmalarda maqbul ishlashga erishish uchun qurilam"
+"tezlashuvi talab qilinishi mumkin, lekin xotiradan foydalanish talablarini oshiradi"
+"va jiddiy qurilmaga xos grafiklarni ko'rsatishi mumkin. drayver xatolari. Siyosat"
+"“talab boʻyicha” boʻlsa, qurilma tezlashuvi faqat 3D oʻzgarishlarni koʻrsatish"
+"uchun kerak boʻlganda qoʻllaniladi."
 
 #: data/org.gnome.epiphany.gschema.xml:264
 msgid "Always ask for download directory"
-msgstr ""
+msgstr "Har doim yuklab olish jildini so'rash"
 
 #: data/org.gnome.epiphany.gschema.xml:265
 msgid "Whether to present a directory chooser dialog for every download."
-msgstr ""
+msgstr "Har bir yuklab olish uchun jild tanlash dialogini taqdim etish kerakmi."
 
 #: data/org.gnome.epiphany.gschema.xml:269
 msgid "Enable immediately switch to new open tab"
@@ -525,69 +596,71 @@ msgstr ""
 
 #: data/org.gnome.epiphany.gschema.xml:270
 msgid "Whether to automatically switch to a new open tab."
-msgstr ""
+msgstr "Yangi ochiq tabga avtomatik ravishda o'tish kerakmi."
 
 #: data/org.gnome.epiphany.gschema.xml:274
 #, fuzzy
 #| msgid "Active extensions"
 msgid "Enable WebExtensions"
-msgstr "Aktiv kengaytmalar"
+msgstr "WebExtensionlarni yoqish"
 
 #: data/org.gnome.epiphany.gschema.xml:275
 msgid ""
 "Whether to enable WebExtensions. WebExtensions is a cross-browser system for "
 "extensions."
 msgstr ""
+"WebExtensions-ni yoqish kerakmi. WebExtensions kengaytmalar uchun oʻzaro brauzer tizimidir."
 
 #: data/org.gnome.epiphany.gschema.xml:279
 #, fuzzy
 #| msgid "Active extensions"
 msgid "Active WebExtensions"
-msgstr "Aktiv kengaytmalar"
+msgstr "Faol WebExtensionlar"
 
 #: data/org.gnome.epiphany.gschema.xml:280
 msgid "Indicates which WebExtensions are set to active."
-msgstr ""
+msgstr "Qaysi WebExtension faol qilib o'rnatilganligini ko'rsatadi."
 
 #: data/org.gnome.epiphany.gschema.xml:286
 msgid "Web application additional URLs"
-msgstr ""
+msgstr "Veb-ilovaning qo'shimcha URL manzillari"
 
 #: data/org.gnome.epiphany.gschema.xml:287
 msgid "The list of URLs that should be opened by the web application"
-msgstr ""
+msgstr "Veb-ilova tomonidan ochilishi kerak bo'lgan URL manzillar ro'yxati"
 
 #: data/org.gnome.epiphany.gschema.xml:291
 msgid "Show navigation buttons in WebApp"
-msgstr ""
+msgstr "WebApp ilovasida navigatsiya tugmalarini ko‘rsatish"
 
 #: data/org.gnome.epiphany.gschema.xml:292
 msgid "Whether to show buttons for navigation in WebApp."
-msgstr ""
+msgstr "WebApp ilovasida navigatsiya tugmalarini ko'rsatish kerakmi."
 
 #: data/org.gnome.epiphany.gschema.xml:296
 #, fuzzy
 #| msgid "Print background c_olors"
 msgid "Run in background"
-msgstr "Orqa fon _ranglarini bosib chiqarish"
+msgstr "Orqa fonda ishga tushirish"
 
 #: data/org.gnome.epiphany.gschema.xml:297
 msgid ""
 "If enabled, application continues running in the background after closing "
 "the window."
 msgstr ""
+"Agar yoqilgan bo'lsa, dastur oynani yopgandan keyin fonda ishlashni davom ettiradi."
 
 #: data/org.gnome.epiphany.gschema.xml:301
 msgid "WebApp is system-wide"
-msgstr ""
+msgstr "WebApp butun tizimga tegishli"
 
 #: data/org.gnome.epiphany.gschema.xml:302
 msgid "If enabled, application cannot be edited or removed."
-msgstr ""
+msgstr "Agar yoqilgan bo'lsa, ilovani tahrirlash yoki olib tashlash mumkin emas."
 
 #: data/org.gnome.epiphany.gschema.xml:308
 msgid "The downloads folder"
-msgstr "Yozib olish jildi"
+msgstr "Yuklab olish jildi"
 
 #: data/org.gnome.epiphany.gschema.xml:309
 #, fuzzy
@@ -599,126 +672,135 @@ msgid ""
 "The path of the folder where to download files to; or “Downloads” to use the "
 "default downloads folder, or “Desktop” to use the desktop folder."
 msgstr ""
-"Fayllar yozib olinadigan jild; andoza jilddan foydalanish uchun \"Downloads"
-"\" yoki ish stoliga yozib olish uchun \"Desktop\"dan foydalaning."
+"Fayllarni yuklab olish uchun jildning yo'li; yoki standart yuklab olishlar"
+"jildidan foydalanish uchun ”Yuklashlar” yoki ish stoli jildiidan foydalanish uchun “Desktop”."
 
 #: data/org.gnome.epiphany.gschema.xml:316
 msgid "Window position"
-msgstr ""
+msgstr "Oyna holati"
 
 #: data/org.gnome.epiphany.gschema.xml:317
 msgid ""
 "The position to use for a new window that is not restored from a previous "
 "session."
 msgstr ""
+"Oldingi seansdan tiklanmagan yangi oyna uchun foydalanish pozitsiyasi."
 
 #: data/org.gnome.epiphany.gschema.xml:321
 msgid "Window size"
-msgstr ""
+msgstr "Oyna o'chami"
 
 #: data/org.gnome.epiphany.gschema.xml:322
 msgid ""
 "The size to use for a new window that is not restored from a previous "
 "session."
 msgstr ""
+"Oldingi seansdan tiklanmagan yangi oyna uchun foydalaniladigan o'lcham."
 
 #: data/org.gnome.epiphany.gschema.xml:326
 msgid "Is maximized"
-msgstr ""
+msgstr "Maksimallashtiriladi"
 
 #: data/org.gnome.epiphany.gschema.xml:327
 msgid ""
 "Whether a new window that is not restored from a previous session should be "
 "initially maximized."
 msgstr ""
+"Oldingi seansdan tiklanmagan yangi oynani dastlab maksimal darajaga ko'tarish kerakmi."
 
 #: data/org.gnome.epiphany.gschema.xml:342
 msgid "Disable forward and back buttons"
-msgstr ""
+msgstr "Oldinga va orqaga tugmalarini o'chirish"
 
 #: data/org.gnome.epiphany.gschema.xml:343
 msgid ""
 "If set to “true”, forward and back buttons are disabled, preventing users "
 "from accessing immediate browser history"
 msgstr ""
+"Agar yoqilgan bo'lsa, oldinga va orqaga tugmalari o'chirib qo'yiladi, bu"
+"foydalanuvchilarning darhol brauzer tarixiga kirishiga to'sqinlik qiladi"
 
 #: data/org.gnome.epiphany.gschema.xml:361
 msgid "Firefox Sync Token Server URL"
-msgstr ""
+msgstr "Firefox Sync Token Server URL manzili"
 
 #: data/org.gnome.epiphany.gschema.xml:362
 msgid "URL to a custom Firefox Sync token server."
-msgstr ""
+msgstr "Maxsus Firefox Sync token serveriga URL."
 
 #: data/org.gnome.epiphany.gschema.xml:366
 msgid "Firefox Sync Accounts Server URL"
-msgstr ""
+msgstr "Firefox Sync Accounts Server URL"
 
 #: data/org.gnome.epiphany.gschema.xml:367
 msgid "URL to a custom Firefox Sync accounts server."
-msgstr ""
+msgstr "Maxsus Firefox Sync hisoblari serveriga URL."
 
 #: data/org.gnome.epiphany.gschema.xml:371
 msgid "Currently signed in sync user"
-msgstr ""
+msgstr "Hozirda sinxronlangan foydalanuvchi tizimga kirgan"
 
 #: data/org.gnome.epiphany.gschema.xml:372
 msgid ""
 "The email linked to the Firefox Account used to sync data with Mozilla’s "
 "servers."
 msgstr ""
+"Firefox hisob qaydnomasi bilan bog'langan elektron pochta ma'lumotlarini"
+"Mozilla serverlari bilan sinxronlashtirish uchun ishlatilgan."
 
 #: data/org.gnome.epiphany.gschema.xml:376
 msgid "Last sync timestamp"
-msgstr ""
+msgstr "Oxirgi sinxronlash vaqt belgisi"
 
 #: data/org.gnome.epiphany.gschema.xml:377
 msgid "The UNIX time at which last sync was made in seconds."
-msgstr ""
+msgstr "Oxirgi sinxronlash soniyalarda amalga oshirilgan UNIX vaqti."
 
 #: data/org.gnome.epiphany.gschema.xml:381
 msgid "Sync device ID"
-msgstr ""
+msgstr "Qurilma identifikatorini sinxronlash"
 
 #: data/org.gnome.epiphany.gschema.xml:382
 msgid "The sync device ID of the current device."
-msgstr ""
+msgstr "Joriy qurilmaning sinxronlash qurilmasi identifikatori."
 
 #: data/org.gnome.epiphany.gschema.xml:386
 msgid "Sync device name"
-msgstr ""
+msgstr "Qurilma nomini sinxronlash"
 
 #: data/org.gnome.epiphany.gschema.xml:387
 msgid "The sync device name of the current device."
-msgstr ""
+msgstr "Joriy qurilmaning sinxronlash qurilmasi nomi."
 
 #: data/org.gnome.epiphany.gschema.xml:391
 msgid "The sync frequency in minutes"
-msgstr ""
+msgstr "Sinxronlash chastotasi daqiqalarda"
 
 #: data/org.gnome.epiphany.gschema.xml:392
 msgid "The number of minutes between two consecutive syncs."
-msgstr ""
+msgstr "Ikki ketma-ket sinxronlash orasidagi daqiqalar soni."
 
 #: data/org.gnome.epiphany.gschema.xml:396
 msgid "Sync data with Firefox"
-msgstr ""
+msgstr "Ma'lumotlarni Firefox bilan sinxronlashtirish"
 
 #: data/org.gnome.epiphany.gschema.xml:397
 msgid ""
 "TRUE if Ephy collections should be synced with Firefox collections, FALSE "
 "otherwise."
 msgstr ""
+"Agar Ephy toʻplamlari Firefox toʻplamlari bilan sinxronlashtirilishi kerak"
+"boʻlsa, ROST, aks holda YOLGʻON."
 
 #: data/org.gnome.epiphany.gschema.xml:401
 #, fuzzy
 #| msgid "Disable bookmark editing"
 msgid "Enable bookmarks sync"
-msgstr "Xatchoʻplarni tahrirlashni oʻchirish"
+msgstr "Bookmarklarni sinxronlashni yoqish"
 
 #: data/org.gnome.epiphany.gschema.xml:402
 msgid "TRUE if bookmarks collection should be synced, FALSE otherwise."
-msgstr ""
+msgstr "Bookmarklar to‘plami sinxronlashtirilishi kerak bo‘lsa ROST, aks holda YOLG‘ON."
 
 #: data/org.gnome.epiphany.gschema.xml:406
 msgid "Bookmarks sync timestamp"
@@ -732,23 +814,24 @@ msgstr ""
 #: data/org.gnome.epiphany.gschema.xml:426
 #: data/org.gnome.epiphany.gschema.xml:441
 msgid "Initial sync or normal sync"
-msgstr ""
+msgstr "Dastlabki sinxronlash yoki oddiy sinxronlash"
 
 #: data/org.gnome.epiphany.gschema.xml:412
 msgid ""
 "TRUE if bookmarks collection needs to be synced for the first time, FALSE "
 "otherwise."
 msgstr ""
+"Bookmarklar to‘plamini birinchi marta sinxronlash kerak bo‘lsa ROST, aks holda YOLG'ON"
 
 #: data/org.gnome.epiphany.gschema.xml:416
 #, fuzzy
 #| msgid "Saved _passwords"
 msgid "Enable passwords sync"
-msgstr "Saqlangan _maxfiy soʻzlar"
+msgstr "Parollarni sinxronlashni yoqish"
 
 #: data/org.gnome.epiphany.gschema.xml:417
 msgid "TRUE if passwords collection should be synced, FALSE otherwise."
-msgstr ""
+msgstr "Agar parollar toʻplami sinxronlashtirilsa, ROST, aks holda YOLG'ON."
 
 #: data/org.gnome.epiphany.gschema.xml:421
 msgid "Passwords sync timestamp"
@@ -763,16 +846,17 @@ msgid ""
 "TRUE if passwords collection needs to be synced for the first time, FALSE "
 "otherwise."
 msgstr ""
+"Agar parollar toʻplamini birinchi marta sinxronlash kerak boʻlsa, ROST, aks holda YOLG'ON."
 
 #: data/org.gnome.epiphany.gschema.xml:431
 #, fuzzy
 #| msgid "Disable history"
 msgid "Enable history sync"
-msgstr "Tarixni oʻchirish"
+msgstr "Tarixni sinxronlashni yoqish"
 
 #: data/org.gnome.epiphany.gschema.xml:432
 msgid "TRUE if history collection should be synced, FALSE otherwise."
-msgstr ""
+msgstr "Agar tarix to‘plami sinxronlashtirilishi kerak bo‘lsa, ROST, aks holda YOLG'ON."
 
 #: data/org.gnome.epiphany.gschema.xml:436
 #, fuzzy
@@ -789,14 +873,15 @@ msgid ""
 "TRUE if history collection needs to be synced for the first time, FALSE "
 "otherwise."
 msgstr ""
+"Agar tarix toʻplamini birinchi marta sinxronlash kerak boʻlsa, ROST, aks holda YOLG'ON."
 
 #: data/org.gnome.epiphany.gschema.xml:446
 msgid "Enable open tabs sync"
-msgstr ""
+msgstr "Ochiq tablarni sinxronlashni yoqish"
 
 #: data/org.gnome.epiphany.gschema.xml:447
 msgid "TRUE if open tabs collection should be synced, FALSE otherwise."
-msgstr ""
+msgstr "Agar ochiq tablar to‘plami sinxronlashtirilishi kerak bo‘lsa, ROST, aks holda YOLG'ON."
 
 #: data/org.gnome.epiphany.gschema.xml:451
 msgid "Open tabs sync timestamp"
@@ -808,7 +893,7 @@ msgstr ""
 
 #: data/org.gnome.epiphany.gschema.xml:463
 msgid "Decision to apply when microphone permission is requested for this host"
-msgstr ""
+msgstr "Ushbu xost uchun mikrofonga ruxsat so‘ralganda qo‘llash qarori"
 
 #: data/org.gnome.epiphany.gschema.xml:464
 msgid ""
@@ -822,6 +907,7 @@ msgstr ""
 msgid ""
 "Decision to apply when geolocation permission is requested for this host"
 msgstr ""
+"Ushbu xost uchun geolokatsiyaga ruxsat so'ralganda qo'llash qarori"
 
 #: data/org.gnome.epiphany.gschema.xml:469
 msgid ""
@@ -835,6 +921,7 @@ msgstr ""
 msgid ""
 "Decision to apply when notification permission is requested for this host"
 msgstr ""
+"Ushbu xost uchun bildirishnoma ruxsati so'ralganda qo'llash qarori"
 
 #: data/org.gnome.epiphany.gschema.xml:474
 msgid ""
