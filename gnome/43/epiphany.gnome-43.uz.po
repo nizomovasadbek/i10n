@@ -2081,78 +2081,79 @@ msgstr "Kecha %H∶%M"
 #.
 #: lib/ephy-time-helpers.c:277
 msgid "%a %I∶%M %p"
-msgstr ""
+msgstr "%a %I∶%M %p"
 
 #. Translators: "friendly time" string for a day in the current week,
 #. * strftime format. e.g. "Wed 15∶34"
 #.
 #: lib/ephy-time-helpers.c:282
 msgid "%a %H∶%M"
-msgstr ""
+msgstr "%a %H∶%M"
 
 #. Translators: "friendly time" string for a day in the current year,
 #. * strftime format. e.g. "Feb 12 12∶34 am"
 #.
 #: lib/ephy-time-helpers.c:296
 msgid "%b %d %I∶%M %p"
-msgstr ""
+msgstr "%b %d %I∶%M %p"
 
 #. Translators: "friendly time" string for a day in the current year,
 #. * strftime format. e.g. "Feb 12 15∶34"
 #.
 #: lib/ephy-time-helpers.c:301
 msgid "%b %d %H∶%M"
-msgstr ""
+msgstr "%b %d %H∶%M"
 
 #. Translators: "friendly time" string for a day in a different year,
 #. * strftime format. e.g. "Feb 12 1997"
 #.
 #: lib/ephy-time-helpers.c:307
 msgid "%b %d %Y"
-msgstr ""
+msgstr "%b %d %Y"
 
 #. impossible time or broken locale settings
 #: lib/ephy-time-helpers.c:317
 msgid "Unknown"
-msgstr "Nomaʼlum"
+msgstr "Noma'lum"
 
 #: lib/ephy-web-app-utils.c:325
 #, c-format
 msgid "Failed to get desktop filename for webapp id %s"
-msgstr ""
+msgstr "Webapp identifikatori %s uchun ish stoli fayl nomini olib bo‘lmadi"
 
 #: lib/ephy-web-app-utils.c:348
 #, c-format
 msgid "Failed to install desktop file %s: "
-msgstr ""
+msgstr "%s ish stoli faylini o‘rnatib bo‘lmadi:"
 
 #: lib/ephy-web-app-utils.c:387
 #, c-format
 msgid "Profile directory %s already exists"
-msgstr ""
+msgstr "%s profil jildi allaqachon mavjud"
 
 #: lib/ephy-web-app-utils.c:394
 #, fuzzy, c-format
 #| msgid "Failed to create directory “%s”."
 msgid "Failed to create directory %s"
-msgstr "“%s” direktoriyasini yaratib boʻlmadi."
+msgstr "%s jildini yaratib bo‘lmadi"
 
 #: lib/ephy-web-app-utils.c:406
 #, fuzzy, c-format
 #| msgid "Failed to create directory “%s”."
 msgid "Failed to create .app file: %s"
-msgstr "“%s” direktoriyasini yaratib boʻlmadi."
+msgstr ".app faylini yaratib bo‘lmadi: %s"
 
 #: lib/sync/ephy-password-import.c:133
 #, c-format
 msgid "Cannot create SQLite connection. Close browser and try again."
-msgstr ""
+msgstr "SQLite ulanishini yaratib bo'lmadi. Brauzerni yoping va qayta urinib ko'ring."
 
 #: lib/sync/ephy-password-import.c:142 lib/sync/ephy-password-import.c:152
 #, c-format
 msgid ""
 "Browser password database could not be opened. Close browser and try again."
 msgstr ""
+"Brauzer paroli bazasini ochib boʻlmadi. Brauzerni yoping va qaytadan urinib koʻring."
 
 #. Translators: The first %s is the username and the second one is the
 #. * security origin where this is happening. Example: gnome@gmail.com and
@@ -2160,69 +2161,71 @@ msgstr ""
 #: lib/sync/ephy-password-manager.c:435
 #, c-format
 msgid "Password for %s in a form in %s"
-msgstr ""
+msgstr "%s shaklidagi %s uchun parol"
 
 #. Translators: The %s is the security origin where this is happening.
 #. * Example: https://mail.google.com.
 #: lib/sync/ephy-password-manager.c:439
 #, c-format
 msgid "Password in a form in %s"
-msgstr ""
+msgstr "%s shaklidagi parol"
 
 #: lib/sync/ephy-sync-service.c:1043
 msgid "Failed to obtain storage credentials."
-msgstr ""
+msgstr "Xotira hisob maʼlumotlarini olinmadi."
 
 #: lib/sync/ephy-sync-service.c:1044 lib/sync/ephy-sync-service.c:1205
 #: lib/sync/ephy-sync-service.c:2055
 msgid "Please visit Firefox Sync and sign in again to continue syncing."
-msgstr ""
+msgstr "Sinxronlashni davom ettirish uchun Firefox Sync-ga tashrif buyuring va tizimga qayta kiring."
 
 #: lib/sync/ephy-sync-service.c:1195
 msgid "The password of your Firefox account seems to have been changed."
-msgstr ""
+msgstr "Firefox hisobingiz paroli o'zgartirilganga o'xshaydi."
 
 #: lib/sync/ephy-sync-service.c:1196
 msgid ""
 "Please visit Firefox Sync and sign in with the new password to continue "
 "syncing."
 msgstr ""
+"Firefox Sync-ga tashrif buyuring va sinxronlashni davom ettirish uchun"
+"yangi parol bilan tizimga kiring."
 
 #: lib/sync/ephy-sync-service.c:1204
 msgid "Failed to obtain signed certificate."
-msgstr ""
+msgstr "Imzolangan sertifikat olinmadi."
 
 #: lib/sync/ephy-sync-service.c:2021 lib/sync/ephy-sync-service.c:2026
 msgid "Could not find the sync secrets for the current sync user."
-msgstr ""
+msgstr "Joriy sinxronlash foydalanuvchisi uchun sinxronlash kalitlarini topib bo‘lmadi."
 
 #: lib/sync/ephy-sync-service.c:2033 lib/sync/ephy-sync-service.c:2041
 msgid "The sync secrets for the current sync user are invalid."
-msgstr ""
+msgstr "Joriy sinxronlash foydalanuvchisi uchun sinxronlash kaliti yaroqsiz."
 
 #. Translators: %s is the email of the user.
 #: lib/sync/ephy-sync-service.c:2149
 #, c-format
 msgid "The sync secrets of %s"
-msgstr ""
+msgstr "%s ning sinxronlash kalitlari"
 
 #: lib/sync/ephy-sync-service.c:2184
 msgid "Failed to upload client record."
-msgstr ""
+msgstr "Mijoz yozuvini yuklab bo‘lmadi."
 
 #: lib/sync/ephy-sync-service.c:2393
 msgid "Failed to upload crypto/keys record."
-msgstr ""
+msgstr "Kripto/kalitlar yozuvini yuklab bo‘lmadi."
 
 #: lib/sync/ephy-sync-service.c:2510
 #, fuzzy
 #| msgid "Failed to create directory “%s”."
 msgid "Failed to retrieve crypto keys."
-msgstr "“%s” direktoriyasini yaratib boʻlmadi."
+msgstr "Kripto kalitlarni olib bo‘lmadi."
 
 #: lib/sync/ephy-sync-service.c:2569
 msgid "Failed to upload meta/global record."
-msgstr ""
+msgstr "Meta/global rekord yuklanmadi."
 
 #. Translators: the %d is the storage version, the \n is a newline character.
 #: lib/sync/ephy-sync-service.c:2696
@@ -2230,67 +2233,70 @@ msgstr ""
 msgid ""
 "Your Firefox Account uses storage version %d. Web only supports version %d."
 msgstr ""
+"Firefox hisob qaydnomangiz %d saqlash versiyasidan foydalanadi. Internet"
+"faqat %d versiyasini qo‘llab-quvvatlaydi."
 
 #: lib/sync/ephy-sync-service.c:2707
 msgid "Failed to verify storage version."
-msgstr ""
+msgstr "Xotira versiyasini tekshirib bo‘lmadi."
 
 #: lib/sync/ephy-sync-service.c:2770
 msgid "Failed to upload device info"
-msgstr ""
+msgstr "Qurilma maʼlumotlarini yuklab boʻlmadi"
 
 #: lib/sync/ephy-sync-service.c:2846 lib/sync/ephy-sync-service.c:2934
 msgid "Failed to retrieve the Sync Key"
-msgstr ""
+msgstr "Sinxronizatsiya kalitini olib bo‘lmadi"
 
 #: lib/widgets/ephy-certificate-dialog.c:101
 msgid "The certificate does not match this website"
-msgstr ""
+msgstr "Sertifikat ushbu veb-saytga mos kelmaydi"
 
 #: lib/widgets/ephy-certificate-dialog.c:104
 #, fuzzy
 #| msgid "Certificate _Fields"
 msgid "The certificate has expired"
-msgstr "Sertifikat _maydonlari"
+msgstr "Sertifikat muddati tugagan"
 
 #: lib/widgets/ephy-certificate-dialog.c:107
 msgid "The signing certificate authority is not known"
-msgstr ""
+msgstr "Imzolovchi sertifikat organi noma'lum"
 
 #: lib/widgets/ephy-certificate-dialog.c:110
 msgid "The certificate contains errors"
-msgstr ""
+msgstr "Sertifikatda xatolar mavjud"
 
 #: lib/widgets/ephy-certificate-dialog.c:113
 msgid "The certificate has been revoked"
-msgstr ""
+msgstr "Sertifikat bekor qilindi"
 
 #: lib/widgets/ephy-certificate-dialog.c:116
 msgid "The certificate is signed using a weak signature algorithm"
-msgstr ""
+msgstr "Sertifikat zaif imzo algoritmi yordamida imzolanadi"
 
 #: lib/widgets/ephy-certificate-dialog.c:119
 msgid "The certificate activation time is still in the future"
-msgstr ""
+msgstr "Sertifikatni faollashtirish vaqti hali oldinda"
 
 #: lib/widgets/ephy-certificate-dialog.c:161
 msgid "The identity of this website has been verified."
-msgstr ""
+msgstr "Ushbu veb-saytning identifikatori tasdiqlandi."
 
 #: lib/widgets/ephy-certificate-dialog.c:162
 msgid "The identity of this website has not been verified."
-msgstr ""
+msgstr "Ushbu veb-saytning identifikatori tasdiqlanmagan."
 
 #. Message on certificte dialog ertificate dialog
 #: lib/widgets/ephy-certificate-dialog.c:174
 msgid "No problems have been detected with your connection."
-msgstr ""
+msgstr "Ulanishingizda hech qanday muammo aniqlanmadi."
 
 #: lib/widgets/ephy-certificate-dialog.c:177
 msgid ""
 "This certificate is valid. However, resources on this page were sent "
 "insecurely."
 msgstr ""
+"Ushbu sertifikat amal qiladi. Biroq, bu sahifadagi resurslar xavfsiz tarzda yuborilgan."
 
 #: lib/widgets/ephy-downloads-popover.c:216
 #: src/resources/gtk/history-dialog.ui:216
@@ -2298,85 +2304,85 @@ msgstr ""
 #, fuzzy
 #| msgid "Clear _All..."
 msgid "_Clear All"
-msgstr "_Hammasini tozalash..."
+msgstr "_Hammasini Tozalash"
 
 #: lib/widgets/ephy-download-widget.c:78
 #, c-format
 msgid "%d second left"
 msgid_plural "%d seconds left"
-msgstr[0] ""
+msgstr[0] "%d soniya qoldi"
 
 #: lib/widgets/ephy-download-widget.c:82
 #, c-format
 msgid "%d minute left"
 msgid_plural "%d minutes left"
-msgstr[0] ""
+msgstr[0] "%d daqiqa qoldi"
 
 #: lib/widgets/ephy-download-widget.c:86
 #, c-format
 msgid "%d hour left"
 msgid_plural "%d hours left"
-msgstr[0] ""
+msgstr[0] "%d soat qoldi"
 
 #: lib/widgets/ephy-download-widget.c:90
 #, c-format
 msgid "%d day left"
 msgid_plural "%d days left"
-msgstr[0] ""
+msgstr[0] "%d kun qoldi"
 
 #: lib/widgets/ephy-download-widget.c:94
 #, c-format
 msgid "%d week left"
 msgid_plural "%d weeks left"
-msgstr[0] ""
+msgstr[0] "%d hafta qoldi"
 
 #: lib/widgets/ephy-download-widget.c:98
 #, c-format
 msgid "%d month left"
 msgid_plural "%d months left"
-msgstr[0] ""
+msgstr[0] "%d oy qoldi"
 
 #: lib/widgets/ephy-download-widget.c:213
 #: lib/widgets/ephy-download-widget.c:426
 msgid "Finished"
-msgstr ""
+msgstr "Tugallandi"
 
 #: lib/widgets/ephy-download-widget.c:223
 msgid "Moved or deleted"
-msgstr ""
+msgstr "Ko'chirildi yoki o'chirildi"
 
 #: lib/widgets/ephy-download-widget.c:238
 #: lib/widgets/ephy-download-widget.c:423
 #, c-format
 msgid "Error downloading: %s"
-msgstr ""
+msgstr "Yuklab olishda xatolik yuz berdi: %s"
 
 #: lib/widgets/ephy-download-widget.c:264
 #, fuzzy
 #| msgid "Loading…"
 msgid "Cancelling…"
-msgstr "Yuklanmoqda..."
+msgstr "Bekor qilinmoqda…"
 
 #: lib/widgets/ephy-download-widget.c:428
 #, fuzzy
 #| msgid "Loading…"
 msgid "Starting…"
-msgstr "Yuklanmoqda..."
+msgstr "Boshlanmoqda…"
 
 #: lib/widgets/ephy-file-chooser.c:122 src/ephy-web-extension-dialog.c:281
 #: src/resources/gtk/history-dialog.ui:255
 #, fuzzy
 #| msgid "Open"
 msgid "_Open"
-msgstr "Ochish"
+msgstr "_Ochish"
 
 #: lib/widgets/ephy-file-chooser.c:131
 msgid "All supported types"
-msgstr "Barcha qoʻllaniladigan turlar"
+msgstr "Barcha qo'llab-quvvatlanadigan turlar"
 
 #: lib/widgets/ephy-file-chooser.c:147
 msgid "Web pages"
-msgstr "Veb sahifalar"
+msgstr "Veb-sahifalar"
 
 #: lib/widgets/ephy-file-chooser.c:158
 msgid "Images"
@@ -2396,7 +2402,7 @@ msgstr "To_zalash"
 
 #: lib/widgets/ephy-location-entry.c:769
 msgid "Paste and _Go"
-msgstr ""
+msgstr "Qo'yish va _O'tish"
 
 #. Undo, redo.
 #: lib/widgets/ephy-location-entry.c:790 src/ephy-window.c:933
@@ -2405,25 +2411,25 @@ msgstr "_Bekor qilish"
 
 #: lib/widgets/ephy-location-entry.c:797
 msgid "_Redo"
-msgstr ""
+msgstr "_Qayta qilish"
 
 #: lib/widgets/ephy-location-entry.c:1044
 msgid "Show website security status and permissions"
-msgstr ""
+msgstr "Veb-sayt xavfsizligi holati va ruxsatnomalarini ko'rsatish"
 
 #: lib/widgets/ephy-location-entry.c:1046
 msgid "Search for websites, bookmarks, and open tabs"
-msgstr ""
+msgstr "Veb-saytlar, bookmarklar va ochiq tablarni qidiring"
 
 #: lib/widgets/ephy-location-entry.c:1091
 msgid "Toggle reader mode"
-msgstr ""
+msgstr "Oʻqish rejimini oʻzgartirish"
 
 #: lib/widgets/ephy-location-entry.c:1115
 #, fuzzy
 #| msgid "Bookmarks"
 msgid "Bookmark this page"
-msgstr "Xatchoʻplar"
+msgstr "Ushbu sahifani belgilash"
 
 #. Label in certificate popover when site is untrusted. %s is a URL.
 #: lib/widgets/ephy-security-popover.c:183
@@ -2432,6 +2438,8 @@ msgid ""
 "This web site’s digital identification is not trusted. You may have "
 "connected to an attacker pretending to be %s."
 msgstr ""
+"Ushbu veb-saytning raqamli identifikatori ishonchli emas."
+"Siz oʻzini %s deb koʻrsatuvchi tajovuzkorga ulangan boʻlishingiz mumkin."
 
 #. Label in certificate popover when site uses HTTP. %s is a URL.
 #: lib/widgets/ephy-security-popover.c:190
@@ -2440,134 +2448,137 @@ msgid ""
 "This site has no security. An attacker could see any information you send, "
 "or control the content that you see."
 msgstr ""
+"Bu sayt hech qanday xavfsizlikka ega emas. Buzg'unchi siz yuborgan har"
+"qanday ma'lumotni ko'rishi yoki siz ko'rgan kontentni boshqarishi mumkin."
 
 #. Label in certificate popover when site sends mixed content.
 #: lib/widgets/ephy-security-popover.c:197
 msgid "This web site did not properly secure your connection."
-msgstr ""
+msgstr "Ushbu veb-sayt ulanishingizni to'g'ri himoya qilmagan."
 
 #. Label in certificate popover on secure sites.
 #: lib/widgets/ephy-security-popover.c:202
 msgid "Your connection seems to be secure."
-msgstr ""
+msgstr "Ulanishingiz xavfsiz ko'rinadi."
 
 #: lib/widgets/ephy-security-popover.c:248
 msgid "_View Certificate…"
-msgstr "Sertifikatni _koʻrish…"
+msgstr "_Sertifikatni koʻrish…"
 
 #: lib/widgets/ephy-security-popover.c:515
 msgid "Ask"
-msgstr ""
+msgstr "So'rang"
 
 #: lib/widgets/ephy-security-popover.c:532
 msgid "Permissions"
-msgstr ""
+msgstr "Ruxsatlar"
 
 #: lib/widgets/ephy-security-popover.c:572
 msgid "Advertisements"
-msgstr ""
+msgstr "Reklamalar"
 
 #: lib/widgets/ephy-security-popover.c:573
 #, fuzzy
 #| msgid "Certificate_s"
 msgid "Notifications"
-msgstr "Sertifikat_lar"
+msgstr "Bildirishnomalar"
 
 #: lib/widgets/ephy-security-popover.c:574
 #, fuzzy
 #| msgid "Passwords"
 msgid "Password saving"
-msgstr "Maxfiy soʻzlar"
+msgstr "Parolni saqlash"
 
 #: lib/widgets/ephy-security-popover.c:575
 msgid "Location access"
-msgstr ""
+msgstr "Joylashuvga kirish"
 
 #: lib/widgets/ephy-security-popover.c:576
 msgid "Microphone access"
-msgstr ""
+msgstr "Mikrofonga kirish"
 
 #: lib/widgets/ephy-security-popover.c:577
 msgid "Webcam access"
-msgstr ""
+msgstr "Veb-kameraga kirish"
 
 #: lib/widgets/ephy-security-popover.c:578
 msgid "Media autoplay"
-msgstr ""
+msgstr "Media avtomatik ijro"
 
 #: lib/widgets/ephy-security-popover.c:578
 #, fuzzy
 #| msgid "Not found"
 msgid "Without Sound"
-msgstr "Topilmadi"
+msgstr "Ovozsiz"
 
 #: src/bookmarks/ephy-bookmark-row.c:62
 #, fuzzy
 #| msgid "Cookie Properties"
 msgid "Bookmark Properties"
-msgstr "Cookie moslamasi"
+msgstr "Bookmark xususiyatlari"
 
 #: src/bookmarks/ephy-bookmarks-import.c:127
 #, c-format
 msgid "File is not a valid Epiphany bookmarks file: missing tags table"
-msgstr ""
+msgstr "Fayl haqiqiy Epiphany bookmarklar fayli emas: yetishmayotgan teglar jadvali"
 
 #: src/bookmarks/ephy-bookmarks-import.c:145
 #, c-format
 msgid "File is not a valid Epiphany bookmarks file: missing bookmarks table"
-msgstr ""
+msgstr "Fayl haqiqiy Epiphany bookmarklar fayli emas: yetishmayotgan bookmarklar jadvali"
 
 #: src/bookmarks/ephy-bookmarks-import.c:247
 #, c-format
 msgid ""
 "Firefox bookmarks database could not be opened. Close Firefox and try again."
 msgstr ""
+"Firefox bookmarklari bazasini ochib bo'lmadi. Firefox-ni yoping va qaytadan urinib ko'ring."
 
 #: src/bookmarks/ephy-bookmarks-import.c:260
 #: src/bookmarks/ephy-bookmarks-import.c:292
 #, c-format
 msgid "Firefox bookmarks could not be retrieved!"
-msgstr ""
+msgstr "Firefox bookmarklarini olib bo'lmadi!"
 
 #: src/bookmarks/ephy-bookmarks-import.c:459
 #, c-format
 msgid "HTML bookmarks database could not be opened: %s"
-msgstr ""
+msgstr "HTML bookmarklar bazasini ochib bo‘lmadi: %s"
 
 #: src/bookmarks/ephy-bookmarks-import.c:470
 msgid "HTML bookmarks database could not be read."
-msgstr ""
+msgstr "HTML bookmarklar bazasini o‘qib bo‘lmadi."
 
 #: src/bookmarks/ephy-bookmarks-import.c:491
 #, c-format
 msgid "HTML bookmarks database could not be parsed: %s"
-msgstr ""
+msgstr "HTML bookmarklar bazasini tahlil qilib bo‘lmadi: %s"
 
 #: src/bookmarks/ephy-bookmarks-import.c:644
 #, c-format
 msgid "Bookmarks file could not be parsed:"
-msgstr ""
+msgstr "Bookmarklar faylini tahlil qilib bo‘lmadi:"
 
 #: src/bookmarks/ephy-bookmarks-manager.h:34
 msgid "Favorites"
-msgstr ""
+msgstr "Sevimlilar"
 
 #: src/bookmarks/ephy-bookmarks-manager.h:35
 msgid "Mobile"
-msgstr ""
+msgstr "Mobil"
 
 #. Translators: tooltip for the refresh button
 #: src/ephy-action-bar-start.c:37 src/ephy-header-bar.c:52
 #, fuzzy
 #| msgid "Save the current page"
 msgid "Reload the current page"
-msgstr "Joriy sahifani saqlash"
+msgstr "Joriy sahifani qayta yuklash"
 
 #: src/ephy-action-bar-start.c:644 src/ephy-header-bar.c:453
 #, fuzzy
 #| msgid "Save the current page"
 msgid "Stop loading the current page"
-msgstr "Joriy sahifani saqlash"
+msgstr "Joriy sahifani yuklashni to'xtatish"
 
 #. Translators: the %s refers to the time at which the last sync was made.
 #. * For example: Today 04:34 PM, Sun 11:25 AM, May 31 06:41 PM.
@@ -2575,61 +2586,62 @@ msgstr "Joriy sahifani saqlash"
 #: src/ephy-firefox-sync-dialog.c:108
 #, c-format
 msgid "Last synchronized: %s"
-msgstr ""
+msgstr "Oxirgi sinxronlangan: %s"
 
 #: src/ephy-firefox-sync-dialog.c:396
 msgid "Something went wrong, please try again later."
-msgstr ""
+msgstr "Nimadir xato ketdi, keyinroq qayta urinib ko‘ring."
 
 #: src/ephy-firefox-sync-dialog.c:703
 #, c-format
 msgid "%u min"
 msgid_plural "%u mins"
-msgstr[0] ""
+msgstr[0] "%u daqiqa"
 
 #: src/ephy-history-dialog.c:142 src/ephy-history-dialog.c:1012
 msgid "It is not possible to modify history when in incognito mode."
-msgstr ""
+msgstr "Inkognito rejimida tarixni o'zgartirish mumkin emas."
 
 #: src/ephy-history-dialog.c:495
 #, fuzzy
 #| msgid "Remove the selected item from the toolbar"
 msgid "Remove the selected pages from history"
-msgstr "Tanlangan elementni asboblar panelidan olib tashlash"
+msgstr "Tanlangan sahifalarni tarixdan olib tashlash"
 
 #: src/ephy-history-dialog.c:501
 #, fuzzy
 #| msgid "_Copy"
 msgid "Copy URL"
-msgstr "_Nusxa olish"
+msgstr "URL-ni nusxalash"
 
 #: src/ephy-history-dialog.c:590
 msgid "Clear browsing history?"
-msgstr "Tarix tozalansinmi?"
+msgstr "Brauzer tarixi tozalansinmi?"
 
 #: src/ephy-history-dialog.c:594
 msgid ""
 "Clearing the browsing history will cause all history links to be permanently "
 "deleted."
-msgstr "Tarix tozalansa, undagi barcha bogʻlamalar ham olib tashlanadi."
+msgstr ""
+"Brauzer tarixini tozalash barcha tarix havolalarini butunlay o'chirib tashlashga olib keladi."
 
 #: src/ephy-history-dialog.c:1015
 #, fuzzy
 #| msgid "Remove from this topic"
 msgid "Remove all history"
-msgstr "Ushbu mavzudan olib tashlash"
+msgstr "Barcha tarixni o'chirib tashlash"
 
 #: src/ephy-main.c:111
 #, fuzzy
 #| msgid "Open a new browser window"
 msgid "Open a new browser window instead of a new tab"
-msgstr "Yangi oyna ochish"
+msgstr "Yangi tab o'rniga yangi brauzer oynasini ochish"
 
 #: src/ephy-main.c:113
 #, fuzzy
 #| msgid "Load the given session file"
 msgid "Load the given session state file"
-msgstr "Koʻrsatilgan seans faylini yuklash"
+msgstr "Berilgan seans holati faylini yuklash"
 
 #: src/ephy-main.c:113
 msgid "FILE"
@@ -2637,23 +2649,23 @@ msgstr "FAYL"
 
 #: src/ephy-main.c:115
 msgid "Start an instance with user data read-only"
-msgstr ""
+msgstr "Faqat o'qish uchun foydalanuvchi ma'lumotlari bilan namunani boshlash"
 
 #: src/ephy-main.c:117
 msgid "Start a private instance with separate user data"
-msgstr ""
+msgstr "Alohida foydalanuvchi ma'lumotlari bilan shaxsiy namunani boshlash"
 
 #: src/ephy-main.c:120
 msgid "Start a private instance in web application mode"
-msgstr ""
+msgstr "Veb-ilova rejimida shaxsiy namunani ishga tushirish"
 
 #: src/ephy-main.c:122
 msgid "Start a private instance for WebDriver control"
-msgstr ""
+msgstr "WebDriver boshqaruvi uchun shaxsiy namunani ishga tushirish"
 
 #: src/ephy-main.c:124
 msgid "Custom profile directory for private instance"
-msgstr ""
+msgstr "Shaxsiy namuna uchun maxsus profil katalogi"
 
 #: src/ephy-main.c:124
 msgid "DIR"
@@ -2667,7 +2679,7 @@ msgstr "URL …"
 #, fuzzy
 #| msgid "GNOME Web Browser options"
 msgid "Web options"
-msgstr "GNOME veb brauzeri parametrlari"
+msgstr "Veb-opsiyalari"
 
 #. Translators: tooltip for the new tab button
 #: src/ephy-tab-view.c:637 src/resources/gtk/action-bar-start.ui:90
@@ -2676,48 +2688,48 @@ msgstr "Yangi tab ochish"
 
 #: src/ephy-web-extension-dialog.c:87
 msgid "Do you really want to remove this extension?"
-msgstr ""
+msgstr "Haqiqatan ham bu kengaytmani o'chirib tashlamoqchimisiz?"
 
 #: src/ephy-web-extension-dialog.c:91 src/ephy-web-extension-dialog.c:220
 #: src/resources/gtk/bookmark-properties.ui:120
 msgid "_Remove"
-msgstr ""
+msgstr "_O'chirish"
 
 #: src/ephy-web-extension-dialog.c:182
 msgid "Author"
-msgstr ""
+msgstr "Muallif"
 
 #: src/ephy-web-extension-dialog.c:191
 msgid "Version"
-msgstr ""
+msgstr "Versiya"
 
 #: src/ephy-web-extension-dialog.c:200
 #: src/resources/gtk/prefs-general-page.ui:127
 #, fuzzy
 #| msgid "Home page"
 msgid "Homepage"
-msgstr "Uy sahifasi"
+msgstr "Bosh sahifa"
 
 #: src/ephy-web-extension-dialog.c:213
 #, fuzzy
 #| msgid "Open _Image"
 msgid "Open _Inspector"
-msgstr "_Rasmni ochish"
+msgstr "_Inspektorni ochish"
 
 #: src/ephy-web-extension-dialog.c:215
 msgid "Open Inspector for debugging Background Page"
-msgstr ""
+msgstr "Orqa fon sahifasini tuzatish uchun inspektorni ochish"
 
 #: src/ephy-web-extension-dialog.c:224
 #, fuzzy
 #| msgid "Remove the selected toolbar"
 msgid "Remove selected WebExtension"
-msgstr "Tanlangan asboblar panelini olib tashlash"
+msgstr "Tanlangan Web kengaytmasini olib tashlash"
 
 #. Translators: this is the title of a file chooser dialog.
 #: src/ephy-web-extension-dialog.c:278
 msgid "Open File (manifest.json/xpi)"
-msgstr ""
+msgstr "Faylni ochish (manifest.json/xpi)"
 
 #: src/ephy-window.c:934
 msgid "Re_do"
@@ -2734,25 +2746,25 @@ msgstr "_Nusxa olish"
 
 #: src/ephy-window.c:939
 msgid "_Paste"
-msgstr "_Qoʻyish"
+msgstr "_Qo'yish"
 
 #: src/ephy-window.c:940
 #, fuzzy
 #| msgid "Text only"
 msgid "_Paste Text Only"
-msgstr "Faqat matn"
+msgstr "_Faqat matnni joylashtirish"
 
 #: src/ephy-window.c:941
 msgid "Select _All"
-msgstr "_Hammasini tanlash"
+msgstr "_Hammasini belgilash"
 
 #: src/ephy-window.c:943
 msgid "S_end Link by Email…"
-msgstr "Bogʻlamani el.pochta orqali _qoʻnatish…"
+msgstr "_Havolani elektron pochta orqali yuborish…"
 
 #: src/ephy-window.c:945
 msgid "_Reload"
-msgstr "_Qaytadan yuklash"
+msgstr "_Qayta yuklash"
 
 #: src/ephy-window.c:946
 msgid "_Back"
@@ -2765,220 +2777,220 @@ msgstr "_Oldinga"
 #. Bookmarks
 #: src/ephy-window.c:950
 msgid "Add Boo_kmark…"
-msgstr "_Xatchoʻp qoʻshish…"
+msgstr "Boo_kmark qo‘shish…"
 
 #. Links.
 #: src/ephy-window.c:954
 msgid "Open Link in New _Window"
-msgstr "Bogʻlamani yangi _oynada ochish"
+msgstr "Havolani yangi _oynada ochish"
 
 #: src/ephy-window.c:955
 msgid "Open Link in New _Tab"
-msgstr "Bogʻlamani yangi _tab oynada ochish"
+msgstr "Havolani yangi _tabda ochish"
 
 #: src/ephy-window.c:956
 #, fuzzy
 #| msgid "Open Link in New _Window"
 msgid "Open Link in I_ncognito Window"
-msgstr "Bogʻlamani yangi _oynada ochish"
+msgstr "Inkognito oynasida havolani ochish"
 
 #: src/ephy-window.c:957
 msgid "_Save Link As…"
-msgstr "Bogʻlamani boshqacha _saqlash…"
+msgstr "_Havolani boshqacha saqlash…"
 
 #: src/ephy-window.c:958
 msgid "_Copy Link Address"
-msgstr "Bogʻlama manzilidan _nusxa olish"
+msgstr "_Havola manzilini nusxalash"
 
 #: src/ephy-window.c:959
 #, fuzzy
 #| msgid "_Copy Email Address"
 msgid "_Copy E-mail Address"
-msgstr "El.pochta manzilidan _nusxa olish"
+msgstr "_Elektron pochta manzilini nusxalash"
 
 #. Images.
 #: src/ephy-window.c:963
 #, fuzzy
 #| msgid "Open in New _Tabs"
 msgid "View _Image in New Tab"
-msgstr "Yangi _tablarda ochish"
+msgstr "_Rasmni yangi tabda ko'rish"
 
 #: src/ephy-window.c:964
 msgid "Copy I_mage Address"
-msgstr "_Rasm manzilidan nusxa olish"
+msgstr "_Rasm manzilini nusxalash"
 
 #: src/ephy-window.c:965
 msgid "_Save Image As…"
-msgstr "Rasmni boshqacha _saqlash…"
+msgstr "_Rasmni boshqacha saqlash…"
 
 #: src/ephy-window.c:966
 msgid "Set as _Wallpaper"
-msgstr ""
+msgstr "_Fon rasmi sifatida o'rnatish"
 
 #. Video.
 #: src/ephy-window.c:970
 #, fuzzy
 #| msgid "Open Link in New _Window"
 msgid "Open Video in New _Window"
-msgstr "Bogʻlamani yangi _oynada ochish"
+msgstr "Videoni yangi oynada ochish"
 
 #: src/ephy-window.c:971
 #, fuzzy
 #| msgid "Open Link in New _Tab"
 msgid "Open Video in New _Tab"
-msgstr "Bogʻlamani yangi _tab oynada ochish"
+msgstr "Videoni yangi _tabda ochish"
 
 #: src/ephy-window.c:972
 #, fuzzy
 #| msgid "_Save Link As…"
 msgid "_Save Video As…"
-msgstr "Bogʻlamani boshqacha _saqlash…"
+msgstr "_Videoni boshqacha saqlash…"
 
 #: src/ephy-window.c:973
 #, fuzzy
 #| msgid "_Copy Address"
 msgid "_Copy Video Address"
-msgstr "Manzildan _nusxa olish"
+msgstr "_Video manzilini nusxalash"
 
 #. Audio.
 #: src/ephy-window.c:977
 #, fuzzy
 #| msgid "Open Link in New _Window"
 msgid "Open Audio in New _Window"
-msgstr "Bogʻlamani yangi _oynada ochish"
+msgstr "Audioni yangi _oynada ochish"
 
 #: src/ephy-window.c:978
 #, fuzzy
 #| msgid "Open Link in New _Tab"
 msgid "Open Audio in New _Tab"
-msgstr "Bogʻlamani yangi _tab oynada ochish"
+msgstr "Audioni yangi _tabda ochish"
 
 #: src/ephy-window.c:979
 #, fuzzy
 #| msgid "_Save Link As…"
 msgid "_Save Audio As…"
-msgstr "Bogʻlamani boshqacha _saqlash…"
+msgstr "_Audioni boshqacha saqlash…"
 
 #: src/ephy-window.c:980
 #, fuzzy
 #| msgid "_Copy Address"
 msgid "_Copy Audio Address"
-msgstr "Manzildan _nusxa olish"
+msgstr "_Audioli manzilni nusxalash"
 
 #: src/ephy-window.c:986
 #, fuzzy
 #| msgid "_Save Image As…"
 msgid "Save Pa_ge As…"
-msgstr "Rasmni boshqacha _saqlash…"
+msgstr "Sahifani boshqacha saqlash…"
 
 #: src/ephy-window.c:987
 msgid "_Take Screenshot…"
-msgstr ""
+msgstr "_Skrinshot olish…"
 
 #: src/ephy-window.c:988
 msgid "_Page Source"
-msgstr "_Sahifa kodi"
+msgstr "_Sahifa manbasi"
 
 #: src/ephy-window.c:1372
 #, fuzzy, c-format
 #| msgid "Search the web"
 msgid "Search the Web for “%s”"
-msgstr "Internetda qidirish"
+msgstr "“%s” uchun Internetdan qidirish"
 
 #: src/ephy-window.c:1401
 #, fuzzy
 #| msgid "_Open Link"
 msgid "Open Link"
-msgstr "Bogʻlamani _ochish"
+msgstr "Havolani ochish"
 
 #: src/ephy-window.c:1403
 #, fuzzy
 #| msgid "Open Link in New _Tab"
 msgid "Open Link In New Tab"
-msgstr "Bogʻlamani yangi _tab oynada ochish"
+msgstr "Havolani yangi tabda ochish"
 
 #: src/ephy-window.c:1405
 #, fuzzy
 #| msgid "Open Link in New _Window"
 msgid "Open Link In New Window"
-msgstr "Bogʻlamani yangi _oynada ochish"
+msgstr "Havolani yangi oynada ochish"
 
 #: src/ephy-window.c:1407
 #, fuzzy
 #| msgid "Open Link in New _Window"
 msgid "Open Link In Incognito Window"
-msgstr "Bogʻlamani yangi _oynada ochish"
+msgstr "Inkognito oynasida havolani ochish"
 
 #: src/ephy-window.c:2841 src/ephy-window.c:4157
 msgid "Do you want to leave this website?"
-msgstr ""
+msgstr "Ushbu veb-saytni tark etishni xohlaysizmi?"
 
 #: src/ephy-window.c:2842 src/ephy-window.c:4158 src/window-commands.c:1221
 msgid "A form you modified has not been submitted."
-msgstr ""
+msgstr "Siz o'zgartirgan shakl yuborilmadi."
 
 #: src/ephy-window.c:2843 src/ephy-window.c:4159 src/window-commands.c:1223
 msgid "_Discard form"
-msgstr ""
+msgstr "_ Shaklni bekor qilish"
 
 #: src/ephy-window.c:2864
 #, fuzzy
 #| msgid "Download Link"
 msgid "Download operation"
-msgstr "Bogʻlamani yozib olish"
+msgstr "Yuklab olish operatsiyasi"
 
 #: src/ephy-window.c:2866
 #, fuzzy
 #| msgid "Details"
 msgid "Show details"
-msgstr "Tafsilotlar"
+msgstr "Tafsilotlarni ko'rsatish"
 
 #: src/ephy-window.c:2868
 #, c-format
 msgid "%d download operation active"
 msgid_plural "%d download operations active"
-msgstr[0] ""
+msgstr[0] "%d yuklash operatsiyasi faol"
 
 #. Translators: tooltip for the tab switcher menu button
 #: src/ephy-window.c:3349
 msgid "View open tabs"
-msgstr ""
+msgstr "Ochiq tablarni ko'rish"
 
 #: src/ephy-window.c:3479
 msgid "Set Web as your default browser?"
-msgstr ""
+msgstr "Web standart brauzer sifatida belgilansinmi?"
 
 #: src/ephy-window.c:3481
 msgid "Set Epiphany Technology Preview as your default browser?"
-msgstr ""
+msgstr "Epiphany Technology Previewni standart brauzer sifatida belgilasinmi?"
 
 #: src/ephy-window.c:3493
 msgid "_Yes"
-msgstr ""
+msgstr "_Ha"
 
 #: src/ephy-window.c:3494
 #, fuzzy
 #| msgid "_Go"
 msgid "_No"
-msgstr "_Oʻtish"
+msgstr "_Yo'q"
 
 #: src/ephy-window.c:4291
 msgid "There are multiple tabs open."
-msgstr ""
+msgstr "Bir nechta tab ochiq."
 
 #: src/ephy-window.c:4292
 msgid "If you close this window, all open tabs will be lost"
-msgstr ""
+msgstr "Agar siz ushbu oynani yopsangiz, barcha ochiq tablar yo'qoladi"
 
 #: src/ephy-window.c:4293
 #, fuzzy
 #| msgid "Close tab"
 msgid "C_lose tabs"
-msgstr "Tabni yopish"
+msgstr "_Tablarni yopish"
 
 #: src/context-menu-commands.c:271
 msgid "Save Link As"
-msgstr "Bogʻlamani boshqacha saqlash"
+msgstr "Havolani boshqacha saqlash"
 
 #: src/context-menu-commands.c:279
 msgid "Save Image As"
@@ -2988,74 +3000,74 @@ msgstr "Rasmni boshqacha saqlash"
 #, fuzzy
 #| msgid "Save Link As"
 msgid "Save Media As"
-msgstr "Bogʻlamani boshqacha saqlash"
+msgstr "Mediani boshqacha saqlash"
 
 #: src/preferences/clear-data-view.c:70
 msgid "Cookies"
-msgstr "Cookie'lar"
+msgstr "Cookie-fayllar"
 
 #: src/preferences/clear-data-view.c:71
 #, fuzzy
 #| msgid "Size of disk cache"
 msgid "HTTP disk cache"
-msgstr "Disk kesh hajmi"
+msgstr "HTTP disk keshi"
 
 #: src/preferences/clear-data-view.c:72
 msgid "Local storage data"
-msgstr ""
+msgstr "Mahalliy saqlash ma'lumotlari"
 
 #: src/preferences/clear-data-view.c:73
 msgid "Offline web application cache"
-msgstr ""
+msgstr "Oflayn veb-ilova keshi"
 
 #: src/preferences/clear-data-view.c:74
 msgid "IndexedDB databases"
-msgstr ""
+msgstr "IndexedDB ma'lumotlar bazalari"
 
 #: src/preferences/clear-data-view.c:75
 msgid "WebSQL databases"
-msgstr ""
+msgstr "WebSQL ma'lumotlar bazalari"
 
 #: src/preferences/clear-data-view.c:76
 msgid "Plugins data"
-msgstr ""
+msgstr "Plagin ma'lumotlari"
 
 #: src/preferences/clear-data-view.c:77
 msgid "HSTS policies cache"
-msgstr ""
+msgstr "HSTS siyosatlari keshi"
 
 #: src/preferences/clear-data-view.c:78
 msgid "Intelligent Tracking Prevention data"
-msgstr ""
+msgstr "Intelligent Tracking Prevention ma'lumotlari"
 
 #: src/preferences/ephy-search-engine-listbox.c:29
 msgid "New search engine"
-msgstr ""
+msgstr "Yangi qidiruv tizimi"
 
 #: src/preferences/ephy-search-engine-listbox.c:304
 msgid "A_dd Search Engine…"
-msgstr ""
+msgstr "Qidiruv tizimini qo‘shish…"
 
 #: src/preferences/ephy-search-engine-row.c:114
 msgid "This field is required"
-msgstr ""
+msgstr "Ushbu qator to'ldirilishi shart"
 
 #: src/preferences/ephy-search-engine-row.c:119
 msgid "Address must start with either http:// or https://"
-msgstr ""
+msgstr "Manzil http:// yoki https:// bilan boshlanishi kerak"
 
 #: src/preferences/ephy-search-engine-row.c:131
 #, c-format
 msgid "Address must contain the search term represented by %s"
-msgstr ""
+msgstr "Manzilda %s bilan ifodalangan qidiruv soʻzi boʻlishi kerak"
 
 #: src/preferences/ephy-search-engine-row.c:134
 msgid "Address should not contain the search term several times"
-msgstr ""
+msgstr "Manzilda bir necha marta qidiruv soʻzi boʻlmasligi kerak"
 
 #: src/preferences/ephy-search-engine-row.c:140
 msgid "Address is not a valid URI"
-msgstr ""
+msgstr "Manzil yaroqli URI emas"
 
 #: src/preferences/ephy-search-engine-row.c:145
 #, c-format
@@ -3063,192 +3075,193 @@ msgid ""
 "Address is not a valid URL. The address should look like https://www.example."
 "com/search?q=%s"
 msgstr ""
+"Manzil yaroqsiz URL manzili. Manzil https://www.example.com/search?q=%s kabi ko‘rinishi kerak"
 
 #: src/preferences/ephy-search-engine-row.c:190
 msgid "This shortcut is already used."
-msgstr ""
+msgstr "Bu qisqartma allaqachon ishlatilgan."
 
 #: src/preferences/ephy-search-engine-row.c:192
 msgid "Search shortcuts must not contain any space."
-msgstr ""
+msgstr "Qidiruv qisqartmalarida bo'sh joy bo'lmasligi kerak."
 
 #: src/preferences/ephy-search-engine-row.c:200
 msgid "Search shortcuts should start with a symbol such as !, # or @."
-msgstr ""
+msgstr "Qidiruv qisqartmalari !, # yoki @ kabi belgi bilan boshlanishi kerak."
 
 #: src/preferences/ephy-search-engine-row.c:333
 msgid "A name is required"
-msgstr ""
+msgstr "Nom talab qilinadi"
 
 #: src/preferences/ephy-search-engine-row.c:335
 msgid "This search engine already exists"
-msgstr ""
+msgstr "Bu qidiruv tizimi allaqachon mavjud"
 
 #: src/preferences/passwords-view.c:191
 #, fuzzy
 #| msgid "Remember passwords"
 msgid "Delete All Passwords?"
-msgstr "Maxfiy soʻzlarni eslab qolish"
+msgstr "Barcha parollar oʻchirilsinmi?"
 
 #: src/preferences/passwords-view.c:194
 msgid "This will clear all locally stored passwords, and can not be undone."
-msgstr ""
+msgstr "Bu barcha mahalliy saqlangan parollarni oʻchirib tashlaydi va buni ortga qaytarib boʻlmaydi."
 
 #: src/preferences/passwords-view.c:199 src/resources/gtk/history-dialog.ui:239
 msgid "_Delete"
-msgstr "_Olib tashlash"
+msgstr "_Oʻchirish"
 
 #: src/preferences/passwords-view.c:257
 #, fuzzy
 #| msgid "_Show passwords"
 msgid "Copy password"
-msgstr "Maxfiy soʻzlarni _koʻrsatish"
+msgstr "Parolni nusxalash"
 
 #: src/preferences/passwords-view.c:263
 #, fuzzy
 #| msgid "_Username:"
 msgid "Username"
-msgstr "_Foydalanuvchi nomi:"
+msgstr "Foydalanuvchi nomi"
 
 #: src/preferences/passwords-view.c:286
 #, fuzzy
 #| msgid "_Username:"
 msgid "Copy username"
-msgstr "_Foydalanuvchi nomi:"
+msgstr "Foydalanuvchi nomini nusxalash"
 
 #: src/preferences/passwords-view.c:292
 #, fuzzy
 #| msgid "Passwords"
 msgid "Password"
-msgstr "Maxfiy soʻzlar"
+msgstr "Parol"
 
 #: src/preferences/passwords-view.c:317
 #, fuzzy
 #| msgid "Remember passwords"
 msgid "Reveal password"
-msgstr "Maxfiy soʻzlarni eslab qolish"
+msgstr "Parolni ochish"
 
 #: src/preferences/passwords-view.c:327
 #, fuzzy
 #| msgid "Remember passwords"
 msgid "Remove Password"
-msgstr "Maxfiy soʻzlarni eslab qolish"
+msgstr "Parolni o'chirish"
 
 #: src/preferences/prefs-appearance-page.c:66
 msgid "Sans"
-msgstr ""
+msgstr "Sans"
 
 #: src/preferences/prefs-appearance-page.c:68
 msgid "Serif"
-msgstr ""
+msgstr "Serif"
 
 #: src/preferences/prefs-appearance-page.c:146
 msgid "Light"
-msgstr ""
+msgstr "Yorug'"
 
 #: src/preferences/prefs-appearance-page.c:148
 msgid "Dark"
-msgstr ""
+msgstr "Qorong'i"
 
 #: src/preferences/prefs-general-page.c:301
 #: src/resources/gtk/prefs-lang-dialog.ui:11
 msgid "Add Language"
-msgstr "Til qoʻshish"
+msgstr "Til qo'shish"
 
 #: src/preferences/prefs-general-page.c:530
 #: src/preferences/prefs-general-page.c:689
 #, c-format
 msgid "System language (%s)"
 msgid_plural "System languages (%s)"
-msgstr[0] ""
+msgstr[0] "Tizim tillari (%s)"
 msgstr[1] "Tizim tillari (%s)"
 
 #: src/preferences/prefs-general-page.c:895
 msgid "Web Application Icon"
-msgstr ""
+msgstr "Veb ilova ikonkasi"
 
 #: src/preferences/prefs-general-page.c:900
 msgid "Supported Image Files"
-msgstr ""
+msgstr "Qo'llab-quvvatlanadigan rasm fayllari"
 
 #: src/profile-migrator/ephy-profile-migrator.c:1803
 msgid "Executes only the n-th migration step"
-msgstr ""
+msgstr "Faqat n-chi migratsiya bosqichini bajaradi"
 
 #: src/profile-migrator/ephy-profile-migrator.c:1805
 msgid "Specifies the required version for the migrator"
-msgstr ""
+msgstr "Migrator uchun kerakli versiyani belgilaydi"
 
 #: src/profile-migrator/ephy-profile-migrator.c:1807
 msgid "Specifies the profile where the migrator should run"
-msgstr ""
+msgstr "Migrator ishga tushadigan profilni belgilaydi"
 
 #: src/profile-migrator/ephy-profile-migrator.c:1828
 msgid "Web profile migrator"
-msgstr ""
+msgstr "Veb-profil migrator"
 
 #: src/profile-migrator/ephy-profile-migrator.c:1829
 #, fuzzy
 #| msgid "GNOME Web Browser options"
 msgid "Web profile migrator options"
-msgstr "GNOME veb brauzeri parametrlari"
+msgstr "Veb-profilni ko'chirish imkoniyatlari"
 
 #. Translators: tooltip for the downloads button
 #: src/resources/gtk/action-bar-end.ui:18
 #, fuzzy
 #| msgid "Downloads"
 msgid "View downloads"
-msgstr "Yozib olish"
+msgstr "Yuklanishlarni ko'rish"
 
 #. Translators: tooltip for the bookmark button
 #: src/resources/gtk/action-bar-end.ui:56
 #, fuzzy
 #| msgid "Bookmark"
 msgid "Bookmark page"
-msgstr "Xatchoʻp"
+msgstr "Bookmark sahifasi"
 
 #. Translators: tooltip for the bookmarks popover button
 #: src/resources/gtk/action-bar-end.ui:73
 #, fuzzy
 #| msgid "Browse and organize your bookmarks"
 msgid "View and manage your bookmarks"
-msgstr "Xatchoʻplarni koʻrish va boshqarish"
+msgstr "Bookmarklarni koʻrish va boshqarish"
 
 #. Translators: tooltip for the back button
 #: src/resources/gtk/action-bar-start.ui:18
 #, fuzzy
 #| msgid "Go to the previous page"
 msgid "Go back to the previous page"
-msgstr "Oldingi sahifaga oʻtish"
+msgstr "Oldingi sahifaga qaytish"
 
 #. Translators: tooltip for the forward button
 #: src/resources/gtk/action-bar-start.ui:36
 #, fuzzy
 #| msgid "Go to next page"
 msgid "Go forward to the next page"
-msgstr "Keyingi sahifaga oʻtish"
+msgstr "Keyingi sahifaga o'tish"
 
 #. Translators: tooltip for the secret homepage button
 #: src/resources/gtk/action-bar-start.ui:72
 #, fuzzy
 #| msgid "Go to the home page"
 msgid "Go to your homepage"
-msgstr "Uy sahifasiga oʻtish"
+msgstr "Bosh sahifangizga o'tish"
 
 #. Translators: tooltip for the page switcher button
 #: src/resources/gtk/action-bar.ui:23
 msgid "View open pages"
-msgstr ""
+msgstr "Ochiq sahifalarni ko'rish"
 
 #: src/resources/gtk/bookmark-properties.ui:16
 msgid "Bookmark"
-msgstr "Xatchoʻp"
+msgstr "Bookmark"
 
 #: src/resources/gtk/bookmark-properties.ui:26
 #, fuzzy
 #| msgid "Name"
 msgid "_Name"
-msgstr "Nomi"
+msgstr "_Nomi"
 
 #: src/resources/gtk/bookmark-properties.ui:45
 msgid "_Address"
@@ -3257,20 +3270,20 @@ msgstr "_Manzil"
 #: src/resources/gtk/bookmark-properties.ui:63
 #: src/resources/gtk/bookmarks-popover.ui:77
 msgid "Tags"
-msgstr ""
+msgstr "Teglar"
 
 #: src/resources/gtk/bookmark-properties.ui:100
 #, fuzzy
 #| msgid "Add _Bookmark…"
 msgid "Add Tag…"
-msgstr "_Xatchoʻp qoʻshish…"
+msgstr "Teg qo‘shish…"
 
 #: src/resources/gtk/bookmark-properties.ui:105
 #: src/resources/gtk/prefs-lang-dialog.ui:23
 #, fuzzy
 #| msgid "_Address"
 msgid "_Add"
-msgstr "_Manzil"
+msgstr "_Qo'shish"
 
 #: src/resources/gtk/bookmarks-popover.ui:56
 msgid "All"
@@ -3280,98 +3293,100 @@ msgstr "Hammasi"
 #, fuzzy
 #| msgid "Show bookmarks bar by default"
 msgid "No bookmarks yet?"
-msgstr "Andoza boʻyicha xatchoʻplar panelini koʻrsatish"
+msgstr "Hali bookmarklar yo'qmi?"
 
 #: src/resources/gtk/bookmarks-popover.ui:179
 msgid "Bookmark some webpages to view them here."
-msgstr ""
+msgstr "Bu yerda koʻrish uchun baʼzi veb-sahifalarni belgilang."
 
 #: src/resources/gtk/clear-data-view.ui:22
 msgid "Website Data"
-msgstr ""
+msgstr "Veb-sayt ma'lumotlari"
 
 #: src/resources/gtk/clear-data-view.ui:23
 #, fuzzy
 #| msgid "P_ersonal Data"
 msgid "_Clear Data"
-msgstr "_Shaxsiy maʼlumot"
+msgstr "_Ma'lumotlarni tozalash"
 
 #: src/resources/gtk/clear-data-view.ui:24
 #, fuzzy
 #| msgid "Remove the selected toolbar"
 msgid "Remove selected website data"
-msgstr "Tanlangan asboblar panelini olib tashlash"
+msgstr "Tanlangan veb-sayt ma'lumotlarini o'chirish"
 
 #: src/resources/gtk/clear-data-view.ui:25
 #, fuzzy
 #| msgid "Search the web"
 msgid "Search website data"
-msgstr "Internetda qidirish"
+msgstr "Veb-sayt ma'lumotlarini qidirish"
 
 #: src/resources/gtk/clear-data-view.ui:26
 msgid "There is no Website Data"
-msgstr ""
+msgstr "Veb-sayt ma'lumotlari yo'q"
 
 #: src/resources/gtk/clear-data-view.ui:27
 msgid "Website data will be listed here"
-msgstr ""
+msgstr "Veb-sayt ma'lumotlari bu yerda ko'rsatiladi"
 
 #: src/resources/gtk/clear-data-view.ui:55
 msgid "Clear selected website data:"
-msgstr ""
+msgstr "Tanlangan veb-sayt ma'lumotlarini tozalash:"
 
 #: src/resources/gtk/clear-data-view.ui:113
 msgid ""
 "You cannot undo this action. The data you are choosing to clear will be "
 "removed forever."
 msgstr ""
+"Siz bu amalni bekor qila olmaysiz. Siz oʻchirishni tanlagan"
+"maʼlumotlaringiz butunlay oʻchirib tashlanadi."
 
 #: src/resources/gtk/data-view.ui:44 src/resources/gtk/history-dialog.ui:69
 #: src/resources/gtk/history-dialog.ui:114
 #, fuzzy
 #| msgid "_Search:"
 msgid "Search"
-msgstr "_Qidirish:"
+msgstr "Qidirish"
 
 #: src/resources/gtk/data-view.ui:100 src/resources/gtk/history-dialog.ui:198
 #, fuzzy
 #| msgid "Not found"
 msgid "No Results Found"
-msgstr "Topilmadi"
+msgstr "Hech qanday natija topilmadi"
 
 #: src/resources/gtk/data-view.ui:101 src/resources/gtk/history-dialog.ui:199
 msgid "Try a different search"
-msgstr ""
+msgstr "Boshqa qidiruvni sinab ko'ring"
 
 #: src/resources/gtk/encoding-dialog.ui:6
 msgid "Text Encoding"
-msgstr "Matn kodlash usuli"
+msgstr "Matnni kodlash"
 
 #: src/resources/gtk/encoding-dialog.ui:34
 msgid "Use the encoding specified by the document"
-msgstr "Hujjat kodlash usulidan foydalanish"
+msgstr "Hujjatda ko'rsatilgan kodlashdan foydalaning"
 
 #: src/resources/gtk/encoding-dialog.ui:68
 #, fuzzy
 #| msgid "Other encodings"
 msgid "Recent encodings"
-msgstr "Boshqa kodlash usullari"
+msgstr "Oxirgi kodlashlar"
 
 #: src/resources/gtk/encoding-dialog.ui:98
 #, fuzzy
 #| msgid "Other encodings"
 msgid "Related encodings"
-msgstr "Boshqa kodlash usullari"
+msgstr "Tegishli kodlashlar"
 
 #: src/resources/gtk/encoding-dialog.ui:123
 msgid "Show all…"
-msgstr ""
+msgstr "Hammasini ko'rish…"
 
 #: src/resources/gtk/firefox-sync-dialog.ui:20
 #, fuzzy
 #| msgid "Firefox"
 msgid "Firefox Sync"
-msgstr "Firefox"
+msgstr "Firefox Sync"
 
 #: src/resources/gtk/firefox-sync-dialog.ui:28
 msgid ""
@@ -3379,70 +3394,73 @@ msgid ""
 "Firefox on other computers. GNOME Web is not Firefox and is not produced or "
 "endorsed by Mozilla."
 msgstr ""
+"Maʼlumotlaringizni boshqa kompyuterlarda GNOME Web va Firefox bilan sinxronlashtirish"
+"uchun Firefox hisob qaydnomangiz bilan kiring. GNOME Web Firefox emas va Mozilla"
+"tomonidan ishlab chiqarilmagan yoki tasdiqlanmagan."
 
 #: src/resources/gtk/firefox-sync-dialog.ui:47
 #, fuzzy
 #| msgid "Firefox"
 msgid "Firefox Account"
-msgstr "Firefox"
+msgstr "Firefox hisobi"
 
 #: src/resources/gtk/firefox-sync-dialog.ui:51
 msgid "Logged in"
-msgstr ""
+msgstr "Tizimga kirgan"
 
 #: src/resources/gtk/firefox-sync-dialog.ui:56
 #, fuzzy
 #| msgid "Sign Text"
 msgid "Sign _out"
-msgstr "Matnni imzolash"
+msgstr "Tizimdan chiqish"
 
 #: src/resources/gtk/firefox-sync-dialog.ui:69
 msgid "Sync Options"
-msgstr ""
+msgstr "Sinxronizatsiya parametrlari"
 
 #: src/resources/gtk/firefox-sync-dialog.ui:74
 #, fuzzy
 #| msgid "_Bookmarks"
 msgid "Sync _Bookmarks"
-msgstr "_Xatchoʻplar"
+msgstr "_Bookmarklarni sinxronlash"
 
 #: src/resources/gtk/firefox-sync-dialog.ui:88
 #, fuzzy
 #| msgid "Passwords"
 msgid "Sync _Passwords"
-msgstr "Maxfiy soʻzlar"
+msgstr "_Parollarni sinxronlash"
 
 #: src/resources/gtk/firefox-sync-dialog.ui:102
 #, fuzzy
 #| msgid "History"
 msgid "Sync _History"
-msgstr "Tarix"
+msgstr "_Tarixni sinxronlash"
 
 #: src/resources/gtk/firefox-sync-dialog.ui:116
 #, fuzzy
 #| msgid "Open in New _Tabs"
 msgid "Sync Open _Tabs"
-msgstr "Yangi _tablarda ochish"
+msgstr "Ochiq _tablarni sinxronlash"
 
 #: src/resources/gtk/firefox-sync-dialog.ui:127
 msgid "S_ynced tabs"
-msgstr ""
+msgstr "Sinxronlangan tablar"
 
 #: src/resources/gtk/firefox-sync-dialog.ui:138
 msgid "Frequency"
-msgstr ""
+msgstr "Chastotasi"
 
 #: src/resources/gtk/firefox-sync-dialog.ui:149
 msgid "Sync _now"
-msgstr ""
+msgstr "Hozir Sinxronlash"
 
 #: src/resources/gtk/firefox-sync-dialog.ui:161
 msgid "Device name"
-msgstr ""
+msgstr "Qurilma nomi"
 
 #: src/resources/gtk/firefox-sync-dialog.ui:184
 msgid "_Change"
-msgstr ""
+msgstr "_O'zgartirish"
 
 #: src/resources/gtk/history-dialog.ui:27
 #: src/resources/gtk/history-dialog.ui:82
@@ -3453,27 +3471,27 @@ msgstr "Tarix"
 #, fuzzy
 #| msgid "Select _All"
 msgid "Select Items"
-msgstr "_Hammasini tanlash"
+msgstr "Elementlarni tanlash"
 
 #: src/resources/gtk/history-dialog.ui:138
 #, fuzzy
 #| msgid "Back history"
 msgid "Search history"
-msgstr "Tarix boʻyicha orqaga"
+msgstr "Qidiruv tarixi"
 
 #: src/resources/gtk/history-dialog.ui:190
 msgid "The History is Empty"
-msgstr ""
+msgstr "Tarix bo'sh"
 
 #: src/resources/gtk/history-dialog.ui:191
 msgid "Visited pages will be listed here"
-msgstr ""
+msgstr "Tashrif buyurilgan sahifalar shu yerda ko‘rsatiladi"
 
 #: src/resources/gtk/lang-row.ui:39
 #, fuzzy
 #| msgid "Delete text"
 msgid "Delete language"
-msgstr "Matnni olib tashlash"
+msgstr "Tilni oʻchirish"
 
 #: src/resources/gtk/notebook-context-menu.ui:7
 #, fuzzy
@@ -3483,43 +3501,43 @@ msgstr "_Qaytadan yuklash"
 
 #: src/resources/gtk/notebook-context-menu.ui:11
 msgid "Reload _All Tabs"
-msgstr ""
+msgstr "_Barcha tablarni qayta yuklash"
 
 #: src/resources/gtk/notebook-context-menu.ui:15
 msgid "_Duplicate"
-msgstr ""
+msgstr "_Dublikat"
 
 #: src/resources/gtk/notebook-context-menu.ui:21
 msgid "P_in Tab"
-msgstr ""
+msgstr "Tabni qadash"
 
 #: src/resources/gtk/notebook-context-menu.ui:26
 msgid "Unp_in Tab"
-msgstr ""
+msgstr "Tabni olib tashlash"
 
 #: src/resources/gtk/notebook-context-menu.ui:31
 #, fuzzy
 #| msgid "_Next Tab"
 msgid "_Mute Tab"
-msgstr "_Keyingi tab"
+msgstr "_Tabni o‘chirish"
 
 #: src/resources/gtk/notebook-context-menu.ui:38
 #, fuzzy
 #| msgid "Move Tab _Left"
 msgid "Close Tabs to the _Left"
-msgstr "Tabni _chapga koʻchirish"
+msgstr "Tablarni _chapga yopish"
 
 #: src/resources/gtk/notebook-context-menu.ui:42
 #, fuzzy
 #| msgid "Move Tab _Right"
 msgid "Close Tabs to the _Right"
-msgstr "Tabni _oʻngga koʻchirish"
+msgstr "Tablarni _o'ngga yopish"
 
 #: src/resources/gtk/notebook-context-menu.ui:46
 #, fuzzy
 #| msgid "Close this tab"
 msgid "Close _Other Tabs"
-msgstr "Ushbu tab oynani yopish"
+msgstr "_Boshqa tablarni yopish"
 
 #: src/resources/gtk/notebook-context-menu.ui:50
 msgid "_Close"
@@ -3528,40 +3546,40 @@ msgstr "_Yopish"
 #: src/resources/gtk/page-menu-popover.ui:23
 msgctxt "tooltip"
 msgid "Zoom Out"
-msgstr ""
+msgstr "Kichraytirish"
 
 #: src/resources/gtk/page-menu-popover.ui:36
 msgid "Restore Zoom"
-msgstr ""
+msgstr "Masshtabni tiklash"
 
 #: src/resources/gtk/page-menu-popover.ui:49
 msgctxt "tooltip"
 msgid "Zoom In"
-msgstr ""
+msgstr "Kattalashtirish"
 
 #: src/resources/gtk/page-menu-popover.ui:72
 #, fuzzy
 #| msgid "_Print…"
 msgid "Print…"
-msgstr "_Bosib chiqarish…"
+msgstr "Chop etish…"
 
 #: src/resources/gtk/page-menu-popover.ui:82
 #, fuzzy
 #| msgid "_Find…"
 msgid "Find…"
-msgstr "_Qidirish…"
+msgstr "Qidirish…"
 
 #: src/resources/gtk/page-menu-popover.ui:92
 #, fuzzy
 #| msgid "_Fullscreen"
 msgid "Fullscreen"
-msgstr "_Butun ekran"
+msgstr "To'liq ekran"
 
 #: src/resources/gtk/page-menu-popover.ui:138
 #, fuzzy
 #| msgid "_Use Image As Background"
 msgid "_Run in Background"
-msgstr "Rasmni orqa fon sifatida _ishlatish"
+msgstr "_Fonda ishga tushirish"
 
 #: src/resources/gtk/page-menu-popover.ui:155
 msgid "_New Window"
@@ -3571,47 +3589,47 @@ msgstr "_Yangi oyna"
 #, fuzzy
 #| msgid "_New Window"
 msgid "New _Incognito Window"
-msgstr "_Yangi oyna"
+msgstr "Yangi _Inkognito oynasi"
 
 #: src/resources/gtk/page-menu-popover.ui:178
 msgid "Reopen Closed _Tab"
-msgstr ""
+msgstr "Yopiq _tabni qayta ochish"
 
 #: src/resources/gtk/page-menu-popover.ui:185
 #, fuzzy
 #| msgid "History"
 msgid "_History"
-msgstr "Tarix"
+msgstr "_Tarix"
 
 #: src/resources/gtk/page-menu-popover.ui:201
 #, fuzzy
 #| msgid "Firefox"
 msgid "Firefox _Sync"
-msgstr "Firefox"
+msgstr "Firefox _Sync"
 
 #: src/resources/gtk/page-menu-popover.ui:208
 msgid "I_mport and Export"
-msgstr ""
+msgstr "Import va Eksport"
 
 #: src/resources/gtk/page-menu-popover.ui:224
 msgid "Install Site as Web _Application…"
-msgstr ""
+msgstr "Saytni veb-ilova sifatida o'rnatish…"
 
 #: src/resources/gtk/page-menu-popover.ui:231
 msgid "Open Appli_cation Manager"
-msgstr ""
+msgstr "Ilovalar menejerini ochish"
 
 #: src/resources/gtk/page-menu-popover.ui:238
 #, fuzzy
 #| msgid "Active extensions"
 msgid "E_xtensions"
-msgstr "Aktiv kengaytmalar"
+msgstr "Kengaytmalar"
 
 #: src/resources/gtk/page-menu-popover.ui:254
 #, fuzzy
 #| msgid "Text Encoding"
 msgid "_Override Text Encoding…"
-msgstr "Matn kodlash usuli"
+msgstr "_Matn kodlashni bekor qilish…"
 
 #: src/resources/gtk/page-menu-popover.ui:269
 #, fuzzy
@@ -3621,7 +3639,7 @@ msgstr "Parametrlar"
 
 #: src/resources/gtk/page-menu-popover.ui:277
 msgid "_Keyboard Shortcuts"
-msgstr ""
+msgstr "_Klaviatura yorliqlari"
 
 #: src/resources/gtk/page-menu-popover.ui:285
 msgid "_Help"
@@ -3631,144 +3649,144 @@ msgstr "_Yordam"
 #, fuzzy
 #| msgid "_About"
 msgid "_About Web"
-msgstr "Dastur _haqida"
+msgstr "_Web haqida"
 
 #: src/resources/gtk/page-menu-popover.ui:316
 #, fuzzy
 #| msgid "Import failed"
 msgid "Import and Export"
-msgstr "Import qilib boʻlmadi"
+msgstr "Import va Eksport"
 
 #: src/resources/gtk/page-menu-popover.ui:326
 #, fuzzy
 #| msgid "_Import Bookmarks…"
 msgid "I_mport Bookmarks…"
-msgstr "Xatchoʻplarni _import qilish…"
+msgstr "Bookmarklarni import qilish…"
 
 #: src/resources/gtk/page-menu-popover.ui:333
 #, fuzzy
 #| msgid "_Export Bookmarks…"
 msgid "E_xport Bookmarks…"
-msgstr "Xatchoʻplarni _eksport qilish…"
+msgstr "Bookmarklarni eksport qilish…"
 
 #: src/resources/gtk/page-menu-popover.ui:348
 #, fuzzy
 #| msgid "_Import Bookmarks…"
 msgid "Import _Passwords…"
-msgstr "Xatchoʻplarni _import qilish…"
+msgstr "_Parollarni import qilish…"
 
 #: src/resources/gtk/page-row.ui:61
 #, fuzzy
 #| msgid "Home page"
 msgid "Close page"
-msgstr "Uy sahifasi"
+msgstr "Sahifani yopish"
 
 #: src/resources/gtk/pages-view.ui:11
 #, fuzzy
 #| msgid "_Tabs"
 msgid "Tabs"
-msgstr "_Tablar"
+msgstr "Tablar"
 
 #: src/resources/gtk/passwords-view.ui:25
 #: src/resources/gtk/prefs-privacy-page.ui:107
 msgid "Passwords"
-msgstr "Maxfiy soʻzlar"
+msgstr "Parollar"
 
 #: src/resources/gtk/passwords-view.ui:28
 #, fuzzy
 #| msgid "Remember passwords"
 msgid "Remove all passwords"
-msgstr "Maxfiy soʻzlarni eslab qolish"
+msgstr "Barcha parollarni o'chirish"
 
 #: src/resources/gtk/passwords-view.ui:29
 #, fuzzy
 #| msgid "_Show passwords"
 msgid "Search passwords"
-msgstr "Maxfiy soʻzlarni _koʻrsatish"
+msgstr "Parollarni qidirish"
 
 #: src/resources/gtk/passwords-view.ui:30
 #, fuzzy
 #| msgid "User Password"
 msgid "There are no Passwords"
-msgstr "Foydalanuvchi maxfiy soʻzi"
+msgstr "Hech qanday parol yo'q"
 
 #: src/resources/gtk/passwords-view.ui:31
 msgid "Saved passwords will be listed here"
-msgstr ""
+msgstr "Saqlangan parollar shu yerda ko'rsatiladi"
 
 #: src/resources/gtk/passwords-view.ui:73
 #, fuzzy
 #| msgid "_Password:"
 msgid "_Copy Password"
-msgstr "_Maxfiy soʻz:"
+msgstr "_Parolni nusxalash"
 
 #: src/resources/gtk/passwords-view.ui:77
 #, fuzzy
 #| msgid "_Username:"
 msgid "C_opy Username"
-msgstr "_Foydalanuvchi nomi:"
+msgstr "Foydalanuvchi nomini nusxalash"
 
 #: src/resources/gtk/prefs-appearance-page.ui:6
 msgid "Appearance"
-msgstr ""
+msgstr "Tashqi ko'rinish"
 
 #: src/resources/gtk/prefs-appearance-page.ui:10
 msgid "Fonts"
-msgstr ""
+msgstr "Shriftlar"
 
 #: src/resources/gtk/prefs-appearance-page.ui:15
 #, fuzzy
 #| msgid "Use own fonts"
 msgid "Use Custom Fonts"
-msgstr "Foydalanuvchi shriftlaridan foydalanish"
+msgstr "Maxsus shriftlardan foydalanish"
 
 #: src/resources/gtk/prefs-appearance-page.ui:20
 msgid "Sans serif font"
-msgstr ""
+msgstr "Sans serif shrift"
 
 #: src/resources/gtk/prefs-appearance-page.ui:35
 msgid "Serif font"
-msgstr ""
+msgstr "Serif shrifti"
 
 #: src/resources/gtk/prefs-appearance-page.ui:50
 msgid "Monospace font"
-msgstr ""
+msgstr "Monospace shrifti"
 
 #: src/resources/gtk/prefs-appearance-page.ui:68
 msgid "Reader Mode"
-msgstr ""
+msgstr "O'qish rejimi"
 
 #: src/resources/gtk/prefs-appearance-page.ui:72
 #, fuzzy
 #| msgid "Fonts & Style"
 msgid "Font Style"
-msgstr "Shriftlar va uslub"
+msgstr "Shrift uslubi"
 
 #: src/resources/gtk/prefs-appearance-page.ui:78
 msgid "Color Scheme"
-msgstr ""
+msgstr "Rang sxemasi"
 
 #: src/resources/gtk/prefs-appearance-page.ui:86
 msgid "Style"
-msgstr ""
+msgstr "Uslub"
 
 #: src/resources/gtk/prefs-appearance-page.ui:91
 #, fuzzy
 #| msgid "Use custom _stylesheet"
 msgid "Use Custom Stylesheet"
-msgstr "Boshqa _uslubdan foydalanish"
+msgstr "Maxsus uslublar jadvalidan foydalanish"
 
 #: src/resources/gtk/prefs-appearance-page.ui:126
 #, fuzzy
 #| msgid "Enable JavaScript"
 msgid "Use Custom JavaScript"
-msgstr "JavaScript'ni yoqish"
+msgstr "Maxsus JavaScript dan foydalanish"
 
 #: src/resources/gtk/prefs-appearance-page.ui:161
 #, fuzzy
 #| msgid "Default font type"
 msgid "Default Zoom Level"
-msgstr "Andoza shrift turi"
+msgstr "Standart kattalashtirish darajasi"
 
 #: src/resources/gtk/prefs-general-page.ui:6
 msgid "General"
@@ -3776,17 +3794,17 @@ msgstr "Umumiy"
 
 #: src/resources/gtk/prefs-general-page.ui:10
 msgid "Web Application"
-msgstr ""
+msgstr "Veb ilova"
 
 #: src/resources/gtk/prefs-general-page.ui:15
 msgid "_Icon"
-msgstr ""
+msgstr "_Ikonka"
 
 #: src/resources/gtk/prefs-general-page.ui:38
 #, fuzzy
 #| msgid "Home page"
 msgid "_Homepage"
-msgstr "Uy sahifasi"
+msgstr "_Bosh sahifa"
 
 #: src/resources/gtk/prefs-general-page.ui:53
 msgid "_Title"
@@ -3794,87 +3812,87 @@ msgstr "_Sarlavha"
 
 #: src/resources/gtk/prefs-general-page.ui:68
 msgid "_Manage Additional URLs"
-msgstr ""
+msgstr "_Qo‘shimcha URL manzillarni boshqarish"
 
 #: src/resources/gtk/prefs-general-page.ui:93
 #, fuzzy
 #| msgid "Content:"
 msgid "Web Content"
-msgstr "Tarkib:"
+msgstr "Veb-kontent"
 
 #: src/resources/gtk/prefs-general-page.ui:98
 msgid "Block _Advertisements"
-msgstr ""
+msgstr "_Reklamalarni bloklash"
 
 #: src/resources/gtk/prefs-general-page.ui:112
 #, fuzzy
 #| msgid "Popup _Windows"
 msgid "Block _Popup Windows"
-msgstr "Popap _oynalar"
+msgstr "_Qalqib chiquvchi oynalarni bloklash"
 
 #: src/resources/gtk/prefs-general-page.ui:132
 msgid "Most _Visited Pages"
-msgstr ""
+msgstr "Eng ko'p tashrif buyurilgan sahifalar"
 
 #: src/resources/gtk/prefs-general-page.ui:146
 #, fuzzy
 #| msgid "Blank page"
 msgid "_Blank Page"
-msgstr "Boʻsh sahifa"
+msgstr "_Bo'sh sahifa"
 
 #: src/resources/gtk/prefs-general-page.ui:161
 msgid "_Custom"
-msgstr ""
+msgstr "_Maxsus"
 
 #: src/resources/gtk/prefs-general-page.ui:190
 #, fuzzy
 #| msgid "_Download"
 msgid "Ask o_n Download"
-msgstr "_Yozib olish"
+msgstr "Yuklab olishda so'rash"
 
 #: src/resources/gtk/prefs-general-page.ui:205
 #, fuzzy
 #| msgid "_Download folder:"
 msgid "_Download Folder"
-msgstr "_Yozib olish jildi:"
+msgstr "_Yuklanishlar jildi"
 
 #: src/resources/gtk/prefs-general-page.ui:250
 msgid "Search Engines"
-msgstr ""
+msgstr "Qidiruv tizimlari"
 
 #: src/resources/gtk/prefs-general-page.ui:261
 msgid "Session"
-msgstr ""
+msgstr "Sessiya"
 
 #: src/resources/gtk/prefs-general-page.ui:266
 msgid "Start in _Incognito Mode"
-msgstr ""
+msgstr "Inkognito rejimida boshlash"
 
 #: src/resources/gtk/prefs-general-page.ui:280
 msgid "_Restore Tabs on Startup"
-msgstr ""
+msgstr "_Ishga tushirishda tablarni tiklash"
 
 #: src/resources/gtk/prefs-general-page.ui:295
 msgid "Browsing"
-msgstr ""
+msgstr "Ko‘rilmoqda"
 
 #: src/resources/gtk/prefs-general-page.ui:300
 msgid "Mouse _Gestures"
-msgstr ""
+msgstr "Sichqoncha _Imo-ishoralar"
 
 #: src/resources/gtk/prefs-general-page.ui:314
 msgid "S_witch Immediately to New Tabs"
-msgstr ""
+msgstr "Hozir yangi tablarga o'tish"
 
 #: src/resources/gtk/prefs-general-page.ui:349
 msgid "_Spell Checking"
-msgstr ""
+msgstr "_Imlo tekshirish"
 
 #: src/resources/gtk/prefs-lang-dialog.ui:48
 #, fuzzy
 #| msgid "Choose a l_anguage:"
 msgid "Choose a language:"
-msgstr "_Tilni tanlash:"
+msgstr "Til tanlang:"
 
 #: src/resources/gtk/prefs-privacy-page.ui:6
 msgid "Privacy"
@@ -3884,65 +3902,66 @@ msgstr "Maxfiylik"
 #, fuzzy
 #| msgid "Web pages"
 msgid "Web Safety"
-msgstr "Veb sahifalar"
+msgstr "Web xavfsizligi"
 
 #: src/resources/gtk/prefs-privacy-page.ui:15
 msgid "Block Dangerous Web_sites"
-msgstr ""
+msgstr "Xavfli veb-saytlarni bloklash"
 
 #: src/resources/gtk/prefs-privacy-page.ui:30
 msgid "Web Tracking"
-msgstr ""
+msgstr "Veb-kuzatuv"
 
 #: src/resources/gtk/prefs-privacy-page.ui:35
 msgid "Intelligent _Tracking Prevention"
-msgstr ""
+msgstr "Intelligent _Tracking Prevention"
 
 #: src/resources/gtk/prefs-privacy-page.ui:49
 msgid "Allow websites to store cookies, databases, and local storage data."
-msgstr ""
+msgstr "Veb-saytlarga cookie-fayllar, ma'lumotlar bazalari va mahalliy saqlash"
+"ma'lumotlarini saqlashga ruxsat bering."
 
 #: src/resources/gtk/prefs-privacy-page.ui:50
 msgid "_Website Data Storage"
-msgstr ""
+msgstr "_Veb-sayt ma'lumotlarini saqlash"
 
 #: src/resources/gtk/prefs-privacy-page.ui:65
 msgid "Search Suggestions"
-msgstr ""
+msgstr "Qidiruv takliflari"
 
 #: src/resources/gtk/prefs-privacy-page.ui:70
 msgid "Enable search suggestions in the URL entry."
-msgstr ""
+msgstr "URL kiritishda qidiruv takliflarini yoqing."
 
 #: src/resources/gtk/prefs-privacy-page.ui:71
 msgid "_Google Search Suggestions"
-msgstr ""
+msgstr "Google qidiruv bo'yicha takliflar"
 
 #: src/resources/gtk/prefs-privacy-page.ui:86
 msgid "Personal Data"
-msgstr "Shaxsiy maʼlumot"
+msgstr "Shaxsiy malumot"
 
 #: src/resources/gtk/prefs-privacy-page.ui:91
 msgid "Clear Website _Data"
-msgstr ""
+msgstr "Veb-sayt _Ma'lumotlarini tozalash"
 
 #: src/resources/gtk/prefs-privacy-page.ui:112
 #, fuzzy
 #| msgid "Passwords"
 msgid "_Passwords"
-msgstr "Maxfiy soʻzlar"
+msgstr "_Parollar"
 
 #: src/resources/gtk/prefs-privacy-page.ui:127
 #, fuzzy
 #| msgid "_Remember passwords"
 msgid "_Remember Passwords"
-msgstr "Maxfiy soʻzlarni _eslab qolish"
+msgstr "_Parollarni eslab qolish"
 
 #: src/resources/gtk/search-engine-row.ui:10
 #, fuzzy
 #| msgid "Select the entire page"
 msgid "Selects the default search engine"
-msgstr "Butun sahifani tanlash"
+msgstr "Standart qidiruv tizimini tanlaydi"
 
 #: src/resources/gtk/search-engine-row.ui:31
 msgid "Name"
@@ -3954,7 +3973,7 @@ msgstr "Manzil"
 
 #: src/resources/gtk/search-engine-row.ui:79
 msgid "Shortcut"
-msgstr ""
+msgstr "Yorliq"
 
 #: src/resources/gtk/search-engine-row.ui:106
 #, c-format
@@ -3962,10 +3981,12 @@ msgid ""
 "To determine the search address, perform a search using the search engine "
 "that you want to add and replace the search term with %s."
 msgstr ""
+"Qidiruv manzilini aniqlash uchun siz qo'shmoqchi bo'lgan qidiruv tizimi"
+"yordamida qidiruvni amalga oshiring va qidiruv so'zini %s bilan almashtiring."
 
 #: src/resources/gtk/search-engine-row.ui:126
 msgid "R_emove Search Engine"
-msgstr ""
+msgstr "Qidiruv tizimini o'chirish"
 
 #: src/resources/gtk/shortcuts-dialog.ui:15
 #, fuzzy
@@ -3979,12 +4000,12 @@ msgstr "Umumiy"
 #| msgid "_New Window"
 msgctxt "shortcut window"
 msgid "New window"
-msgstr "_Yangi oyna"
+msgstr "Yangi oyna"
 
 #: src/resources/gtk/shortcuts-dialog.ui:26
 msgctxt "shortcut window"
 msgid "New incognito window"
-msgstr ""
+msgstr "Yangi inkognito oynasi"
 
 #: src/resources/gtk/shortcuts-dialog.ui:33
 #, fuzzy
@@ -3998,83 +4019,83 @@ msgstr "Faylni ochish"
 #| msgid "Save Image As"
 msgctxt "shortcut window"
 msgid "Save page"
-msgstr "Rasmni boshqacha saqlash"
+msgstr "Sahifani saqlash"
 
 #: src/resources/gtk/shortcuts-dialog.ui:47
 msgctxt "shortcut window"
 msgid "Take Screenshot"
-msgstr ""
+msgstr "Skrinshot olish"
 
 #: src/resources/gtk/shortcuts-dialog.ui:54
 #, fuzzy
 #| msgid "Print preview"
 msgctxt "shortcut window"
 msgid "Print page"
-msgstr "Koʻrib chiqish"
+msgstr "Sahifani chop etish"
 
 #: src/resources/gtk/shortcuts-dialog.ui:61
 msgctxt "shortcut window"
 msgid "Quit"
-msgstr ""
+msgstr "Chiqish"
 
 #: src/resources/gtk/shortcuts-dialog.ui:68
 #, fuzzy
 #| msgid "_Help"
 msgctxt "shortcut window"
 msgid "Help"
-msgstr "_Yordam"
+msgstr "Yordam"
 
 #: src/resources/gtk/shortcuts-dialog.ui:75
 #, fuzzy
 #| msgid "Open _Image"
 msgctxt "shortcut window"
 msgid "Open menu"
-msgstr "_Rasmni ochish"
+msgstr "Menyuni ochish"
 
 #: src/resources/gtk/shortcuts-dialog.ui:82
 msgctxt "shortcut window"
 msgid "Shortcuts"
-msgstr ""
+msgstr "Qisqa klavishlar"
 
 #: src/resources/gtk/shortcuts-dialog.ui:89
 #, fuzzy
 #| msgid "_Show Downloads"
 msgctxt "shortcut window"
 msgid "Show downloads list"
-msgstr "Yozib olishlarni _koʻrsatish"
+msgstr "Yuklab olinganlar roʻyxatini koʻrsatish"
 
 #: src/resources/gtk/shortcuts-dialog.ui:100
 #, fuzzy
 #| msgid "Organization:"
 msgctxt "shortcut window"
 msgid "Navigation"
-msgstr "Tashkilot:"
+msgstr "Navigatsiya"
 
 #: src/resources/gtk/shortcuts-dialog.ui:104
 #, fuzzy
 #| msgid "Go to the home page"
 msgctxt "shortcut window"
 msgid "Go to homepage"
-msgstr "Uy sahifasiga oʻtish"
+msgstr "Bosh sahifaga o'tish"
 
 #: src/resources/gtk/shortcuts-dialog.ui:111
 #, fuzzy
 #| msgid "Save the current page"
 msgctxt "shortcut window"
 msgid "Reload current page"
-msgstr "Joriy sahifani saqlash"
+msgstr "Joriy sahifani qayta yuklash"
 
 #: src/resources/gtk/shortcuts-dialog.ui:118
 msgctxt "shortcut window"
 msgid "Reload bypassing cache"
-msgstr ""
+msgstr "Keshni chetlab o'tib qayta yuklash"
 
 #: src/resources/gtk/shortcuts-dialog.ui:125
 #, fuzzy
 #| msgid "Set to Current _Page"
 msgctxt "shortcut window"
 msgid "Stop loading current page"
-msgstr "Joriy _sahifaga oʻrnatish"
+msgstr "Joriy sahifani yuklashni to'xtatish"
 
 #: src/resources/gtk/shortcuts-dialog.ui:132
 #: src/resources/gtk/shortcuts-dialog.ui:147
@@ -4082,7 +4103,7 @@ msgstr "Joriy _sahifaga oʻrnatish"
 #| msgid "Go to the previous page"
 msgctxt "shortcut window"
 msgid "Go back to the previous page"
-msgstr "Oldingi sahifaga oʻtish"
+msgstr "Oldingi sahifaga qaytish"
 
 #: src/resources/gtk/shortcuts-dialog.ui:139
 #: src/resources/gtk/shortcuts-dialog.ui:154
@@ -4090,75 +4111,75 @@ msgstr "Oldingi sahifaga oʻtish"
 #| msgid "Go to next page"
 msgctxt "shortcut window"
 msgid "Go forward to the next page"
-msgstr "Keyingi sahifaga oʻtish"
+msgstr "Keyingi sahifaga o'tish"
 
 #: src/resources/gtk/shortcuts-dialog.ui:164
 #, fuzzy
 #| msgid "_Tabs"
 msgctxt "shortcut window"
 msgid "Tabs"
-msgstr "_Tablar"
+msgstr "Tablar"
 
 #: src/resources/gtk/shortcuts-dialog.ui:168
 #, fuzzy
 #| msgid "New _Tab"
 msgctxt "shortcut window"
 msgid "New tab"
-msgstr "Yangi _tab"
+msgstr "Yangi tab"
 
 #: src/resources/gtk/shortcuts-dialog.ui:175
 #, fuzzy
 #| msgid "Detach current tab"
 msgctxt "shortcut window"
 msgid "Close current tab"
-msgstr "Joriy tabni ajratish"
+msgstr "Joriy tabni yopish"
 
 #: src/resources/gtk/shortcuts-dialog.ui:182
 #, fuzzy
 #| msgid "Close tab"
 msgctxt "shortcut window"
 msgid "Reopen closed tab"
-msgstr "Tabni yopish"
+msgstr "Yopiq tabni qayta ochish"
 
 #: src/resources/gtk/shortcuts-dialog.ui:189
 #, fuzzy
 #| msgid "Go to the next visited page"
 msgctxt "shortcut window"
 msgid "Go to the next tab"
-msgstr "Keyingi koʻrilgan sahifaga oʻtish"
+msgstr "Keyingi tabga o'tish"
 
 #: src/resources/gtk/shortcuts-dialog.ui:196
 #, fuzzy
 #| msgid "Go to the previous page"
 msgctxt "shortcut window"
 msgid "Go to the previous tab"
-msgstr "Oldingi sahifaga oʻtish"
+msgstr "Oldingi tabga o'tish"
 
 #: src/resources/gtk/shortcuts-dialog.ui:203
 #, fuzzy
 #| msgid "Move current tab to left"
 msgctxt "shortcut window"
 msgid "Move current tab to the left"
-msgstr "Joriy tabni chap tomonga koʻchirish"
+msgstr "Joriy tabni chapga surish"
 
 #: src/resources/gtk/shortcuts-dialog.ui:210
 #, fuzzy
 #| msgid "Move current tab to right"
 msgctxt "shortcut window"
 msgid "Move current tab to the right"
-msgstr "Joriy tabni oʻng tomonga koʻchirish"
+msgstr "Joriy tabni o'ngga surish"
 
 #: src/resources/gtk/shortcuts-dialog.ui:217
 #, fuzzy
 #| msgid "Detach current tab"
 msgctxt "shortcut window"
 msgid "Duplicate current tab"
-msgstr "Joriy tabni ajratish"
+msgstr "Joriy tabni duplikatsiya qilish"
 
 #: src/resources/gtk/shortcuts-dialog.ui:228
 msgctxt "shortcut window"
 msgid "Miscellaneous"
-msgstr ""
+msgstr "Turli xil"
 
 #: src/resources/gtk/shortcuts-dialog.ui:232
 #, fuzzy
@@ -4179,28 +4200,28 @@ msgstr "Parametrlar"
 #| msgid "Add a bookmark for the current page"
 msgctxt "shortcut window"
 msgid "Bookmark current page"
-msgstr "Joriy sahifa uchun xatchoʻp qoʻshish"
+msgstr "Joriy sahifani belgilash"
 
 #: src/resources/gtk/shortcuts-dialog.ui:253
 #, fuzzy
 #| msgid "Show bookmarks bar by default"
 msgctxt "shortcut window"
 msgid "Show bookmarks list"
-msgstr "Andoza boʻyicha xatchoʻplar panelini koʻrsatish"
+msgstr "Bookmarklar ro'yxatini ko'rsatish"
 
 #: src/resources/gtk/shortcuts-dialog.ui:260
 #, fuzzy
 #| msgid "Import Bookmarks"
 msgctxt "shortcut window"
 msgid "Import bookmarks"
-msgstr "Xatchoʻplarni import qilish"
+msgstr "Bookmarklarni import qilish"
 
 #: src/resources/gtk/shortcuts-dialog.ui:267
 #, fuzzy
 #| msgid "Export Bookmarks"
 msgctxt "shortcut window"
 msgid "Export bookmarks"
-msgstr "Xatchoʻplarni eksport qilish"
+msgstr "Bookmarklarni eksport qilish"
 
 #: src/resources/gtk/shortcuts-dialog.ui:274
 msgctxt "shortcut window"
@@ -4210,115 +4231,115 @@ msgstr ""
 #: src/resources/gtk/shortcuts-dialog.ui:285
 msgctxt "shortcut window"
 msgid "Web application"
-msgstr ""
+msgstr "Veb ilova"
 
 #: src/resources/gtk/shortcuts-dialog.ui:289
 msgctxt "shortcut window"
 msgid "Install site as web application"
-msgstr ""
+msgstr "Saytni veb-ilova sifatida o'rnatish"
 
 #: src/resources/gtk/shortcuts-dialog.ui:300
 #, fuzzy
 #| msgid "_View"
 msgctxt "shortcut window"
 msgid "View"
-msgstr "_Koʻrinish"
+msgstr "_Ko'rinish"
 
 #: src/resources/gtk/shortcuts-dialog.ui:304
 msgctxt "shortcut window"
 msgid "Zoom in"
-msgstr ""
+msgstr "Kattalashtirish"
 
 #: src/resources/gtk/shortcuts-dialog.ui:311
 msgctxt "shortcut window"
 msgid "Zoom out"
-msgstr ""
+msgstr "Kichraytirish"
 
 #: src/resources/gtk/shortcuts-dialog.ui:318
 msgctxt "shortcut window"
 msgid "Reset zoom"
-msgstr ""
+msgstr "Masshtabni tiklash"
 
 #: src/resources/gtk/shortcuts-dialog.ui:325
 #, fuzzy
 #| msgid "_Fullscreen"
 msgctxt "shortcut window"
 msgid "Fullscreen"
-msgstr "_Butun ekran"
+msgstr "To'liq ekran"
 
 #: src/resources/gtk/shortcuts-dialog.ui:332
 #, fuzzy
 #| msgid "_Page Source"
 msgctxt "shortcut window"
 msgid "View page source"
-msgstr "_Sahifa kodi"
+msgstr "Sahifa manbasini ko'rish"
 
 #: src/resources/gtk/shortcuts-dialog.ui:339
 msgctxt "shortcut window"
 msgid "Toggle inspector"
-msgstr ""
+msgstr "Inspektorni almashtirish"
 
 #: src/resources/gtk/shortcuts-dialog.ui:346
 msgctxt "shortcut window"
 msgid "Toggle reader mode"
-msgstr ""
+msgstr "Oʻqish rejimini oʻzgartirish"
 
 #: src/resources/gtk/shortcuts-dialog.ui:357
 #, fuzzy
 #| msgid "_Edit"
 msgctxt "shortcut window"
 msgid "Editing"
-msgstr "_Tahrirlash"
+msgstr "Tahrirlash"
 
 #: src/resources/gtk/shortcuts-dialog.ui:361
 #, fuzzy
 #| msgid "Cu_t"
 msgctxt "shortcut window"
 msgid "Cut"
-msgstr "_Kesish"
+msgstr "Kesish"
 
 #: src/resources/gtk/shortcuts-dialog.ui:368
 #, fuzzy
 #| msgid "_Copy"
 msgctxt "shortcut window"
 msgid "Copy"
-msgstr "_Nusxa olish"
+msgstr "Nusxalash"
 
 #: src/resources/gtk/shortcuts-dialog.ui:375
 #, fuzzy
 #| msgid "_Paste"
 msgctxt "shortcut window"
 msgid "Paste"
-msgstr "_Qoʻyish"
+msgstr "Joylashtirish"
 
 #: src/resources/gtk/shortcuts-dialog.ui:382
 #, fuzzy
 #| msgid "_Undo"
 msgctxt "shortcut window"
 msgid "Undo"
-msgstr "_Bekor qilish"
+msgstr "Bekor qilish"
 
 #: src/resources/gtk/shortcuts-dialog.ui:389
 msgctxt "shortcut window"
 msgid "Redo"
-msgstr ""
+msgstr "Qaytarish"
 
 #: src/resources/gtk/shortcuts-dialog.ui:396
 #, fuzzy
 #| msgid "Select _All"
 msgctxt "shortcut window"
 msgid "Select all"
-msgstr "_Hammasini tanlash"
+msgstr "Hammasini belgilash"
 
 #: src/resources/gtk/shortcuts-dialog.ui:403
 msgctxt "shortcut window"
 msgid "Select page URL"
-msgstr ""
+msgstr "Sahifa URL manzilini tanlang"
 
 #: src/resources/gtk/shortcuts-dialog.ui:410
 msgctxt "shortcut window"
 msgid "Search with default search engine"
-msgstr ""
+msgstr "Standart qidiruv tizimi bilan qidirish"
 
 #: src/resources/gtk/shortcuts-dialog.ui:417
 #, fuzzy
@@ -4330,16 +4351,16 @@ msgstr "Qidirish"
 #: src/resources/gtk/shortcuts-dialog.ui:424
 msgctxt "shortcut window"
 msgid "Next find result"
-msgstr ""
+msgstr "Keyingi topilgan natija"
 
 #: src/resources/gtk/shortcuts-dialog.ui:431
 msgctxt "shortcut window"
 msgid "Previous find result"
-msgstr ""
+msgstr "Oldingi topilgan natija"
 
 #: src/resources/gtk/synced-tabs-dialog.ui:22
 msgid "Synced Tabs"
-msgstr ""
+msgstr "Sinxronlangan tablar"
 
 #: src/resources/gtk/synced-tabs-dialog.ui:41
 msgid ""
@@ -4347,12 +4368,15 @@ msgid ""
 "with this account. Open a tab by double clicking its name (tabs under Local "
 "Tabs cannot be opened)."
 msgstr ""
+"Quyida ushbu hisob bilan Firefox Sync ishlatadigan boshqa qurilmalaringizning"
+"sinxronlangan ochiq tablari mavjud. Yorliq nomini ikki marta bosish orqali ochish"
+"(Mahalliy tablar ostidagi tablarni ochib boʻlmaydi)."
 
 #: src/resources/gtk/webapp-additional-urls-dialog.ui:17
 #, fuzzy
 #| msgid "Additional safe protocols"
 msgid "Additional URLs"
-msgstr "Qoʻshimcha xavfsiz protokollar"
+msgstr "Qo'shimcha URL manzillar"
 
 #: src/resources/gtk/webapp-additional-urls-dialog.ui:28
 msgid ""
@@ -4360,6 +4384,8 @@ msgid ""
 "application. If you omit the URL scheme, the one from the currently loaded "
 "URL will be used."
 msgstr ""
+"Har qanday qo'shimcha URL bilan boshlanadigan URL veb-ilova tomonidan ochiladi."
+"Agar URL sxemasini o'tkazib yuborsangiz, joriy yuklangan URL-dan foydalaniladi."
 
 #: src/resources/gtk/webapp-additional-urls-dialog.ui:52
 #, fuzzy
@@ -4370,108 +4396,108 @@ msgstr "URL"
 
 #: src/resources/gtk/webapp-additional-urls-dialog.ui:77
 msgid "Add new URL"
-msgstr ""
+msgstr "Yangi URL qo'shish"
 
 #: src/resources/gtk/webapp-additional-urls-dialog.ui:90
 #, fuzzy
 #| msgid "Remove the selected toolbar"
 msgid "Remove the selected URLs"
-msgstr "Tanlangan asboblar panelini olib tashlash"
+msgstr "Tanlangan URL manzillarni o'chirish"
 
 #: src/resources/gtk/webapp-additional-urls-dialog.ui:104
 #, fuzzy
 #| msgid "Clear _All..."
 msgid "C_lear All"
-msgstr "_Hammasini tozalash..."
+msgstr "Hammasini tozalash"
 
 #: src/resources/gtk/web-extensions-dialog.ui:12
 #: src/resources/gtk/web-extensions-dialog.ui:21
 #, fuzzy
 #| msgid "Active extensions"
 msgid "Extensions"
-msgstr "Aktiv kengaytmalar"
+msgstr "Kengaytmalar"
 
 #: src/resources/gtk/web-extensions-dialog.ui:26
 #, fuzzy
 #| msgid "_Add Bookmark…"
 msgid "_Add…"
-msgstr "Xatchoʻp _qoʻshish…"
+msgstr "_Qo'shish…"
 
 #: src/resources/gtk/web-extensions-dialog.ui:40
 msgid "No Extensions Installed"
-msgstr ""
+msgstr "Kengaytmalar o'rnatilmagan"
 
 #: src/resources/gtk/web-extensions-dialog.ui:41
 msgid "Add some extensions to display them here."
-msgstr ""
+msgstr "Bu yerda ko‘rsatish uchun ba’zi kengaytmalar qo‘shing."
 
 #: src/search-provider/ephy-search-provider.c:214
 #, fuzzy, c-format
 #| msgid "Search the web"
 msgid "Search the web for “%s”"
-msgstr "Internetda qidirish"
+msgstr "“%s” uchun internetdan qidirish"
 
 #: src/search-provider/ephy-search-provider.c:224
 #, fuzzy, c-format
 #| msgid "Loading “%s”…"
 msgid "Load “%s”"
-msgstr "“%s” yuklanmoqda…"
+msgstr "“%s”ni yuklash"
 
 #: src/synced-tabs-dialog.c:190
 #, fuzzy
 #| msgid "Local files"
 msgid "Local Tabs"
-msgstr "Lokal fayllar"
+msgstr "Mahalliy tablar"
 
 #: src/webapp-provider/ephy-webapp-provider.c:120
 msgid "The install_token is required for the Install() method"
-msgstr ""
+msgstr "Install_token Install() usuli uchun talab qilinadi"
 
 #: src/webapp-provider/ephy-webapp-provider.c:126
 #, c-format
 msgid "The url passed was not valid: ‘%s’"
-msgstr ""
+msgstr "O‘tkazilgan url noto‘g‘ri: ‘%s’"
 
 #: src/webapp-provider/ephy-webapp-provider.c:132
 msgid "The name passed was not valid"
-msgstr ""
+msgstr "O'tkazilgan nom noto'g'ri"
 
 #: src/webapp-provider/ephy-webapp-provider.c:144
 #, c-format
 msgid "Installing the web application ‘%s’ (%s) failed: %s"
-msgstr ""
+msgstr "“%s” (%s) veb-ilovasini o‘rnatib bo‘lmadi: %s"
 
 #: src/webapp-provider/ephy-webapp-provider.c:176
 #, c-format
 msgid "The desktop file ID passed ‘%s’ was not valid"
-msgstr ""
+msgstr "Ish stoli fayl identifikatori ‘%s’dan o‘tgani noto‘g‘ri"
 
 #: src/webapp-provider/ephy-webapp-provider.c:185
 #, c-format
 msgid "The web application ‘%s’ does not exist"
-msgstr ""
+msgstr "“%s” veb-ilovasi mavjud emas"
 
 #: src/webapp-provider/ephy-webapp-provider.c:190
 #, c-format
 msgid "The web application ‘%s’ could not be deleted"
-msgstr ""
+msgstr "“%s” veb-ilovasini o‘chirib bo‘lmadi"
 
 #: src/webextension/api/runtime.c:161
 #, c-format
 msgid "Options for %s"
-msgstr ""
+msgstr "%s uchun parametrlar"
 
 #: src/window-commands.c:119
 #, fuzzy
 #| msgid "File"
 msgid "GVDB File"
-msgstr "Fayl"
+msgstr "GVDB fayl"
 
 #: src/window-commands.c:120
 #, fuzzy
 #| msgid "File"
 msgid "HTML File"
-msgstr "Fayl"
+msgstr "HTML fayl"
 
 #: src/window-commands.c:121
 msgid "Firefox"
@@ -4479,45 +4505,45 @@ msgstr "Firefox"
 
 #: src/window-commands.c:122 src/window-commands.c:699
 msgid "Chrome"
-msgstr ""
+msgstr "Chrome"
 
 #: src/window-commands.c:123 src/window-commands.c:700
 msgid "Chromium"
-msgstr ""
+msgstr "Chromium"
 
 #: src/window-commands.c:137 src/window-commands.c:561
 #: src/window-commands.c:778
 msgid "Ch_oose File"
-msgstr ""
+msgstr "Faylni tanlang"
 
 #: src/window-commands.c:139 src/window-commands.c:390
 #: src/window-commands.c:437 src/window-commands.c:780
 #: src/window-commands.c:807
 msgid "I_mport"
-msgstr "I_mport"
+msgstr "Import"
 
 #: src/window-commands.c:303 src/window-commands.c:378
 #: src/window-commands.c:425 src/window-commands.c:468
 #: src/window-commands.c:491 src/window-commands.c:507
 msgid "Bookmarks successfully imported!"
-msgstr ""
+msgstr "Bookmarklar muvaffaqiyatli import qilindi!"
 
 #: src/window-commands.c:316
 #, fuzzy
 #| msgid "Select _All"
 msgid "Select Profile"
-msgstr "_Hammasini tanlash"
+msgstr "Profilni tanlang"
 
 #: src/window-commands.c:387 src/window-commands.c:434
 #: src/window-commands.c:656
 #, fuzzy
 #| msgid "Choose a l_anguage:"
 msgid "Choose File"
-msgstr "_Tilni tanlash:"
+msgstr "Faylni tanlang"
 
 #: src/window-commands.c:556
 msgid "Import Bookmarks"
-msgstr "Xatchoʻplarni import qilish"
+msgstr "Bookmarklarni import qilish"
 
 #: src/window-commands.c:575 src/window-commands.c:821
 msgid "From:"
@@ -4525,24 +4551,24 @@ msgstr ""
 
 #: src/window-commands.c:618
 msgid "Bookmarks successfully exported!"
-msgstr ""
+msgstr "Bookmarklar muvaffaqiyatli eksport qilindi!"
 
 #. Translators: Only translate the part before ".html" (e.g. "bookmarks")
 #: src/window-commands.c:664
 #, fuzzy
 #| msgid "bookmarks|All"
 msgid "bookmarks.html"
-msgstr "Hammasi"
+msgstr "bookmarks.html"
 
 #: src/window-commands.c:741
 msgid "Passwords successfully imported!"
-msgstr ""
+msgstr "Parollar muvaffaqiyatli import qilindi!"
 
 #: src/window-commands.c:802
 #, fuzzy
 #| msgid "Passwords"
 msgid "Import Passwords"
-msgstr "Maxfiy soʻzlar"
+msgstr "Parollarni import qilish"
 
 #: src/window-commands.c:996
 #, c-format
@@ -4550,54 +4576,56 @@ msgid ""
 "A simple, clean, beautiful view of the web.\n"
 "Powered by WebKitGTK %d.%d.%d"
 msgstr ""
+"Internetning oddiy, toza va chiroyli ko'rinishi.\n"
+"WebKitGTK %d.%d.%d tomonidan quvvatlanadi"
 
 #: src/window-commands.c:1010
 #, fuzzy
 #| msgid "Epiphany bookmarks"
 msgid "Epiphany Canary"
-msgstr "Epiphany xatchoʻplari"
+msgstr "Epiphany Kanareyka"
 
 #: src/window-commands.c:1026
 msgid "Website"
-msgstr ""
+msgstr "Veb-sayt"
 
 #: src/window-commands.c:1059
 msgid "translator-credits"
-msgstr "Nurali Abdurahmonov <mavnur@gmail.com>"
+msgstr "Otabek Ismoilov <ismoilovdev@gmail.com>"
 
 #: src/window-commands.c:1219
 msgid "Do you want to reload this website?"
-msgstr ""
+msgstr "Ushbu veb-saytni qayta yuklashni xohlaysizmi?"
 
 #: src/window-commands.c:1821
 #, c-format
 msgid "The application “%s” is ready to be used"
-msgstr ""
+msgstr "“%s” ilovasi foydalanishga tayyor"
 
 #: src/window-commands.c:1824
 #, c-format
 msgid "The application “%s” could not be created: %s"
-msgstr ""
+msgstr "“%s” ilovasini yaratib bo‘lmadi: %s"
 
 #. Translators: Desktop notification when a new web app is created.
 #: src/window-commands.c:1833
 msgid "Launch"
-msgstr ""
+msgstr "Ishga tushirish"
 
 #: src/window-commands.c:1904
 #, c-format
 msgid "A web application named “%s” already exists. Do you want to replace it?"
-msgstr ""
+msgstr "“%s” nomli veb-ilova allaqachon mavjud. Uni almashtirmoqchimisiz?"
 
 #: src/window-commands.c:1907
 #, fuzzy
 #| msgid "_Cancel Logout"
 msgid "Cancel"
-msgstr "Chiqishni _bekor qilish"
+msgstr "Bekor qilish"
 
 #: src/window-commands.c:1909
 msgid "Replace"
-msgstr ""
+msgstr "O'zgartirish"
 
 #: src/window-commands.c:1913
 #, fuzzy
@@ -4608,32 +4636,31 @@ msgid ""
 "An application with the same name already exists. Replacing it will "
 "overwrite it."
 msgstr ""
-"Shunday nomli fayl allaqachon mavjud va uni almashtirish uchun sizda yetarli "
-"huquq yoʻq."
+"Bir xil nomdagi ilova allaqachon mavjud. Uni almashtirsangiz, uning ustiga yoziladi."
 
 #: src/window-commands.c:2126 src/window-commands.c:2182
 #, fuzzy
 #| msgid "Save As"
 msgid "Save"
-msgstr "Boshqacha saqlash"
+msgstr "Saqlash"
 
 #: src/window-commands.c:2147
 msgid "HTML"
-msgstr ""
+msgstr "HTML"
 
 #: src/window-commands.c:2152
 msgid "MHTML"
-msgstr ""
+msgstr "MHTML"
 
 #: src/window-commands.c:2203
 msgid "PNG"
-msgstr ""
+msgstr "PNG"
 
 #: src/window-commands.c:2707
 #, fuzzy
 #| msgid "Clear browsing history?"
 msgid "Enable caret browsing mode?"
-msgstr "Tarix tozalansinmi?"
+msgstr "Karetli koʻrish rejimi yoqilsinmi?"
 
 #: src/window-commands.c:2710
 msgid ""
@@ -4641,12 +4668,15 @@ msgid ""
 "cursor in web pages, allowing you to move around with your keyboard. Do you "
 "want to enable caret browsing?"
 msgstr ""
+"F7 tugmachasini bosish karetlarni ko'rishni yoqadi yoki o'chiradi. Bu xususiyat"
+"veb-sahifalarda harakatlanuvchi kursorni joylashtiradi, bu sizga klaviatura yordamida"
+"harakatlanish imkonini beradi. Karetlarni ko'rishni yoqmoqchimisiz?"
 
 #: src/window-commands.c:2713
 #, fuzzy
 #| msgid "Enable Java"
 msgid "_Enable"
-msgstr "Java'ni yoqish"
+msgstr "_Yoqish"
 
 #~ msgid "Epiphany Web Bookmarks"
 #~ msgstr "Epiphany brauzeri xatchoʻplari"
