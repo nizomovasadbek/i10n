@@ -10,7 +10,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/totem/issues\n"
 "POT-Creation-Date: 2022-09-25 19:59+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Otabek Ismoilov <ismoiovdev@gmail.com>\n"
+"Last-Translator: Otabek Ismoilov <ismoilovdev@gmail.com>\n"
 "Language-Team: Uzbek <cctld@uzinfocom.uz>\n"
 "Language: uz\n"
 "MIME-Version: 1.0\n"
@@ -288,403 +288,405 @@ msgstr "Displey"
 
 #: data/totem-preferences-dialog.ui:724
 msgid "Audio Output"
-msgstr ""
+msgstr "Ovoz chiqishi"
 
 #: data/totem-preferences-dialog.ui:757
 msgid "_Audio output type:"
-msgstr ""
+msgstr "_Audio chiqish turi:"
 
 #: data/totem-preferences-dialog.ui:829
 #: src/plugins/properties/properties.ui:512
 msgid "Audio"
-msgstr ""
+msgstr "Audio"
 
 #: data/shortcuts.ui:16
 msgctxt "shortcut window"
 msgid "General"
-msgstr ""
+msgstr "Umumiy"
 
 #: data/shortcuts.ui:21
 msgctxt "shortcut window"
 msgid "Show help"
-msgstr ""
+msgstr "Yordam ko'rsatish"
 
 #: data/shortcuts.ui:28
 msgctxt "shortcut window"
 msgid "Keyboard shortcuts"
-msgstr ""
+msgstr "Klaviatura yorliqlari"
 
 #: data/shortcuts.ui:35
 msgctxt "shortcut window"
 msgid "Add local video"
-msgstr ""
+msgstr "Mahalliy video qo'shish"
 
 #: data/shortcuts.ui:42
 msgctxt "shortcut window"
 msgid "Add web video"
-msgstr ""
+msgstr "Veb-video qo'shish"
 
 #: data/shortcuts.ui:49
 msgctxt "shortcut window"
 msgid "Properties"
-msgstr ""
+msgstr "Xususiyatlari"
 
 #: data/shortcuts.ui:56
 msgctxt "shortcut window"
 msgid "Make Available Offline"
-msgstr ""
+msgstr "Oflayn rejimda mavjud qilish"
 
 #: data/shortcuts.ui:63
 msgctxt "shortcut window"
 msgid "Take Screenshot"
-msgstr ""
+msgstr "Skrinshot olish"
 
 #: data/shortcuts.ui:70
 msgctxt "shortcut window"
 msgid "Quit"
-msgstr ""
+msgstr "Chiqish"
 
 #: data/shortcuts.ui:78
 msgctxt "shortcut window"
 msgid "Volume"
-msgstr ""
+msgstr "Ovoz balandligi"
 
 #: data/shortcuts.ui:83
 msgctxt "shortcut window"
 msgid "Increase volume"
-msgstr ""
+msgstr "Ovozni ko'tarish"
 
 #: data/shortcuts.ui:90
 msgctxt "shortcut window"
 msgid "Decrease volume"
-msgstr ""
+msgstr "Ovozni pasaytirish"
 
 #: data/shortcuts.ui:97
 msgctxt "shortcut window"
 msgid "Mute/unmute"
-msgstr ""
+msgstr "Ovozsiz/Ovozni yoqish"
 
 #: data/shortcuts.ui:105
 msgctxt "shortcut window"
 msgid "View"
-msgstr ""
+msgstr "Ko'rinish"
 
 #: data/shortcuts.ui:110
 msgctxt "shortcut window"
 msgid "Toggle fullscreen"
-msgstr ""
+msgstr "Toʻliq ekranga oʻtish"
 
 #: data/shortcuts.ui:117
 msgctxt "shortcut window"
 msgid "Exit fullscreen"
-msgstr ""
+msgstr "Toʻliq ekran rejimidan chiqish"
 
 #: data/shortcuts.ui:124
 msgctxt "shortcut window"
 msgid "Rotate ↷"
-msgstr ""
+msgstr "Aylantirish ↷"
 
 #: data/shortcuts.ui:131
 msgctxt "shortcut window"
 msgid "Rotate ↶"
-msgstr ""
+msgstr "Aylantirish ↶"
 
 #: data/shortcuts.ui:140
 msgctxt "shortcut window"
 msgid "Playback"
-msgstr ""
+msgstr "Ijro"
 
 #: data/shortcuts.ui:145
 msgctxt "shortcut window"
 msgid "Play/Pause"
-msgstr ""
+msgstr "Boshlash/Pauza"
 
 #: data/shortcuts.ui:153 data/shortcuts.ui:169
 msgctxt "shortcut window"
 msgid "Previous video or chapter"
-msgstr ""
+msgstr "Oldingi video yoki bob"
 
 #: data/shortcuts.ui:161 data/shortcuts.ui:177
 msgctxt "shortcut window"
 msgid "Next video or chapter"
-msgstr ""
+msgstr "Keyingi video yoki bob"
 
 #: data/shortcuts.ui:185
 msgctxt "shortcut window"
 msgid "Skip"
-msgstr ""
+msgstr "Oʻtkazib yuborish"
 
 #: data/shortcuts.ui:191 data/shortcuts.ui:253
 msgctxt "shortcut window"
 msgid "Go back 15 seconds"
-msgstr ""
+msgstr "15 soniya orqaga qaytish"
 
 #: data/shortcuts.ui:199 data/shortcuts.ui:261
 msgctxt "shortcut window"
 msgid "Go forward 60 seconds"
-msgstr ""
+msgstr "60 soniya oldinga o'tish"
 
 #: data/shortcuts.ui:206
 msgctxt "shortcut window"
 msgid "Step back one frame"
-msgstr ""
+msgstr "Bir ramka orqaga qadam qo'yish"
 
 #: data/shortcuts.ui:213
 msgctxt "shortcut window"
 msgid "Step forward one frame"
-msgstr ""
+msgstr "Bir ramka oldinga qadam tashlash"
 
 #: data/shortcuts.ui:221 data/shortcuts.ui:269
 msgctxt "shortcut window"
 msgid "Go back 5 seconds"
-msgstr ""
+msgstr "5 soniya orqaga qaytish"
 
 #: data/shortcuts.ui:229 data/shortcuts.ui:277
 msgctxt "shortcut window"
 msgid "Go forward 15 seconds"
-msgstr ""
+msgstr "15 soniya oldinga o'tish"
 
 #: data/shortcuts.ui:237 data/shortcuts.ui:285
 msgctxt "shortcut window"
 msgid "Go back 3 minutes"
-msgstr ""
+msgstr "3 daqiqa orqaga qaytish"
 
 #: data/shortcuts.ui:245 data/shortcuts.ui:293
 msgctxt "shortcut window"
 msgid "Go forward 10 minutes"
-msgstr ""
+msgstr "10 daqiqa oldinga o'tish"
 
 #: data/shortcuts.ui:300
 msgctxt "shortcut window"
 msgid "Skip to…"
-msgstr ""
+msgstr "Oʻtish…"
 
 #: data/shortcuts.ui:308
 msgctxt "shortcut window"
 msgid "DVD menu navigation"
-msgstr ""
+msgstr "DVD menyu navigatsiya"
 
 #: data/shortcuts.ui:313
 msgctxt "shortcut window"
 msgid "Navigate up"
-msgstr ""
+msgstr "Yuqoriga o'tish"
 
 #: data/shortcuts.ui:320
 msgctxt "shortcut window"
 msgid "Navigate down"
-msgstr ""
+msgstr "Pastga o'tish"
 
 #: data/shortcuts.ui:327
 msgctxt "shortcut window"
 msgid "Navigate left"
-msgstr ""
+msgstr "Chapga o'tish"
 
 #: data/shortcuts.ui:334
 msgctxt "shortcut window"
 msgid "Navigate right"
-msgstr ""
+msgstr "O'ngga o'tish"
 
 #: data/shortcuts.ui:342
 msgctxt "shortcut window"
 msgid "Subtitles"
-msgstr ""
+msgstr "Subtitrlar"
 
 #: data/shortcuts.ui:347
 msgctxt "shortcut window"
 msgid "Select next subtitle"
-msgstr ""
+msgstr "Keyingi subtitrni tanlang"
 
 #: data/shortcuts.ui:354
 msgctxt "shortcut window"
 msgid "Toggle subtitles"
-msgstr ""
+msgstr "Subtitrlarni almashtirish"
 
 #: data/totem.ui:11 data/totem.ui:90
 msgid "Prefere_nces"
-msgstr ""
+msgstr "Parametrlar"
 
 #: data/totem.ui:15 data/totem.ui:94
 msgid "_Keyboard Shortcuts"
-msgstr ""
+msgstr "_Klaviatura yorliqlari"
 
 #: data/totem.ui:19
 msgid "_Help"
-msgstr ""
+msgstr "_Yordam"
 
 #: data/totem.ui:29
 msgid "Add _Local Video…"
-msgstr ""
+msgstr "_Mahalliy video qo‘shish…"
 
 #: data/totem.ui:34
 msgid "Add _Web Video…"
-msgstr ""
+msgstr "_Veb video qo‘shish…"
 
 #: data/totem.ui:51
 msgid "_Aspect Ratio"
-msgstr ""
+msgstr "_Aspekt nisbati"
 
 #. Translators: an entry in the 'Aspect Ratio' menu, used to choose the displayed aspect ratio of a video
 #: data/totem.ui:54
 msgctxt "Aspect ratio"
 msgid "Auto"
-msgstr ""
+msgstr "Avtomatik"
 
 #. Translators: an entry in the 'Aspect Ratio' menu, used to choose the displayed aspect ratio of a video
 #: data/totem.ui:59
 msgctxt "Aspect ratio"
 msgid "Square"
-msgstr ""
+msgstr "Kvadrat"
 
 #. Translators: an entry in the 'Aspect Ratio' menu, used to choose the displayed aspect ratio of a video
 #: data/totem.ui:64
 msgctxt "Aspect ratio"
 msgid "4∶3 (TV)"
-msgstr ""
+msgstr "4∶3 (TV)"
 
 #. Translators: an entry in the 'Aspect Ratio' menu, used to choose the displayed aspect ratio of a video
 #: data/totem.ui:69
 msgctxt "Aspect ratio"
 msgid "16∶9 (Widescreen)"
-msgstr ""
+msgstr "16∶9 (keng ekran)"
 
 #. Translators: an entry in the 'Aspect Ratio' menu, used to choose the displayed aspect ratio of a video
 #: data/totem.ui:74
 msgctxt "Aspect ratio"
 msgid "2.11∶1 (DVB)"
-msgstr ""
+msgstr "2.11∶1 (DVB)"
 
 #: data/totem.ui:82
 msgid "Switch An_gles"
-msgstr ""
+msgstr "_Burchaklarni almashtirish"
 
 #: data/totem.ui:103
 msgid "_Eject"
-msgstr ""
+msgstr "_Chiqarish"
 
 #: data/totem.ui:114
 msgid "Languages"
-msgstr ""
+msgstr "Tillar"
 
 #: data/totem.ui:118 src/plugins/opensubtitles/opensubtitles.py:494
 msgid "Subtitles"
-msgstr ""
+msgstr "Subtitrlar"
 
 #: data/totem.ui:121
 msgid "_Select Text Subtitles…"
-msgstr ""
+msgstr "_Matn taglavhalarini tanlang…"
 
 #: data/totem.ui:132
 msgid "_Repeat"
-msgstr ""
+msgstr "_Takrorlash"
 
 #: data/totem.ui:138
 msgid "_DVD Menu"
-msgstr ""
+msgstr "_DVD menyusi"
 
 #: data/totem.ui:144
 msgid "_Title Menu"
-msgstr ""
+msgstr "_Sarlavha menyusi"
 
 #: data/totem.ui:149
 msgid "A_udio Menu"
-msgstr ""
+msgstr "A_udio menyusi"
 
 #: data/totem.ui:154
 msgid "_Angle Menu"
-msgstr ""
+msgstr "_Burchak menyusi"
 
 #: data/totem.ui:159
 msgid "_Chapter Menu"
-msgstr ""
+msgstr "_Bo'lim menyusi"
 
 #: data/totem.ui:168
 msgid "Speed"
-msgstr ""
+msgstr "Tezlik"
 
 #: data/uri.ui:5
 msgid "Add Web Video"
-msgstr ""
+msgstr "Veb-video qo'shing"
 
 #: data/uri.ui:19
 msgid "Enter the _address of the file you would like to open:"
-msgstr ""
+msgstr "Ochmoqchi bo'lgan fayl manzilini kiriting:"
 
 #: data/uri.ui:45 src/totem-uri.c:397 src/totem-uri.c:458
 #: src/plugins/screenshot/totem-gallery.c:92
 #: src/plugins/screenshot/totem-gallery-progress.c:101
 #: src/plugins/skipto/totem-skipto.c:208
 msgid "_Cancel"
-msgstr ""
+msgstr "_Bekor qilish"
 
 #: data/uri.ui:54 src/totem-uri.c:459
 msgid "_Add"
-msgstr ""
+msgstr "_Qo'shish"
 
 #: src/backend/bacon-video-widget.c:1460
 msgid "Password requested for RTSP server"
-msgstr ""
+msgstr "RTSP serveri uchun parol so‘raldi"
 
 #: src/backend/bacon-video-widget.c:3352
 msgid "Could not initialise OpenGL support"
-msgstr ""
+msgstr "OpenGL yordamini ishga tushirib boʻlmadi"
 
 #: src/backend/bacon-video-widget.c:3362
 msgid "The DVD device you specified seems to be invalid."
-msgstr ""
+msgstr "Siz ko'rsatgan DVD qurilmasi yaroqsiz ko'rinadi."
 
 #: src/backend/bacon-video-widget.c:3366
 msgid "The VCD device you specified seems to be invalid."
-msgstr ""
+msgstr "Siz ko'rsatgan VCD qurilmasi yaroqsiz ko'rinadi."
 
 #: src/backend/bacon-video-widget.c:3382
 msgid ""
 "The source seems encrypted and can’t be read. Are you trying to play an "
 "encrypted DVD without libdvdcss?"
 msgstr ""
+"Manba shifrlanganga o'xshaydi va uni o'qib bo'lmaydi. Siz shifrlangan"
+"DVDni libdvdcsssiz o'ynatmoqchimisiz?"
 
 #: src/backend/bacon-video-widget.c:3396
 msgid "The server you are trying to connect to is not known."
-msgstr ""
+msgstr "Siz ulanmoqchi bo'lgan server noma'lum."
 
 #: src/backend/bacon-video-widget.c:3399
 msgid "The connection to this server was refused."
-msgstr ""
+msgstr "Ushbu serverga ulanish rad etildi."
 
 #: src/backend/bacon-video-widget.c:3402
 msgid "The specified movie could not be found."
-msgstr ""
+msgstr "Belgilangan film topilmadi."
 
 #: src/backend/bacon-video-widget.c:3409
 msgid "The server refused access to this file or stream."
-msgstr ""
+msgstr "Server ushbu fayl yoki strimga kirishni rad etdi."
 
 #: src/backend/bacon-video-widget.c:3415
 msgid "Authentication is required to access this file or stream."
-msgstr ""
+msgstr "Ushbu fayl yoki strimga kirish uchun autentifikatsiya talab qilinadi."
 
 #: src/backend/bacon-video-widget.c:3421
 msgid "SSL/TLS support is missing. Check your installation."
-msgstr ""
+msgstr "SSL/TLS yordami yetishmayapti. O'rnatishingizni tekshiring."
 
 #: src/backend/bacon-video-widget.c:3428
 msgid "You are not allowed to open this file."
-msgstr ""
+msgstr "Bu faylni ochishga ruxsat berilmagan."
 
 #: src/backend/bacon-video-widget.c:3433
 msgid "This location is not a valid one."
-msgstr ""
+msgstr "Bu manzil haqiqiy emas."
 
 #: src/backend/bacon-video-widget.c:3441
 msgid "The movie could not be read."
-msgstr ""
+msgstr "Filmni o'qib bo'lmadi."
 
 #: src/backend/bacon-video-widget.c:3447
 msgid "This file is encrypted and cannot be played back."
-msgstr ""
+msgstr "Bu fayl shifrlangan va uni qayta ijro qilib bo‘lmaydi."
 
 #: src/backend/bacon-video-widget.c:3453
 msgid "The file you tried to play is an empty file."
-msgstr ""
+msgstr "Siz ijro qilmoqchi bo'lgan fayl bo'sh fayl."
 
 #. should be exactly one missing thing (source or converter)
 #: src/backend/bacon-video-widget.c:3477 src/backend/bacon-video-widget.c:3485
@@ -695,54 +697,62 @@ msgid_plural ""
 "installed:\n"
 "\n"
 "%s"
-msgstr[0] ""
+msgstr[0] "Ushbu filmni ijro etish uchun oʻrnatilmagan %s plaginini talab qiladi."
 msgstr[1] ""
+"Ushbu filmni ijro etish uchun oʻrnatilmagan quyidagi plaginlar kerak boʻladi:\n"
+"\n"
+"%s"
 
 #: src/backend/bacon-video-widget.c:3497
 msgid ""
 "This stream cannot be played. It’s possible that a firewall is blocking it."
 msgstr ""
+"Ushbu strimi ijro qilib boʻlmaydi. Firewall uni bloklayotgan boʻlishi mumkin."
 
 #: src/backend/bacon-video-widget.c:3500
 msgid ""
 "An audio or video stream is not handled due to missing codecs. You might "
 "need to install additional plugins to be able to play some types of movies"
 msgstr ""
+"Kodeklar etishmayotgani uchun audio yoki video strim qayta ishlanmayapti."
+"Ayrim turdagi filmlarni ijro etish uchun qoʻshimcha plaginlarni oʻrnatishingiz kerak boʻlishi mumkin"
 
 #: src/backend/bacon-video-widget.c:3511
 msgid ""
 "This file cannot be played over the network. Try downloading it locally "
 "first."
 msgstr ""
+"Ushbu faylni tarmoq orqali ijro qilib boʻlmaydi. Avval uni mahalliy sifatida yuklab koʻring."
 
 #: src/backend/bacon-video-widget.c:5089
 msgid "Surround"
-msgstr ""
+msgstr "Surround"
 
 #: src/backend/bacon-video-widget.c:5091
 msgid "Mono"
-msgstr ""
+msgstr "Mono"
 
 #: src/backend/bacon-video-widget.c:5361
 msgid "Media contains no supported video streams."
-msgstr ""
+msgstr "Mediada qoʻllab-quvvatlanadigan video strimlari mavjud emas."
 
 #: src/backend/bacon-video-widget.c:5563
 msgid ""
 "Some necessary plug-ins are missing. Make sure that the program is correctly "
 "installed."
 msgstr ""
+"Ba'zi kerakli plaginlar yetishmayapti. Dastur to'g'ri o'rnatilganligiga ishonch hosil qiling."
 
 #: src/backend/bacon-video-widget-gst-missing-plugins.c:275
 msgid "Unable to play the file"
-msgstr ""
+msgstr "Faylni ijro qilib bo‘lmadi"
 
 #: src/backend/bacon-video-widget-gst-missing-plugins.c:278
 #, c-format
 msgid "%s is required to play the file, but is not installed."
 msgid_plural "%s are required to play the file, but are not installed."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%s faylni ijro qilish uchun kerak, lekin oʻrnatilmagan."
+msgstr[1] "%s faylni ijro qilish uchun talab qilinadi, lekin oʻrnatilmagan."
 
 #. TRANSLATORS: this is a button to launch a codec installer.
 #. * %s will be replaced with the software installer's name, e.g.
@@ -750,12 +760,12 @@ msgstr[1] ""
 #: src/backend/bacon-video-widget-gst-missing-plugins.c:286
 #, c-format
 msgid "_Find in %s"
-msgstr ""
+msgstr "%s ichida topish"
 
 #. translators: Unknown time
 #: src/gst/totem-time-helpers.c:45
 msgid "--:--"
-msgstr ""
+msgstr "--:--"
 
 #. hour:minutes:seconds
 #. Translators: This is a time format, like "9:05:02" for 9
@@ -767,7 +777,7 @@ msgstr ""
 #, c-format
 msgctxt "long time format"
 msgid "%d:%02d:%02d"
-msgstr ""
+msgstr "%d:%02d:%02d"
 
 #. hour:minutes:seconds.msecs
 #. Translators: This is a time format, like "9:05:02.050" for 9
@@ -779,7 +789,7 @@ msgstr ""
 #, c-format
 msgctxt "long time format"
 msgid "%d:%02d:%02d.%03d"
-msgstr ""
+msgstr "%d:%02d:%02d.%03d"
 
 #. -hour:minutes:seconds
 #. Translators: This is a time format, like "-9:05:02" for 9
@@ -791,7 +801,7 @@ msgstr ""
 #, c-format
 msgctxt "long time format"
 msgid "-%d:%02d:%02d"
-msgstr ""
+msgstr "-%d:%02d:%02d"
 
 #. -hour:minutes:seconds.msecs
 #. Translators: This is a time format, like "-9:05:02.050" for 9
@@ -803,7 +813,7 @@ msgstr ""
 #, c-format
 msgctxt "long time format"
 msgid "-%d:%02d:%02d.%03d"
-msgstr ""
+msgstr "-%d:%02d:%02d.%03d"
 
 #. -minutes:seconds
 #. Translators: This is a time format, like "-5:02" for 5
@@ -815,7 +825,7 @@ msgstr ""
 #, c-format
 msgctxt "short time format"
 msgid "-%d:%02d"
-msgstr ""
+msgstr "-%d:%02d"
 
 #. -minutes:seconds.msec
 #. Translators: This is a time format, like "-5:02.050" for 5
@@ -827,7 +837,7 @@ msgstr ""
 #, c-format
 msgctxt "short time format"
 msgid "-%d:%02d.%03d"
-msgstr ""
+msgstr "-%d:%02d.%03d"
 
 #. minutes:seconds.msec
 #. Translators: This is a time format, like "5:02" for 5
@@ -839,7 +849,7 @@ msgstr ""
 #, c-format
 msgctxt "short time format"
 msgid "%d:%02d.%03d"
-msgstr ""
+msgstr "%d:%02d.%03d"
 
 #. minutes:seconds
 #. Translators: This is a time format, like "5:02" for 5
@@ -851,19 +861,19 @@ msgstr ""
 #, c-format
 msgctxt "short time format"
 msgid "%d:%02d"
-msgstr ""
+msgstr "%d:%02d"
 
 #: src/grilo.ui:7
 msgid "Select All"
-msgstr ""
+msgstr "Hammasini belgilash"
 
 #: src/grilo.ui:12
 msgid "Select None"
-msgstr ""
+msgstr "Yo'qni tanlash"
 
 #: src/totem.c:52
 msgid "Videos Preview"
-msgstr ""
+msgstr "Videolarni oldindan ko'rish"
 
 #. Translators: The first string is "Filename" (as translated); the second is an actual filename.
 #. The third string is "Resolution" (as translated); the fourth and fifth are screenshot height and width, respectively.
@@ -875,259 +885,262 @@ msgid ""
 "<b>%s</b>: %d×%d\n"
 "<b>%s</b>: %s"
 msgstr ""
+"<b>%s</b>: %s\n"
+"<b>%s</b>: %d×%d\n"
+"<b>%s</b>: %s"
 
 #: src/totem-gallery-thumbnailer.c:632
 msgid "Filename"
-msgstr ""
+msgstr "Fayl nomi"
 
 #: src/totem-gallery-thumbnailer.c:634
 msgid "Resolution"
-msgstr ""
+msgstr "O'lchamlari"
 
 #: src/totem-gallery-thumbnailer.c:637
 msgid "Duration"
-msgstr ""
+msgstr "Davomiyligi"
 
 #: src/totem-grilo.c:289
 #, c-format
 msgid "Season %d Episode %d"
-msgstr ""
+msgstr "%d fasl %d qism"
 
 #. translators: The first item is the show name, for example:
 #. * Boardwalk Empire (Season 1 Episode 1)
 #: src/totem-grilo.c:326
 #, c-format
 msgid "%s (Season %d Episode %d)"
-msgstr ""
+msgstr "%s (%d fasl %d qism)"
 
 #: src/totem-grilo.c:688
 msgid "Browse Error"
-msgstr ""
+msgstr "Ko‘rib chiqish xatosi"
 
 #: src/totem-grilo.c:837
 msgid "Search Error"
-msgstr ""
+msgstr "Qidiruv xatosi"
 
 #: src/totem-grilo.c:1329
 msgid "Local"
-msgstr ""
+msgstr "Mahalliy"
 
 #: src/totem-grilo.c:1932
 msgid "Channels"
-msgstr ""
+msgstr "Kanallar"
 
 #: src/totem-main-toolbar.c:129 src/totemmaintoolbar.ui:121
 msgid "Click on items to select them"
-msgstr ""
+msgstr "Elementlarni tanlash uchun ustiga bosing"
 
 #: src/totem-main-toolbar.c:135
 #, c-format
 msgid "%d selected"
 msgid_plural "%d selected"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d ta tanlandi"
+msgstr[1] "%d ta tanlandi"
 
 #: src/totem-main-toolbar.c:156
 #, c-format
 msgid "Results for “%s”"
-msgstr ""
+msgstr "“%s” uchun natijalar"
 
 #: src/totemmaintoolbar.ui:18
 msgid "Back"
-msgstr ""
+msgstr "Orqaga"
 
 #: src/totemmaintoolbar.ui:44
 msgid "Select"
-msgstr ""
+msgstr "Tanlash"
 
 #: src/totemmaintoolbar.ui:69 src/totemmaintoolbar.ui:72
 msgid "Cancel"
-msgstr ""
+msgstr "Bekor qilish"
 
 #: src/totemmaintoolbar.ui:90
 msgid "Search"
-msgstr ""
+msgstr "Qidirish"
 
 #: src/totem-menu.c:435
 msgid "Audio Track"
-msgstr ""
+msgstr "Audio trek"
 
 #: src/totem-menu.c:438
 msgid "Subtitle"
-msgstr ""
+msgstr "Subtitr"
 
 #. Translators: an entry in the "Languages" menu, used to choose the audio language of a DVD
 #: src/totem-menu.c:474
 msgctxt "Language"
 msgid "Auto"
-msgstr ""
+msgstr "Avtomatik"
 
 #. Translators: an entry in the "Subtitles" menu, used to choose the subtitle language of a DVD
 #: src/totem-menu.c:477
 msgid "None"
-msgstr ""
+msgstr "Yo'q"
 
 #: src/totem-object.c:1432 src/totem-options.c:51
 msgid "Pause"
-msgstr ""
+msgstr "Pauza"
 
 #: src/totem-object.c:1438 src/totem-object.c:1446 src/totem-options.c:50
 #: src/totemselectiontoolbar.ui:43
 msgid "Play"
-msgstr ""
+msgstr "Boshlash"
 
 #: src/totem-object.c:1514 src/totem-object.c:1542 src/totem-object.c:2128
 #, c-format
 msgid "Videos could not play “%s”."
-msgstr ""
+msgstr "Videolarni “%s” ijro qilib bo‘lmadi."
 
 #: src/totem-object.c:2300
 msgid "Videos could not display the help contents."
-msgstr ""
+msgstr "Videolar yordam mazmunini ko‘rsata olmadi."
 
 #: src/totem-object.c:2561
 msgid "An error occurred"
-msgstr ""
+msgstr "Xatolik yuz berdi"
 
 #: src/totem-object.c:3958
 msgid "Previous Chapter/Movie"
-msgstr ""
+msgstr "Oldingi bob/film"
 
 #: src/totem-object.c:3964
 msgid "Play / Pause"
-msgstr ""
+msgstr "Boshlash / Pauza"
 
 #: src/totem-object.c:3970
 msgid "Next Chapter/Movie"
-msgstr ""
+msgstr "Keyingi bo'lim/film"
 
 #: src/totem-object.c:4192
 msgid "Videos could not startup."
-msgstr ""
+msgstr "Videolarni ishga tushirib bo‘lmadi."
 
 #: src/totem-object.c:4193 src/plugins/screenshot/totem-screenshot-plugin.c:222
 msgid "No reason."
-msgstr ""
+msgstr "Sabab yo'q."
 
 #: src/totem-options.c:49
 msgid "Play/Pause"
-msgstr ""
+msgstr "Boshlash/Pauza"
 
 #: src/totem-options.c:52
 msgid "Next"
-msgstr ""
+msgstr "Keyingisi"
 
 #: src/totem-options.c:53
 msgid "Previous"
-msgstr ""
+msgstr "Oldingi"
 
 #: src/totem-options.c:54
 msgid "Seek Forwards"
-msgstr ""
+msgstr "Oldinga qarab izlash"
 
 #: src/totem-options.c:55
 msgid "Seek Backwards"
-msgstr ""
+msgstr "Orqaga qarab izlash"
 
 #: src/totem-options.c:56
 msgid "Volume Up"
-msgstr ""
+msgstr "Ovozni ko'tarish"
 
 #: src/totem-options.c:57
 msgid "Volume Down"
-msgstr ""
+msgstr "Ovozni pasaytirish"
 
 #: src/totem-options.c:58
 msgid "Mute sound"
-msgstr ""
+msgstr "Ovozni o'chirish"
 
 #: src/totem-options.c:59
 msgid "Toggle Fullscreen"
-msgstr ""
+msgstr "Toʻliq ekran rejimiga oʻtish"
 
 #: src/totem-options.c:60
 msgid "Quit"
-msgstr ""
+msgstr "Chiqish"
 
 #: src/totem-options.c:61
 msgid "Enqueue"
-msgstr ""
+msgstr "Navbat"
 
 #: src/totem-options.c:62
 msgid "Replace"
-msgstr ""
+msgstr "O'zgartirish"
 
 #: src/totem-options.c:63
 msgid "Seek"
-msgstr ""
+msgstr "Izlash"
 
 #: src/totem-options.c:64
 msgid "Show version information and exit"
-msgstr ""
+msgstr "Versiya ma'lumotlarini ko'rsatish va chiqish"
 
 #: src/totem-options.c:65
 msgid "Movies to play"
-msgstr ""
+msgstr "O'ynash uchun filmlar"
 
 #: src/totem-options.c:100
 msgid "Can’t enqueue and replace at the same time"
-msgstr ""
+msgstr "Bir vaqtning o'zida navbatga qo'yish va almashtirish mumkin emas"
 
 #. This is "Title 3", where title is a DVD title
 #. * Note: NOT a DVD chapter
 #: src/totem-playlist.c:233
 #, c-format
 msgid "Title %d"
-msgstr ""
+msgstr "Sarlavha %d"
 
 #: src/totem-playlist.c:1030
 #, c-format
 msgid "The playlist “%s” could not be parsed. It might be damaged."
-msgstr ""
+msgstr "“%s” pleylistini tahlil qilib bo‘lmadi. Bu shikastlangan bo'lishi mumkin."
 
 #: src/totem-preferences-dialog.c:192
 msgid "Configure Plugins"
-msgstr ""
+msgstr "Plaginlarni sozlash"
 
 #: src/totem-preferences-dialog.c:195
 #: src/plugins/opensubtitles/opensubtitles.ui:138
 msgid "_Close"
-msgstr ""
+msgstr "_Yopish"
 
 #: src/totemselectiontoolbar.ui:15
 msgid "Add to Favourites"
-msgstr ""
+msgstr "Sevimlilarga qo'shish"
 
 #: src/totemselectiontoolbar.ui:40
 msgctxt "button"
 msgid "Play"
-msgstr ""
+msgstr "Boshlash"
 
 #: src/totemselectiontoolbar.ui:60 src/totemselectiontoolbar.ui:63
 msgid "Shuffle"
-msgstr ""
+msgstr "Aralash"
 
 #: src/totemselectiontoolbar.ui:80 src/totemselectiontoolbar.ui:83
 msgid "Delete"
-msgstr ""
+msgstr "Oʻchirish"
 
 #: src/totem-subtitle-encoding.c:156
 msgid "Current Locale"
-msgstr ""
+msgstr "Joriy mahalliy"
 
 #: src/totem-subtitle-encoding.c:159 src/totem-subtitle-encoding.c:161
 #: src/totem-subtitle-encoding.c:163 src/totem-subtitle-encoding.c:165
 msgid "Arabic"
-msgstr ""
+msgstr "Arabcha"
 
 #: src/totem-subtitle-encoding.c:168
 msgid "Armenian"
-msgstr ""
+msgstr "Armancha"
 
 #: src/totem-subtitle-encoding.c:171 src/totem-subtitle-encoding.c:173
 #: src/totem-subtitle-encoding.c:175
 msgid "Baltic"
-msgstr ""
+msgstr "Boltiqboʻyi"
 
 #: src/totem-subtitle-encoding.c:178
 msgid "Celtic"
@@ -1136,52 +1149,52 @@ msgstr ""
 #: src/totem-subtitle-encoding.c:181 src/totem-subtitle-encoding.c:183
 #: src/totem-subtitle-encoding.c:185 src/totem-subtitle-encoding.c:187
 msgid "Central European"
-msgstr ""
+msgstr "Markaziy Yevropa"
 
 #: src/totem-subtitle-encoding.c:190 src/totem-subtitle-encoding.c:192
 #: src/totem-subtitle-encoding.c:194 src/totem-subtitle-encoding.c:196
 msgid "Chinese Simplified"
-msgstr ""
+msgstr "Xitoy tili soddalashtirilgan"
 
 #: src/totem-subtitle-encoding.c:199 src/totem-subtitle-encoding.c:201
 #: src/totem-subtitle-encoding.c:203
 msgid "Chinese Traditional"
-msgstr ""
+msgstr "Xitoy an'anaviy"
 
 #: src/totem-subtitle-encoding.c:206
 msgid "Croatian"
-msgstr ""
+msgstr "Xorvatcha"
 
 #: src/totem-subtitle-encoding.c:209 src/totem-subtitle-encoding.c:211
 #: src/totem-subtitle-encoding.c:213 src/totem-subtitle-encoding.c:215
 #: src/totem-subtitle-encoding.c:217 src/totem-subtitle-encoding.c:219
 msgid "Cyrillic"
-msgstr ""
+msgstr "Kirillcha"
 
 #: src/totem-subtitle-encoding.c:222
 msgid "Cyrillic/Russian"
-msgstr ""
+msgstr "Kirillcha/Rus"
 
 #: src/totem-subtitle-encoding.c:225 src/totem-subtitle-encoding.c:227
 msgid "Cyrillic/Ukrainian"
-msgstr ""
+msgstr "Kirillcha/Ukraina"
 
 #: src/totem-subtitle-encoding.c:230
 msgid "Georgian"
-msgstr ""
+msgstr "Gruzincha"
 
 #: src/totem-subtitle-encoding.c:233 src/totem-subtitle-encoding.c:235
 #: src/totem-subtitle-encoding.c:237
 msgid "Greek"
-msgstr ""
+msgstr "Yunoncha"
 
 #: src/totem-subtitle-encoding.c:240
 msgid "Gujarati"
-msgstr ""
+msgstr "Gujarati"
 
 #: src/totem-subtitle-encoding.c:243
 msgid "Gurmukhi"
-msgstr ""
+msgstr "Gurmuxi"
 
 #: src/totem-subtitle-encoding.c:246 src/totem-subtitle-encoding.c:248
 #: src/totem-subtitle-encoding.c:250 src/totem-subtitle-encoding.c:252
@@ -1194,21 +1207,21 @@ msgstr ""
 
 #: src/totem-subtitle-encoding.c:258
 msgid "Hindi"
-msgstr ""
+msgstr "Hindcha"
 
 #: src/totem-subtitle-encoding.c:261
 msgid "Icelandic"
-msgstr ""
+msgstr "Islandcha"
 
 #: src/totem-subtitle-encoding.c:264 src/totem-subtitle-encoding.c:266
 #: src/totem-subtitle-encoding.c:268
 msgid "Japanese"
-msgstr ""
+msgstr "Yaponcha"
 
 #: src/totem-subtitle-encoding.c:271 src/totem-subtitle-encoding.c:273
 #: src/totem-subtitle-encoding.c:275 src/totem-subtitle-encoding.c:277
 msgid "Korean"
-msgstr ""
+msgstr "Koreyscha"
 
 #: src/totem-subtitle-encoding.c:280
 msgid "Nordic"
@@ -1216,15 +1229,15 @@ msgstr ""
 
 #: src/totem-subtitle-encoding.c:283
 msgid "Persian"
-msgstr ""
+msgstr "Forscha"
 
 #: src/totem-subtitle-encoding.c:286 src/totem-subtitle-encoding.c:288
 msgid "Romanian"
-msgstr ""
+msgstr "Rumincha"
 
 #: src/totem-subtitle-encoding.c:291
 msgid "South European"
-msgstr ""
+msgstr "Janubiy Yevropa"
 
 #: src/totem-subtitle-encoding.c:294
 msgid "Thai"
@@ -1233,217 +1246,219 @@ msgstr ""
 #: src/totem-subtitle-encoding.c:297 src/totem-subtitle-encoding.c:299
 #: src/totem-subtitle-encoding.c:301 src/totem-subtitle-encoding.c:303
 msgid "Turkish"
-msgstr ""
+msgstr "Turkcha"
 
 #: src/totem-subtitle-encoding.c:306 src/totem-subtitle-encoding.c:308
 #: src/totem-subtitle-encoding.c:310 src/totem-subtitle-encoding.c:312
 #: src/totem-subtitle-encoding.c:314
 msgid "Unicode"
-msgstr ""
+msgstr "Unikod"
 
 #: src/totem-subtitle-encoding.c:317 src/totem-subtitle-encoding.c:319
 #: src/totem-subtitle-encoding.c:321 src/totem-subtitle-encoding.c:323
 #: src/totem-subtitle-encoding.c:325
 msgid "Western"
-msgstr ""
+msgstr "G'arbiy"
 
 #: src/totem-subtitle-encoding.c:328 src/totem-subtitle-encoding.c:330
 #: src/totem-subtitle-encoding.c:332
 msgid "Vietnamese"
-msgstr ""
+msgstr "Vetnam"
 
 #: src/totem-uri.c:325
 msgid "All files"
-msgstr ""
+msgstr "Barcha fayllar"
 
 #: src/totem-uri.c:331
 msgid "Video files"
-msgstr ""
+msgstr "Video fayllar"
 
 #: src/totem-uri.c:342
 msgid "Subtitle files"
-msgstr ""
+msgstr "Subtitr fayllari"
 
 #: src/totem-uri.c:394
 msgid "Select Text Subtitles"
-msgstr ""
+msgstr "Matn subtitrlarini tanlang"
 
 #: src/totem-uri.c:398
 msgid "_Open"
-msgstr ""
+msgstr "_Ochish"
 
 #: src/totem-uri.c:455
 msgid "Add Videos"
-msgstr ""
+msgstr "Video qo'shish"
 
 #: src/plugins/apple-trailers/apple-trailers.plugin.desktop.in:6
 msgid "Apple Trailers"
-msgstr ""
+msgstr "Apple treylerlari"
 
 #: src/plugins/apple-trailers/apple-trailers.plugin.desktop.in:7
 msgid "Sets the user agent for the Apple Trailers site"
-msgstr ""
+msgstr "Apple Trailers sayti uchun foydalanuvchi agentini o'rnatadi"
 
 #: src/plugins/autoload-subtitles/autoload-subtitles.plugin.desktop.in:6
 msgid "Autoload Subtitles"
-msgstr ""
+msgstr "Subtitrlarni avtomatik yuklash"
 
 #: src/plugins/autoload-subtitles/autoload-subtitles.plugin.desktop.in:7
 msgid "Autoloads text subtitles"
-msgstr ""
+msgstr "Matn subtitrlarini avtomatik yuklaydi"
 
 #: src/plugins/im-status/totem-im-status.plugin.desktop.in:6
 msgid "Instant Messenger Status"
-msgstr ""
+msgstr "Instant Messenger holati"
 
 #: src/plugins/im-status/totem-im-status.plugin.desktop.in:7
 msgid "Set your Instant Messenger status to away when a movie is playing"
-msgstr ""
+msgstr "Film ijro etilayotganda Instant Messenger holatini uzoqda qilib qo‘ying"
 
 #: src/plugins/mpris/mpris.plugin.desktop.in:5
 msgid "MPRIS D-Bus Interface"
-msgstr ""
+msgstr "MPRIS D-Bus interfeysi"
 
 #: src/plugins/mpris/mpris.plugin.desktop.in:6
 msgid ""
 "Send notifications of currently-playing videos and allow remote control "
 "using MPRIS."
 msgstr ""
+"Hozirda ijro etilayotgan videolar haqida bildirishnomalarni yuboring va MPRIS"
+"yordamida masofadan boshqarishga ruxsat bering."
 
 #: src/plugins/open-directory/open-directory.plugin.desktop.in:6
 msgid "Open directory"
-msgstr ""
+msgstr "Jildni Ochish"
 
 #: src/plugins/open-directory/open-directory.plugin.desktop.in:7
 msgid "Open the directory of the currently playing movie"
-msgstr ""
+msgstr "Hozirda ijro etilayotgan filmning katalogini ochish"
 
 #: src/plugins/open-directory/totem-open-directory.c:160
 msgid "Open Containing Folder"
-msgstr ""
+msgstr "O'z ichiga olgan jildni ochish"
 
 #: src/plugins/opensubtitles/opensubtitles.plugin.desktop.in:6
 msgid "Subtitle Downloader"
-msgstr ""
+msgstr "Subtitr yuklab olish"
 
 #: src/plugins/opensubtitles/opensubtitles.plugin.desktop.in:7
 msgid "Look for subtitles for the currently playing movie"
-msgstr ""
+msgstr "Hozir ijro etilayotgan film uchun subtitrlarni qidirish"
 
 #: src/plugins/opensubtitles/opensubtitles.py:49
 msgid "Brazilian Portuguese"
-msgstr ""
+msgstr "Braziliya portugal"
 
 #: src/plugins/opensubtitles/opensubtitles.py:191
 msgid "Searching for subtitles…"
-msgstr ""
+msgstr "Subtitrlar qidirilmoqda…"
 
 #: src/plugins/opensubtitles/opensubtitles.py:235
 #: src/plugins/opensubtitles/opensubtitles.py:627
 msgid "Downloading the subtitles…"
-msgstr ""
+msgstr "Subtitrlar yuklab olinmoqda…"
 
 #: src/plugins/opensubtitles/opensubtitles.py:298
 msgid "Could not contact the OpenSubtitles website"
-msgstr ""
+msgstr "OpenSubtitles veb-sayti bilan bog'lanib bo'lmadi"
 
 #: src/plugins/opensubtitles/opensubtitles.py:330
 #: src/plugins/opensubtitles/opensubtitles.py:343
 #: src/plugins/opensubtitles/opensubtitles.py:361
 msgid "Could not contact the OpenSubtitles website."
-msgstr ""
+msgstr "OpenSubtitles veb-sayti bilan bog'lanib bo'lmadi."
 
 #: src/plugins/opensubtitles/opensubtitles.py:349
 msgid "No results found."
-msgstr ""
+msgstr "Hech qanday natija topilmadi."
 
 #. translators comment:
 #. This is the file-type of the subtitle file detected
 #: src/plugins/opensubtitles/opensubtitles.py:500
 msgid "Format"
-msgstr ""
+msgstr "Format"
 
 #. translators comment:
 #. This is a rating of the quality of the subtitle
 #: src/plugins/opensubtitles/opensubtitles.py:505
 msgid "Rating"
-msgstr ""
+msgstr "Reyting"
 
 #. pylint: disable=no-member
 #: src/plugins/opensubtitles/opensubtitles.py:545
 msgid "_Download Movie Subtitles…"
-msgstr ""
+msgstr "_Film subtitrlarini yuklab olish…"
 
 #: src/plugins/opensubtitles/opensubtitles.py:584
 msgid "Searching subtitles…"
-msgstr ""
+msgstr "Subtitrlar qidirilmoqda…"
 
 #: src/plugins/opensubtitles/opensubtitles.ui:27
 msgid "Download Movie Subtitles"
-msgstr ""
+msgstr "Film subtitrlar yuklab olish"
 
 #: src/plugins/opensubtitles/opensubtitles.ui:43
 msgid "Subtitle _language:"
-msgstr ""
+msgstr "Subtitr tili:"
 
 #: src/plugins/opensubtitles/opensubtitles.ui:124
 msgid "_Play with Subtitle"
-msgstr ""
+msgstr "_Subtitr bilan boshlash"
 
 #: src/plugins/opensubtitles/org.gnome.totem.plugins.opensubtitles.gschema.xml.in:6
 msgid "Subtitle language"
-msgstr ""
+msgstr "Subtitr tili"
 
 #: src/plugins/opensubtitles/org.gnome.totem.plugins.opensubtitles.gschema.xml.in:7
 msgid "The language to search for subtitles for movies in."
-msgstr ""
+msgstr "Filmlar uchun subtitrlarni qidirish uchun til."
 
 #: src/plugins/properties/movie-properties.plugin.desktop.in:6
 msgid "Movie Properties"
-msgstr ""
+msgstr "Film parametrlari"
 
 #: src/plugins/properties/movie-properties.plugin.desktop.in:7
 msgid "Adds movie properties menu item"
-msgstr ""
+msgstr "Film parametrlari menyu bandini qo'shadi"
 
 #: src/plugins/properties/totem-movie-properties.c:150
 #, c-format
 msgid "%d × %d"
-msgstr ""
+msgstr "%d × %d"
 
 #: src/plugins/properties/totem-movie-properties.c:153
 #: src/plugins/properties/totem-movie-properties.c:164
 #, c-format
 msgid "%d kbps"
-msgstr ""
+msgstr "%d kbps"
 
 #: src/plugins/properties/totem-movie-properties.c:153
 #: src/plugins/properties/totem-movie-properties.c:164
 msgctxt "Stream bit rate"
 msgid "N/A"
-msgstr ""
+msgstr "N/A"
 
 #: src/plugins/properties/totem-movie-properties.c:167
 #, c-format
 msgid "%d Hz"
-msgstr ""
+msgstr "%d Hz"
 
 #: src/plugins/properties/totem-movie-properties.c:167
 msgctxt "Sample rate"
 msgid "N/A"
-msgstr ""
+msgstr "N/A"
 
 #: src/plugins/properties/totem-movie-properties.c:278
 msgid "Properties"
-msgstr ""
+msgstr "Xususiyatlari"
 
 #: src/plugins/properties/totem-movie-properties.c:303
 msgid "_Properties"
-msgstr ""
+msgstr "_Xususiyatlar"
 
 #: src/plugins/properties/properties.ui:47
 msgid "Title:"
-msgstr ""
+msgstr "Sarlavha:"
 
 #: src/plugins/properties/properties.ui:67
 msgid "Artist:"
@@ -1451,85 +1466,85 @@ msgstr ""
 
 #: src/plugins/properties/properties.ui:87
 msgid "Duration:"
-msgstr ""
+msgstr "Davomiyligi:"
 
 #: src/plugins/properties/properties.ui:107
 msgid "Year:"
-msgstr ""
+msgstr "Yil:"
 
 #: src/plugins/properties/properties.ui:127
 msgid "Album:"
-msgstr ""
+msgstr "Albom:"
 
 #: src/plugins/properties/properties.ui:235
 msgid "Comment:"
-msgstr ""
+msgstr "Izoh:"
 
 #: src/plugins/properties/properties.ui:273
 msgid "Container:"
-msgstr ""
+msgstr "Konteyner:"
 
 #: src/plugins/properties/properties.ui:345
 msgid "Dimensions:"
-msgstr ""
+msgstr "O'lchamlari:"
 
 #: src/plugins/properties/properties.ui:365
 #: src/plugins/properties/properties.ui:609
 msgid "Codec:"
-msgstr ""
+msgstr "Kodek:"
 
 #: src/plugins/properties/properties.ui:385
 msgid "Framerate:"
-msgstr ""
+msgstr "Kadr tezligi:"
 
 #: src/plugins/properties/properties.ui:405
 #: src/plugins/properties/properties.ui:572
 msgid "Bitrate:"
-msgstr ""
+msgstr "Bit tezligi:"
 
 #: src/plugins/properties/properties.ui:536
 msgid "Sample rate:"
-msgstr ""
+msgstr "Namuna darajasi:"
 
 #: src/plugins/properties/properties.ui:646
 msgid "Channels:"
-msgstr ""
+msgstr "Kanallar:"
 
 #. Title
 #: src/plugins/properties/bacon-video-widget-properties.c:98
 msgctxt "Title"
 msgid "Unknown"
-msgstr ""
+msgstr "Noma'lum"
 
 #. Artist
 #: src/plugins/properties/bacon-video-widget-properties.c:100
 msgctxt "Artist"
 msgid "Unknown"
-msgstr ""
+msgstr "Noma'lum"
 
 #. Album
 #: src/plugins/properties/bacon-video-widget-properties.c:102
 msgctxt "Album"
 msgid "Unknown"
-msgstr ""
+msgstr "Noma'lum"
 
 #. Year
 #: src/plugins/properties/bacon-video-widget-properties.c:104
 msgctxt "Year"
 msgid "Unknown"
-msgstr ""
+msgstr "Noma'lum"
 
 #. Container
 #: src/plugins/properties/bacon-video-widget-properties.c:110
 msgctxt "Media container"
 msgid "Unknown"
-msgstr ""
+msgstr "Noma'lum"
 
 #. Dimensions
 #: src/plugins/properties/bacon-video-widget-properties.c:113
 msgctxt "Dimensions"
 msgid "N/A"
-msgstr ""
+msgstr "N/A"
 
 #. Video Codec
 #: src/plugins/properties/bacon-video-widget-properties.c:115
@@ -1540,148 +1555,150 @@ msgstr ""
 #: src/plugins/properties/bacon-video-widget-properties.c:118
 msgctxt "Video bit rate"
 msgid "N/A"
-msgstr ""
+msgstr "N/A"
 
 #: src/plugins/properties/bacon-video-widget-properties.c:121
 #: src/plugins/properties/bacon-video-widget-properties.c:253
 msgctxt "Frame rate"
 msgid "N/A"
-msgstr ""
+msgstr "N/A"
 
 #: src/plugins/properties/bacon-video-widget-properties.c:125
 msgctxt "Audio bit rate"
 msgid "N/A"
-msgstr ""
+msgstr "N/A"
 
 #. Audio Codec
 #: src/plugins/properties/bacon-video-widget-properties.c:127
 msgctxt "Audio codec"
 msgid "N/A"
-msgstr ""
+msgstr "N/A"
 
 #. Sample rate
 #: src/plugins/properties/bacon-video-widget-properties.c:129
 msgid "0 Hz"
-msgstr ""
+msgstr "0 Hz"
 
 #. Channels
 #: src/plugins/properties/bacon-video-widget-properties.c:131
 msgid "0 Channels"
-msgstr ""
+msgstr "0 ta kanal"
 
 #: src/plugins/properties/bacon-video-widget-properties.c:147
 #, c-format
 msgid "%d hour"
 msgid_plural "%d hours"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d soat"
+msgstr[1] "%d soat"
 
 #: src/plugins/properties/bacon-video-widget-properties.c:149
 #, c-format
 msgid "%d minute"
 msgid_plural "%d minutes"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d daqiqa"
+msgstr[1] "%d daqiqa"
 
 #: src/plugins/properties/bacon-video-widget-properties.c:152
 #, c-format
 msgid "%d second"
 msgid_plural "%d seconds"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d soniya"
+msgstr[1] "%d soniya"
 
 #. 5 hours 2 minutes 12 seconds
 #: src/plugins/properties/bacon-video-widget-properties.c:160
 #, c-format
 msgctxt "hours minutes seconds"
 msgid "%s %s %s"
-msgstr ""
+msgstr "%s %s %s"
 
 #. 5 hours 2 minutes
 #: src/plugins/properties/bacon-video-widget-properties.c:163
 #, c-format
 msgctxt "hours minutes"
 msgid "%s %s"
-msgstr ""
+msgstr "%s %s"
 
 #. 5 hours
 #: src/plugins/properties/bacon-video-widget-properties.c:166
 #, c-format
 msgctxt "hours"
 msgid "%s"
-msgstr ""
+msgstr "%s"
 
 #. 2 minutes 12 seconds
 #: src/plugins/properties/bacon-video-widget-properties.c:172
 #, c-format
 msgctxt "minutes seconds"
 msgid "%s %s"
-msgstr ""
+msgstr "%s %s"
 
 #. 2 minutes
 #: src/plugins/properties/bacon-video-widget-properties.c:175
 #, c-format
 msgctxt "minutes"
 msgid "%s"
-msgstr ""
+msgstr "%s"
 
 #. 0 seconds
 #: src/plugins/properties/bacon-video-widget-properties.c:182
 msgid "0 seconds"
-msgstr ""
+msgstr "0 soniya"
 
 #: src/plugins/properties/bacon-video-widget-properties.c:246
 #, c-format
 msgid "%0.3f frame per second"
 msgid_plural "%0.3f frames per second"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "soniyada %0,3f kadr"
+msgstr[1] "soniyada %0,3f kadr"
 
 #: src/plugins/properties/bacon-video-widget-properties.c:249
 #, c-format
 msgid "%0.2f frame per second"
 msgid_plural "%0.2f frames per second"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "soniyada %0,2f kadr"
+msgstr[1] "soniyada %0,2f kadr"
 
 #: src/plugins/pythonconsole/org.gnome.totem.plugins.pythonconsole.gschema.xml.in:6
 msgid "rpdb2 password"
-msgstr ""
+msgstr "rpdb2 parol"
 
 #: src/plugins/pythonconsole/org.gnome.totem.plugins.pythonconsole.gschema.xml.in:7
 msgid ""
 "A password to protect the rpdb2 server for debugging Totem from unauthorized "
 "remote access. If this is empty, a default of “totem” will be used."
 msgstr ""
+"Totemni ruxsatsiz masofaviy kirishdan tuzatish uchun rpdb2 serverini himoya"
+"qilish uchun parol. Agar bu bo'sh bo'lsa, standart “totem” ishlatiladi."
 
 #: src/plugins/pythonconsole/pythonconsole.plugin.desktop.in:6
 msgid "Python Console"
-msgstr ""
+msgstr "Python konsoli"
 
 #: src/plugins/pythonconsole/pythonconsole.plugin.desktop.in:7
 msgid "Interactive Python console"
-msgstr ""
+msgstr "Interaktiv Python konsoli"
 
 #. pylint: disable=no-member
 #. pylint: disable=no-member
 #: src/plugins/pythonconsole/pythonconsole.py:80
 msgid "_Python Console"
-msgstr ""
+msgstr "_Python konsoli"
 
 #. pylint: disable=no-member
 #: src/plugins/pythonconsole/pythonconsole.py:86
 msgid "Python Debugger"
-msgstr ""
+msgstr "Python Debugger"
 
 #. pylint: disable=E1101
 #: src/plugins/pythonconsole/pythonconsole.py:97
 #, python-format
 msgid "You can access the Totem.Object through “totem_object” :\\n%s"
-msgstr ""
+msgstr "Totem.Object-ga “totem_object” :\\n%s orqali kirishingiz mumkin"
 
 #: src/plugins/pythonconsole/pythonconsole.py:101
 msgid "Videos Python Console"
-msgstr ""
+msgstr "Video Python konsoli"
 
 #. pylint: disable=W0613
 #: src/plugins/pythonconsole/pythonconsole.py:111
@@ -1690,95 +1707,98 @@ msgid ""
 "rpdb2. If you have not set a debugger password in DConf, it will use the "
 "default password (“totem”)."
 msgstr ""
+"OK tugmasini bosganingizdan so'ng, Videolar siz unga winpdb yoki rpdb2 bilan"
+"ulanishingizni kutadi. Agar siz DConf-da tuzatuvchi parolni o'rnatmagan bo'lsangiz,"
+"u standart paroldan (“totem”) foydalanadi."
 
 #: src/plugins/recent/recent.plugin.desktop.in:6
 msgid "Recent files"
-msgstr ""
+msgstr "Oxirgi fayllar"
 
 #: src/plugins/recent/recent.plugin.desktop.in:7
 msgid "Adds files that have been played to recent files"
-msgstr ""
+msgstr "Oxirgi fayllarga ijro qilingan fayllarni qo'shadi"
 
 #: src/plugins/rotation/rotation.plugin.desktop.in:6
 msgid "Rotation Plugin"
-msgstr ""
+msgstr "Aylantirish Plagini"
 
 #: src/plugins/rotation/rotation.plugin.desktop.in:7
 msgid "Allows videos to be rotated if they are in the wrong orientation"
-msgstr ""
+msgstr "Videolar noto'g'ri yo'nalishda bo'lsa, ularni aylantirish imkonini beradi"
 
 #: src/plugins/rotation/totem-rotation.c:254
 msgid "_Rotate ↷"
-msgstr ""
+msgstr "_ ↷ aylantirish"
 
 #: src/plugins/rotation/totem-rotation.c:258
 msgid "Rotate ↶"
-msgstr ""
+msgstr "↶ aylantirish"
 
 #: src/plugins/save-file/save-file.plugin.desktop.in:6
 msgid "Save Copy"
-msgstr ""
+msgstr "Nusxasini saqlang"
 
 #: src/plugins/save-file/save-file.plugin.desktop.in:7
 msgid "Save a copy of the currently playing movie"
-msgstr ""
+msgstr "Hozir ijro etilayotgan filmning nusxasini saqlash"
 
 #: src/plugins/save-file/totem-save-file.c:87
 msgid "The video could not be made available offline."
-msgstr ""
+msgstr "Videoni oflayn rejimda ijro qilib bo‘lmadi."
 
 #. translators: “Files” refers to nautilus' name
 #: src/plugins/save-file/totem-save-file.c:89
 msgid "“Files” is not available."
-msgstr ""
+msgstr "”Fayllar” mavjud emas."
 
 #. translators: Movie is the default saved movie filename,
 #. * without the suffix
 #: src/plugins/save-file/totem-save-file.c:170
 msgid "Movie"
-msgstr ""
+msgstr "Film"
 
 #: src/plugins/save-file/totem-save-file.c:453
 msgid "Make Available Offline"
-msgstr ""
+msgstr "Oflayn rejimda mavjud qilish"
 
 #: src/plugins/screensaver/screensaver.plugin.desktop.in:6
 msgid "Screen Saver"
-msgstr ""
+msgstr "Ekran lavhasi"
 
 #: src/plugins/screensaver/screensaver.plugin.desktop.in:7
 msgid "Deactivates the screen saver when a movie is playing"
-msgstr ""
+msgstr "Film ijro etilayotganda ekran pardasini o‘chiradi"
 
 #: src/plugins/screensaver/totem-screensaver.c:77
 msgid "Playing a movie"
-msgstr ""
+msgstr "Film ijro qilinmoqda"
 
 #: src/plugins/screenshot/gallery.ui:41
 msgid "Screenshot width (in pixels):"
-msgstr ""
+msgstr "Skrinshot kengligi (piksellarda):"
 
 #: src/plugins/screenshot/gallery.ui:50
 msgid "Calculate the number of screenshots"
-msgstr ""
+msgstr "Skrinshotlar sonini hisoblash"
 
 #: src/plugins/screenshot/gallery.ui:73
 msgid "Number of screenshots:"
-msgstr ""
+msgstr "Skrinshotlar soni:"
 
 #. Translators: "Screenshots" is the name of the folder under ~/Pictures for screenshots,
 #. * same as used in GNOME Shell:
 #. * https://gitlab.gnome.org/GNOME/gnome-shell/-/blob/gnome-42/js/ui/screenshot.js#L2072
 #: src/plugins/screenshot/screenshot-filename-builder.c:101
 msgid "Screenshots"
-msgstr ""
+msgstr "Skrinshotlar"
 
 #. translators: this is the name of the file that gets made up
 #. * with the screenshot if the entire screen is taken
 #: src/plugins/screenshot/screenshot-filename-builder.c:154
 #, c-format
 msgid "Screenshot from %s.png"
-msgstr ""
+msgstr "%s.png dan skrinshot"
 
 #. translators: this is the name of the file that gets
 #. * made up with the screenshot if the entire screen is
@@ -1786,23 +1806,23 @@ msgstr ""
 #: src/plugins/screenshot/screenshot-filename-builder.c:161
 #, c-format
 msgid "Screenshot from %s - %d.png"
-msgstr ""
+msgstr "%s dan skrinshot - %d.png"
 
 #: src/plugins/screenshot/screenshot.plugin.desktop.in:6
 msgid "Screenshot"
-msgstr ""
+msgstr "Skrinshot"
 
 #: src/plugins/screenshot/screenshot.plugin.desktop.in:7
 msgid "Allows screenshots and galleries to be taken of videos"
-msgstr ""
+msgstr "Videolardan skrinshot va galereyalar olish imkonini beradi"
 
 #: src/plugins/screenshot/totem-gallery.c:86
 msgid "Save Gallery"
-msgstr ""
+msgstr "Galereyani saqlash"
 
 #: src/plugins/screenshot/totem-gallery.c:93
 msgid "_Save"
-msgstr ""
+msgstr "_Saqlash"
 
 #. Translators: The first argument is the movie title. The second
 #. * argument is a number which is used to prevent overwriting files.
@@ -1811,56 +1831,56 @@ msgstr ""
 #: src/plugins/screenshot/totem-gallery.c:110
 #, c-format
 msgid "Gallery-%s-%d.jpg"
-msgstr ""
+msgstr "Galereya-%s-%d.jpg"
 
 #. Set up the window
 #: src/plugins/screenshot/totem-gallery-progress.c:99
 msgid "Creating Gallery…"
-msgstr ""
+msgstr "Galereya yaratilmoqda…"
 
 #. Set the progress label
 #: src/plugins/screenshot/totem-gallery-progress.c:105
 #, c-format
 msgid "Saving gallery as “%s”"
-msgstr ""
+msgstr "Galereya “%s” sifatida saqlanmoqda"
 
 #: src/plugins/screenshot/totem-screenshot-plugin.c:222
 #: src/plugins/screenshot/totem-screenshot-plugin.c:231
 msgid "Videos could not get a screenshot of the video."
-msgstr ""
+msgstr "Videolar videoning skrinshotini ololmadi."
 
 #: src/plugins/screenshot/totem-screenshot-plugin.c:231
 msgid "This is not supposed to happen; please file a bug report."
-msgstr ""
+msgstr "Bu sodir bo'lmasligi kerak; Iltimos, xato haqida hisobot yuboring."
 
 #: src/plugins/screenshot/totem-screenshot-plugin.c:321
 msgid "Take _Screenshot"
-msgstr ""
+msgstr "Skrinshot olish"
 
 #: src/plugins/screenshot/totem-screenshot-plugin.c:327
 msgid "Create Screenshot _Gallery…"
-msgstr ""
+msgstr "Skrinshotlar galereyasini yaratish…"
 
 #: src/plugins/skipto/skipto.plugin.desktop.in:6
 #: src/plugins/skipto/totem-skipto.c:206
 msgid "Skip To"
-msgstr ""
+msgstr "Oʻtish"
 
 #: src/plugins/skipto/skipto.plugin.desktop.in:7
 msgid "Provides the “Skip to” dialog"
-msgstr ""
+msgstr "”O'tish” dialog oynasini taqdim etadi"
 
 #: src/plugins/skipto/skipto.ui:22
 msgid "_Skip to:"
-msgstr ""
+msgstr "_O‘tish:"
 
 #. Update the "seconds" label so that it always has the correct singular/plural form
 #. Translators: label for the seconds selector in the "Skip to" dialogue
 #: src/plugins/skipto/totem-skipto.c:170
 msgid "second"
 msgid_plural "seconds"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "soniya"
+msgstr[1] "soniya"
 
 #. Fix the label width at the maximum necessary for the plural labels, to prevent it changing size when we change the spinner value
 #. Translators: you should translate this string to a number (written in digits) which corresponds to the longer character length of the
@@ -1869,63 +1889,63 @@ msgstr[1] ""
 #: src/plugins/skipto/totem-skipto.c:200
 msgctxt "Skip To label length"
 msgid "7"
-msgstr ""
+msgstr "&"
 
 #: src/plugins/skipto/totem-skipto.c:209
 msgid "_Skip To"
-msgstr ""
+msgstr "_O'tish"
 
 #: src/plugins/skipto/totem-skipto-plugin.c:198
 msgid "_Skip To…"
-msgstr ""
+msgstr "_O‘tish…"
 
 #: src/plugins/variable-rate/totem-variable-rate-plugin.c:65
 msgctxt "playback rate"
 msgid "× 0.75"
-msgstr ""
+msgstr "× 0.75"
 
 #: src/plugins/variable-rate/totem-variable-rate-plugin.c:66
 msgctxt "playback rate"
 msgid "Normal"
-msgstr ""
+msgstr "Normal"
 
 #: src/plugins/variable-rate/totem-variable-rate-plugin.c:67
 msgctxt "playback rate"
 msgid "× 1.1"
-msgstr ""
+msgstr "× 1.1"
 
 #: src/plugins/variable-rate/totem-variable-rate-plugin.c:68
 msgctxt "playback rate"
 msgid "× 1.25"
-msgstr ""
+msgstr "× 1.25"
 
 #: src/plugins/variable-rate/totem-variable-rate-plugin.c:69
 msgctxt "playback rate"
 msgid "× 1.5"
-msgstr ""
+msgstr "× 1.5"
 
 #: src/plugins/variable-rate/totem-variable-rate-plugin.c:70
 msgctxt "playback rate"
 msgid "× 1.75"
-msgstr ""
+msgstr "× 1.75"
 
 #: src/plugins/variable-rate/totem-variable-rate-plugin.c:78
 #, c-format
 msgid "Speed: %s"
-msgstr ""
+msgstr "Tezlik: %s"
 
 #: src/plugins/variable-rate/variable-rate.plugin.desktop.in:6
 msgid "Variable Rate"
-msgstr ""
+msgstr "O'zgaruvchan tezlik"
 
 #: src/plugins/variable-rate/variable-rate.plugin.desktop.in:7
 msgid "Provides the variable rate menu item"
-msgstr ""
+msgstr "O'zgaruvchan tarif menyusi bandini taqdim etadi"
 
 #: src/plugins/vimeo/vimeo.plugin.desktop.in:6
 msgid "Vimeo"
-msgstr ""
+msgstr "Vimeo"
 
 #: src/plugins/vimeo/vimeo.plugin.desktop.in:7
 msgid "Sets the user agent for the Vimeo site"
-msgstr ""
+msgstr "Vimeo sayti uchun foydalanuvchi agentini o'rnatadi"
