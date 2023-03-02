@@ -99,8 +99,8 @@ msgid ""
 "%s has the following permissions built-in. These cannot be altered. If you "
 "are concerned about these permissions, consider removing this application."
 msgstr ""
-"%s oʻrnatilgan quyidagi ruxsatlarga ega. Ularni oʻzgartirib boʻlmaydi. Agar siz "
-"Ushbu ruxsatlardan xavotirda, ushbu ilovani o'chirishni o'ylab ko'ring."
+"%s o‘rnatilgan quyidagi ruxsatlarga ega. Ularni o‘zgartirib bo‘lmaydi. Agar"
+"siz ushbu ruxsatlardan xavotirda bo‘lsangiz, ushbu ilovani o‘chirib tashlang."
 
 #: panels/applications/cc-applications-panel.c:1192
 #, c-format
@@ -555,10 +555,9 @@ msgid ""
 "\n"
 "Allow the applications below to use your camera."
 msgstr ""
-"Kameradan foydalanish ilovalarga fotosuratlar va videolarni olish imkonini beradi. O'chirish "
-"kamera ba'zi ilovalarning to'g'ri ishlamasligiga olib kelishi mumkin.\n"
-"\n"
-"Quyidagi ilovalarga kamerangizdan foydalanishga ruxsat bering."
+"Kameradan foydalanish ilovalarga surat va video olish imkonini beradi."
+"Kamerani oʻchirib qoʻyish baʼzi ilovalarning toʻgʻri ishlamasligiga olib kelishi mumkin.\n"
+"\n Quyidagi ilovalarga kamerangizdan foydalanishga ruxsat bering."
 
 #: panels/camera/cc-camera-panel.ui:55
 msgid "No Applications Have Asked for Camera Access"
@@ -804,8 +803,8 @@ msgid ""
 "The measuring instrument is not detected. Please check it is turned on and "
 "correctly connected."
 msgstr ""
-"O'lchov asbobi aniqlanmadi. Iltimos, uning yoqilganligini tekshiring va"
-"to'g'ri ulanganligini."
+"O'lchov asbobi aniqlanmadi. Iltimos, u yoqilganligini va to'g'ri"
+"ulanganligini tekshiring."
 
 #. TRANSLATORS: this is when the button is insensitive
 #: panels/color/cc-color-panel.c:1195
@@ -835,9 +834,9 @@ msgid ""
 "screen. The longer you spend on calibration, the better the quality of the "
 "color profile."
 msgstr ""
-"Kalibrlash sizning rangingizni boshqarish uchun foydalanishingiz mumkin bo'lgan profilni yaratadi"
-"ekran. Kalibrlash uchun qancha vaqt sarflasangiz, sifati shunchalik yaxshi bo'ladi "
-"rangli profil."
+"Kalibrlash ekranni ranglarini boshqarishda foydalanishingiz mumkin bo'lgan profilni"
+"yaratadi. Kalibrlash uchun qancha vaqt sarflasangiz, rang profilining sifati"
+"shunchalik yaxshi bo'ladi."
 
 #: panels/color/cc-color-panel.ui:28
 msgid ""
@@ -892,16 +891,16 @@ msgid ""
 "Please set the display to a brightness that is typical for you. Color "
 "management will be most accurate at this brightness level."
 msgstr ""
-"Iltimos, displeyni sizga xos bo'lgan yorqinlikka sozlang. Rang "
-"Ushbu yorqinlik darajasida boshqaruv eng aniq bo'ladi."
+"Iltimos, displeyni sizga xos bo'lgan yorqinlikka o'rnating. Rangni"
+"boshqarish ushbu yorqinlik darajasida eng aniq bo'ladi."
 
 #: panels/color/cc-color-panel.ui:202
 msgid ""
 "Alternatively, you can use the brightness level used with one of the other "
 "profiles for this device."
 msgstr ""
-"Shu bilan bir qatorda, siz boshqasidan biri bilan ishlatiladigan yorqinlik darajasidan foydalanishingiz mumkin"
-"ushbu qurilma uchun profillar."
+"Shu bilan bir qatorda, siz ushbu qurilma uchun boshqa profillardan biri bilan"
+"ishlatiladigan yorqinlik darajasidan foydalanishingiz mumkin."
 
 #: panels/color/cc-color-panel.ui:214
 #, fuzzy
@@ -914,8 +913,8 @@ msgid ""
 "You can use a color profile on different computers, or even create profiles "
 "for different lighting conditions."
 msgstr ""
-"Siz turli xil kompyuterlarda rangli profildan foydalanishingiz yoki hatto profil yaratishingiz mumkin"
-"turli xil yoritish sharoitlari uchun."
+"Siz turli xil kompyuterlarda rangli profildan foydalanishingiz yoki hatto turli"
+"yorug'lik sharoitlari uchun profillar yaratishingiz mumkin."
 
 #: panels/color/cc-color-panel.ui:229
 #, fuzzy
@@ -947,9 +946,9 @@ msgid ""
 "\">GNU/Linux</a>, <a href=\"osx\">Apple OS X</a> and <a href=\"windows"
 "\">Microsoft Windows</a> systems useful."
 msgstr ""
-"Profildan qanday foydalanish bo'yicha ushbu ko'rsatmalarni <a href=\"linux da topishingiz mumkin."
-"\">GNU/Linux</a>, <a href=\"osx\">Apple OS X</a> va <a href=\"windows"
-"\">Microsoft Windows</a> tizimlari foydali."
+"Siz ushbu profildan qanday foydalanish boʻyicha koʻrsatmalarni <a href=\"linux\">GNU/Linux</a>,"
+"<a href=\"osx\">Apple OS X</a> va < da topishingiz mumkin."
+"a href=\"windows\">Microsoft Windows</a> tizimlari foydali."
 
 #: panels/color/cc-color-panel.ui:335
 #, fuzzy
@@ -962,8 +961,8 @@ msgid ""
 "Problems detected. The profile may not work correctly. <a href=\"\">Show "
 "details.</a>"
 msgstr ""
-"Muammolar aniqlandi. Profil to'g'ri ishlamasligi mumkin. <a href=\"\">Ko'rsatish "
-"tafsilotlar.</a>"
+"Muammolar aniqlandi. Profil to'g'ri ishlamasligi mumkin. <a href=\"\">"
+"Tafsilotlarni ko'rsatish.</a>"
 
 #: panels/color/cc-color-panel.ui:384
 #, fuzzy
@@ -1635,8 +1634,8 @@ msgid ""
 "Sending reports of technical problems helps us improve %s. Reports are sent "
 "anonymously and are scrubbed of personal data. %s"
 msgstr ""
-"Texnik muammolar haqida hisobotlarni yuborish %s ni yaxshilashga yordam beradi. Hisobotlar yuboriladi "
-"anonim va shaxsiy ma'lumotlar tozalanadi. %s"
+"Texnik muammolar haqida hisobotlarni yuborish %s ni yaxshilashga yordam beradi."
+"Hisobotlar anonim tarzda yuboriladi va shaxsiy maʼlumotlardan tozalanadi. %s"
 
 #: panels/diagnostics/cc-diagnostics-panel.ui:8
 msgid "Problem Reporting"
@@ -1809,8 +1808,8 @@ msgid ""
 "This could be the result of the graphics driver being used, or the desktop "
 "being used remotely"
 msgstr ""
-"Bu ishlatiladigan grafik drayver yoki ish stolining natijasi bo'lishi mumkin"
-"masofadan foydalanilmoqda"
+"Bu grafik drayverning ishlatilishi yoki ish stolining masofadan turib ishlatilishi"
+"natijasi bo'lishi mumkin"
 
 #. Inhibit the redshift functionality until the next day starts
 #: panels/display/cc-night-light-page.ui:58
@@ -1829,8 +1828,8 @@ msgid ""
 "Night light makes the screen color warmer. This can help to prevent eye "
 "strain and sleeplessness."
 msgstr ""
-"Tungi yorug'lik ekran rangini issiqroq qiladi. Bu ko'zning charchashini oldini olishga yordam beradi "
-"zo'riqish va uyqusizlik".
+"Tungi yorug'lik ekran rangini yorqinroq qiladi. Bu ko'zning zo'riqish va"
+"uyqusizlikning oldini olishga yordam beradi."
 
 #: panels/display/cc-night-light-page.ui:132
 msgid "Schedule"
@@ -1919,8 +1918,8 @@ msgid ""
 "Secure boot prevents malicious software from being loaded when the device "
 "starts. It is currently turned on and is functioning correctly."
 msgstr ""
-"Xavfsiz yuklash qurilmaga zararli dasturlarni yuklanishini oldini oladi"
-"boshlanadi. Hozirda u yoqilgan va to'g'ri ishlamoqda."
+"Xavfsiz yuklash qurilma ishga tushganda zararli dasturlarning yuklanishini oldini"
+"oladi. Hozirda u yoqilgan va to'g'ri ishlamoqda."
 
 #. TRANSLATORS: secure boot refers to the system firmware security mode
 #: panels/firmware-security/cc-firmware-security-boot-dialog.c:83
@@ -1934,9 +1933,8 @@ msgid ""
 "starts. It is currently turned on, but will not work due to having an "
 "invalid key."
 msgstr ""
-"Xavfsiz yuklash qurilmaga zararli dasturlarni yuklanishini oldini oladi"
-"boshlanadi. Hozirda u yoqilgan, lekin yaroqsiz kalit borligi."
-"sababli ishlamaydi"
+"Xavfsiz yuklash qurilma ishga tushganda zararli dasturlarning yuklanishini"
+"oldini oladi. Hozirda u yoqilgan, lekin kalit yaroqsizligi sababli ishlamaydi."
 
 #. TRANSLATORS: this is the second section of description.
 #: panels/firmware-security/cc-firmware-security-boot-dialog.c:90
@@ -1945,9 +1943,9 @@ msgid ""
 "firmware settings (BIOS) and your hardware manufacturer may provide "
 "information on how to do this."
 msgstr ""
-"Xavfsiz yuklash muammolarini ko'pincha kompyuteringizning UEFI orqali hal qilish mumkin"
-"Mikrodastur sozlamalari (BIOS) va qurilma ishlab chiqaruvchingiz taqdim etishi mumkin"
-"Buni qanday qilish haqida ma'lumot."
+"Xavfsiz yuklash muammolarini ko'pincha kompyuteringizning UEFI mikrodastur"
+"sozlamalari (BIOS) orqali hal qilish mumkin va sizning qurilma ishlab chiqaruvchingiz"
+"buni qanday qilish haqida ma'lumot berishi mumkin."
 
 #. TRANSLATORS: this is the third section of description.
 #: panels/firmware-security/cc-firmware-security-boot-dialog.c:93
@@ -1965,8 +1963,8 @@ msgid ""
 "Secure boot prevents malicious software from being loaded when the device "
 "starts. It is currently turned off."
 msgstr ""
-"Xavfsiz yuklash qurilmaga zararli dasturlarni yuklanishini oldini oladi"
-"boshlanadi. Hozirda u o'chirilgan."
+"Xavfsiz yuklash qurilma ishga tushganda zararli dasturlarning yuklanishini"
+"oldini oladi. Hozirda u o'chirilgan."
 
 #. TRANSLATORS: this is the second section of the description.
 #: panels/firmware-security/cc-firmware-security-boot-dialog.c:106
@@ -1975,9 +1973,9 @@ msgid ""
 "settings (BIOS). For help, contact your hardware manufacturer or IT support "
 "provider."
 msgstr ""
-"Xavfsiz yuklash ko'pincha kompyuteringizning UEFI mikrodasturidan yoqilishi mumkin"
-"sozlamalar (BIOS). Yordam olish uchun qurilma ishlab chiqaruvchisi yoki IT yordamiga murojaat qiling "
-"provayder".
+"Xavfsiz yuklash ko'pincha kompyuteringizning UEFI mikrodastur sozlamalari (BIOS)"
+"orqali yoqilishi mumkin. Yordam uchun qurilma ishlab chiqaruvchisi yoki"
+"IT-quvvatlash provayderiga murojaat qiling."
 
 #: panels/firmware-security/cc-firmware-security-boot-dialog.ui:53
 msgid ""
@@ -1986,8 +1984,8 @@ msgid ""
 "\n"
 "For more information, contact the hardware manufacturer or IT support."
 msgstr ""
-"Xavfsiz yuklash qurilmaga zararli dasturlarni yuklanishini oldini oladi"
-"boshlanadi.\n"
+"Xavfsiz yuklash qurilma ishga tushganda zararli dasturlarning yuklanishini oldini"
+"oladi.\n"
 "\n"
 "Qo'shimcha ma'lumot olish uchun qurilma ishlab chiqaruvchisi yoki IT-quvvatlash xizmatiga murojaat qiling."
 
@@ -2023,9 +2021,9 @@ msgid ""
 "be because of a hardware or firmware configuration issue. It is recommended "
 "to contact your IT support provider."
 msgstr ""
-"Ushbu qurilma apparat xavfsizligi muammolaridan himoyalanmagan. Bu "
-"Uskuna yoki mikrodastur konfiguratsiyasi muammosi tufayli bo'lishi mumkin. Bu tavsiya etiladi "
-"IT qo'llab-quvvatlash provayderingiz bilan bog'lanish uchun."
+"Ushbu qurilma qurilma xavfsizligi muammolaridan himoyalanmagan. Buning sababi"
+"qurilma yoki mikrodastur konfiguratsiyasi muammosi boʻlishi mumkin. IT-quvvatlash"
+"provayderingizga murojaat qilish tavsiya etiladi."
 
 #. TRANSLATORS: in reference to firmware protection: 1/4 stars
 #: panels/firmware-security/cc-firmware-security-dialog.c:158
@@ -2040,9 +2038,8 @@ msgid ""
 "the lowest device security level and only provides protection against simple "
 "security threats."
 msgstr ""
-"Ushbu qurilma apparat xavfsizligi muammolaridan minimal himoyaga ega. Bu "
-"qurilmaning eng past xavfsizlik darajasi va faqat oddiy narsalardan himoya qiladi"
-"xavfsizlikka tahdidlar".
+"Ushbu qurilma apparat xavfsizligi muammolaridan minimal himoyaga ega. Bu qurilmaning"
+"eng past xavfsizlik darajasi va faqat oddiy xavfsizlik tahdidlaridan himoya qiladi."
 
 #. TRANSLATORS: in reference to firmware protection: 2/4 stars
 #: panels/firmware-security/cc-firmware-security-dialog.c:167
@@ -2056,8 +2053,8 @@ msgid ""
 "This device has basic protection against hardware security issues. This "
 "provides protection against some common security threats."
 msgstr ""
-"Ushbu qurilma apparat xavfsizligi muammolaridan asosiy himoyaga ega. Bu "
-"ba'zi umumiy xavfsizlik tahdidlaridan himoya qiladi."
+"Ushbu qurilma apparat xavfsizligi muammolaridan asosiy himoyaga ega."
+"Bu ba'zi umumiy xavfsizlik tahdidlaridan himoya qiladi."
 
 #. TRANSLATORS: in reference to firmware protection: 3/4 stars
 #: panels/firmware-security/cc-firmware-security-dialog.c:176
@@ -2072,9 +2069,9 @@ msgid ""
 "is the highest device security level and provides protection against "
 "advanced security threats."
 msgstr ""
-"Ushbu qurilma apparat xavfsizligi muammolaridan kengaytirilgan himoyaga ega. Bu "
-"qurilmaning eng yuqori darajadagi xavfsizlik darajasidir va undan himoya qiladi"
-"ilg'or xavfsizlik tahdidlari".
+"Ushbu qurilma apparat xavfsizligi bilan bog'liq muammolardan kengaytirilgan himoyaga"
+"ega. Bu qurilma xavfsizligining eng yuqori darajasi va ilg'or xavfsizlik"
+"tahdidlaridan himoya qiladi."
 
 #. TRANSLATORS: in reference to firmware protection: ??? stars
 #: panels/firmware-security/cc-firmware-security-dialog.c:185
@@ -2101,8 +2098,8 @@ msgid ""
 "It might be possible to resolve this issue in the device’s UEFI firmware "
 "settings, or by a support technician."
 msgstr ""
-"Ushbu muammoni qurilmaning UEFI mikrodasturida hal qilish mumkin"
-"sozlamalar yoki yordamchi texnik tomonidan."
+"Ushbu muammoni qurilmaning UEFI mikrodastur sozlamalarida yoki texnik xizmat ko'rsatish"
+"bo'yicha mutaxassis tomonidan hal qilish mumkin bo'lishi mumkin."
 
 #: panels/firmware-security/cc-firmware-security-dialog.c:212
 #: panels/firmware-security/cc-firmware-security-dialog.c:223
@@ -2110,8 +2107,7 @@ msgid ""
 "It might be possible to resolve this issue in the device’s UEFI firmware "
 "settings."
 msgstr ""
-"Ushbu muammoni qurilmaning UEFI mikrodasturida hal qilish mumkin"
-"sozlamalar".
+"Ushbu muammoni qurilmaning UEFI mikrodastur sozlamalarida hal qilish mumkin."
 
 #. TRANSLATORS: support technician as in someone with root
 #: panels/firmware-security/cc-firmware-security-dialog.c:229
@@ -2157,9 +2153,8 @@ msgid ""
 "operating system configuration change, or because of malicious software on "
 "this system."
 msgstr ""
-"Ushbu muammo UEFI proshivka sozlamalaridagi o'zgarishlar tufayli yuzaga kelgan bo'lishi mumkin,"
-"operatsion tizim konfiguratsiyasi o'zgarishi yoki zararli dastur tufayli"
-"bu tizim."
+"Ushbu muammo UEFI mikrodastur sozlamalari o'zgarishi, operatsion tizim konfiguratsiyasining"
+"o'zgarishi yoki ushbu tizimdagi zararli dasturlar tufayli yuzaga kelgan bo'lishi mumkin."
 
 #. TRANSLATORS: this is to explain an event that has already happened
 #: panels/firmware-security/cc-firmware-security-panel.c:150
@@ -2167,8 +2162,8 @@ msgid ""
 "This issue could have been caused by a change in the UEFI firmware settings, "
 "or because of malicious software on this system."
 msgstr ""
-"Ushbu muammo UEFI mikrodastur sozlamalaridagi o'zgarish tufayli yuzaga kelgan bo'lishi mumkin",
-"yoki ushbu tizimdagi zararli dastur tufayli."
+"Ushbu muammo UEFI mikrodastur sozlamalari o'zgarishi yoki ushbu tizimdagi zararli"
+"dasturlar tufayli yuzaga kelgan bo'lishi mumkin."
 
 #. TRANSLATORS: this is to explain an event that has already happened
 #: panels/firmware-security/cc-firmware-security-panel.c:157
@@ -2176,8 +2171,8 @@ msgid ""
 "This issue could have been caused by an operating system configuration "
 "change, or because of malicious software on this system."
 msgstr ""
-"Ushbu muammo operatsion tizim konfiguratsiyasidan kelib chiqqan bo'lishi mumkin"
-"o'zgartirish yoki ushbu tizimdagi zararli dastur tufayli."
+"Ushbu muammo operatsion tizim konfiguratsiyasining o'zgarishi yoki ushbu"
+"tizimdagi zararli dasturlar tufayli yuzaga kelgan bo'lishi mumkin."
 
 #: panels/firmware-security/cc-firmware-security-panel.c:483
 msgid "Exposed to serious security threats."
@@ -2199,7 +2194,7 @@ msgstr "Keng doiradagi xavfsizlik tahdidlaridan himoyalangan."
 #. TRANSLATORS: in reference to firmware protection: 4/4 stars
 #: panels/firmware-security/cc-firmware-security-panel.c:511
 msgid "Comprehensive Protection"
-msgstr Keng qamrovli himoya""
+msgstr "Keng qamrovli himoya"
 
 #: panels/firmware-security/cc-firmware-security-panel.ui:150
 msgid "No Events"
@@ -2620,8 +2615,8 @@ msgid ""
 "The device name is used to identify this device when it is viewed over the "
 "network, or when pairing Bluetooth devices."
 msgstr ""
-"Qurilma nomi ushbu qurilmani ko'rishda uni aniqlash uchun ishlatiladi"
-"tarmoq yoki Bluetooth qurilmalarini ulashda."
+"Qurilma nomi ushbu qurilma tarmoq orqali ko'rilganda yoki Bluetooth qurilmalarini"
+"ulashda aniqlash uchun ishlatiladi."
 
 #: panels/info-overview/cc-info-overview-panel.ui:196
 #, fuzzy
@@ -2893,8 +2888,8 @@ msgid ""
 "The alternate characters key can be used to enter additional characters. "
 "These are sometimes printed as a third-option on your keyboard."
 msgstr ""
-"Muqobil belgilar tugmasi qo'shimcha belgilar kiritish uchun ishlatilishi mumkin."
-"Ular ba'zan klaviaturangizda uchinchi variant sifatida chop etiladi."
+"Muqobil belgilar tugmasi qo'shimcha belgilar kiritish uchun ishlatilishi"
+"mumkin. Ular ba'zan klaviaturangizda uchinchi variant sifatida chop etiladi."
 
 #: panels/keyboard/cc-keyboard-panel.c:67
 #: panels/keyboard/cc-keyboard-panel.c:85
@@ -2946,10 +2941,10 @@ msgid ""
 "followed by <b>C</b> and <b>o</b> will enter <b>©</b>, <b>a</b> followed by "
 "<b>'</b> will enter <b>á</b>."
 msgstr ""
-"Yozuv tugmasi turli xil belgilarni kiritish imkonini beradi. Foydalanish uchun "
-"Buning uchun, tuzish tugmachasini bosing, so'ngra belgilar ketma-ketligini bosing. Masalan, yozish tugmasi "
-"<b>C</b> va <b>o</b> dan keyin <b>©</b>, <b>a</b> va keyin kiritiladi."
-"<b>'</b> <b>á</b> kiritiladi."
+"Yozuv tugmasi turli xil belgilarni kiritish imkonini beradi. Undan foydalanish"
+"uchun kompozitsiyani, keyin belgilar ketma-ketligini bosing. Masalan, yozish tugmasidan"
+"keyin <b>C</b> va <b>o</b> tugmalarini bosing. <b>©</b> kiritadi, <b>a</b> va"
+"keyin <b>'</b> kiritiladi <b>á</b>."
 
 #: panels/keyboard/cc-keyboard-panel.c:91
 msgctxt "keyboard key"
@@ -2975,7 +2970,7 @@ msgid ""
 "This can be changed in the keyboard shortcut settings."
 msgstr ""
 "Kirish manbalarini %s klaviatura yorlig‘i yordamida almashtirish mumkin.\n"
-"Buni klaviatura yorliqlari sozlamalarida o'zgartirish mumkin."
+"Buni klaviatura yorliqlari sozlamalarida o‘zgartirish mumkin."
 
 #: panels/keyboard/cc-keyboard-panel.ui:17
 #, fuzzy
@@ -3035,8 +3030,8 @@ msgid ""
 "Resetting the shortcuts may affect your custom shortcuts. This cannot be "
 "undone."
 msgstr ""
-"Yorliqlarni asl holatiga qaytarish maxsus yorliqlaringizga ta'sir qilishi mumkin. Buni ortga "
-"qaytarib bo‘lmaydi."
+"Yorliqlarni qayta oʻrnatish maxsus yorliqlaringizga taʼsir qilishi mumkin."
+"Buni ortga qaytarib boʻlmaydi."
 
 #: panels/keyboard/cc-keyboard-shortcut-dialog.c:470
 #: panels/network/wireless-security/ws-file-chooser-button.c:94
@@ -3188,8 +3183,8 @@ msgid ""
 "Change keyboard shortcuts and set your typing preferences, keyboard layouts "
 "and input sources"
 msgstr ""
-"Klaviatura yorliqlarini o'zgartiring va yozish afzalliklarini, klaviatura tartibini va"
-"kiritish manbalarini o'rnating"
+"Klaviatura yorliqlarini o'zgartiring va yozish afzalliklarini, klaviatura"
+"tartibini va kiritish manbalarini o'rnating"
 
 #. Translators: Search terms to find the Keyboard panel. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
 #: panels/keyboard/gnome-keyboard-panel.desktop.in.in:19
@@ -3216,11 +3211,11 @@ msgid ""
 "\n"
 "Allow the applications below to determine your location."
 msgstr ""
-"Joylashuv xizmatlari ilovalarga joylashuvingizni bilish imkonini beradi. Wi-Fi va "
-"mobil keng tarmoqli ulanish aniqlikni oshiradi.\n"
+"Joylashuv xizmatlari ilovalarga joylashuvingizni bilish imkonini beradi. Wi-Fi"
+"va mobil keng tarmoqli ulanishdan foydalanish aniqlikni oshiradi.\n"
 "\n"
-"Mozilla Joylashuv xizmatidan foydalanadi: <a href='https://location.services.mozilla."
-"com/privacy'>Maxfiylik siyosati</a>\n"
+"Mozilla joylashuv xizmatidan foydalanadi: <a href='https://location.services.mozilla.com/privacy'>"
+"Maxfiylik siyosati </a>\n"
 "\n"
 "Quyidagi ilovalarga joylashuvingizni aniqlashga ruxsat bering."
 
@@ -3256,8 +3251,7 @@ msgid ""
 "Allow the applications below to use your microphone."
 msgstr ""
 "Mikrofondan foydalanish ilovalarga audio yozib olish va tinglash imkonini beradi."
-"Mikrofonni o'chirib qo'yish ba'zi ilovalarning ishlamasligiga olib kelishi mumkin"
-"to'g'ri.\n"
+"Mikrofonni oʻchirib qoʻyish baʼzi ilovalarning toʻgʻri ishlamasligiga olib kelishi mumkin.\n"
 "\n"
 "Quyidagi ilovalarga mikrofoningizdan foydalanishga ruxsat bering."
 
@@ -3557,8 +3551,8 @@ msgid ""
 "Turning on the hotspot will disconnect from %s, and it will not be possible "
 "to access the internet through Wi-Fi."
 msgstr ""
-"Ulanish nuqtasi yoqilsa, %s aloqasi uziladi va" 
-"Wi-Fi orqali internetga kirish imkoni bo‘lmaydi."
+"Ulanish nuqtasi yoqilsa, %s aloqasi uziladi va Wi-Fi orqali internetga"
+"kirish imkoni bo‘lmaydi."
 
 #: panels/network/cc-wifi-hotspot-dialog.c:266
 msgid "Must have a minimum of 8 characters"
@@ -3581,9 +3575,9 @@ msgid ""
 "Wi-Fi network that they can connect to. To do this, you must have an "
 "internet connection through a source other than Wi-Fi."
 msgstr ""
-"Wi-Fi ulanish nuqtasi boshqalarga sizning internet ulanishingizni baham ko'rish imkonini beradi, "
-"Ular ulanishi mumkin bo'lgan Wi-Fi tarmog'i." 
-"Buning uchun siz Wi-Fidan boshqa manba orqali internetga ulanishingiz kerak."
+"Wi-Fi ulanish nuqtasi boshqalarga ulanishi mumkin bo'lgan Wi-Fi tarmog'ini yaratish"
+"orqali sizning internet ulanishingizni baham ko'rish imkonini beradi. Buning uchun"
+"siz Wi-Fidan boshqa manba orqali internetga ulanishingiz kerak."
 
 #: panels/network/cc-wifi-hotspot-dialog.ui:51
 #, fuzzy
@@ -3710,9 +3704,9 @@ msgid ""
 "network device this connection is activated on. This feature is known as MAC "
 "cloning or spoofing. Example: 00:11:22:33:44:55"
 msgstr ""
-"Bu yerga kiritilgan MAC manzili ushbu ulanish yoqilgan tarmoq qurilmasi" 
-"uchun apparat manzili sifatida ishlatiladi. Bu xususiyat"
-"MAC klonlash yoki aldash sifatida tanilgan. Misol: 00:11:22:33:44:55"
+"Bu yerga kiritilgan MAC manzili ushbu ulanish yoqilgan tarmoq qurilmasi uchun apparat"
+"manzili sifatida ishlatiladi. Bu xususiyat MAC klonlash yoki aldash sifatida tanilgan."
+"Misol: 00:11:22:33:44:55"
 
 #: panels/network/connection-editor/ce-page.c:399
 #, c-format
@@ -4218,8 +4212,8 @@ msgid ""
 "\n"
 "Error: %s."
 msgstr ""
-"“%s” faylini oʻqib boʻlmadi yoki tanilgan VPNni oʻz ichiga olmaydi"
-"ulanish ma'lumotlari\n"
+"“%s” faylini oʻqib boʻlmadi yoki tan olingan VPN ulanish maʼlumotlarini"
+"oʻz ichiga olmaydi\n"
 "\n"
 "Xato: %s."
 
@@ -4254,7 +4248,7 @@ msgid ""
 "\n"
 "Error: %s."
 msgstr ""
-"“%s” VPN ulanishini %s tarmog‘iga eksport qilib bo‘lmadi.\n"
+"“%s” VPN ulanishini %sga eksport qilib bo‘lmadi.\n"
 "\n"
 "Xato: %s."
 
@@ -4327,8 +4321,8 @@ msgid ""
 "Network details for the selected networks, including passwords and any "
 "custom configuration will be lost."
 msgstr ""
-"Tanlangan tarmoqlar uchun tarmoq tafsilotlari, jumladan parollar va har qanday" 
-"maxsus konfiguratsiya yo'qoladi."
+"Tanlangan tarmoqlar uchun tarmoq tafsilotlari, jumladan parollar va har"
+"qanday maxsus konfiguratsiya yo'qoladi."
 
 #: panels/network/net-device-wifi.c:867
 msgid "_Forget"
@@ -5131,8 +5125,8 @@ msgid ""
 "invalid wep-key: wrong key length %zu. A key must be either of length 5/13 "
 "(ascii) or 10/26 (hex)"
 msgstr ""
-"wep-kalit noto'g'ri: noto'g'ri kalit uzunligi %zu. Kalit uzunligi 5/13 bo'lishi kerak"
-"(ascii) yoki 10/26 (hex)"
+"wep-kalit noto'g'ri: noto'g'ri kalit uzunligi %zu. Kalit uzunligi 5/13 (ascii)"
+"yoki 10/26 (hex) bo'lishi kerak"
 
 #: panels/network/wireless-security/ws-wep-key.c:144
 msgid "invalid wep-key: passphrase must be non-empty"
@@ -5176,8 +5170,8 @@ msgid ""
 "invalid wpa-psk: invalid key-length %zu. Must be [8,63] bytes or 64 hex "
 "digits"
 msgstr ""
-"yaroqsiz wpa-psk: kalit uzunligi %zu noto'g'ri. [8,63] bayt yoki 64 hex raqam "
-"bo'lishi kerak"
+"yaroqsiz wpa-psk: kalit uzunligi %zu noto'g'ri. [8,63] bayt yoki 64 hex"
+"raqam bo'lishi kerak"
 
 #: panels/network/wireless-security/ws-wpa-psk.c:86
 msgid "invalid wpa-psk: cannot interpret key with 64 bytes as hex"
@@ -6947,7 +6941,7 @@ msgid ""
 "locked."
 msgstr ""
 "Ekran qulflanganda yangi USB qurilmalarining tizim bilan o'zaro" 
-"ta'sirini oldini oling."
+"ta'sirini oldini oling.""PostScript Printer Description files (*.ppd, *.PPD, *.ppd.gz, *.PPD.gz, *. PPD.GZ)"
 
 #: panels/screen/cc-screen-panel.ui:108
 #, fuzzy

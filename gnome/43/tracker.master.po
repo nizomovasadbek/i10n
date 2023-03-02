@@ -409,7 +409,7 @@ msgstr "Xususiyatlarni roʻyxatga kiritib boʻlmadi"
 
 #: src/tracker/tracker-sparql.c:1238
 msgid "No properties were found"
-msgstr "Hech qanda xususiyatlari topilmadi"
+msgstr "Hech qanday xususiyatlari topilmadi"
 
 #: src/tracker/tracker-sparql.c:1238 src/tracker/tracker-sparql.c:1386
 msgid "Properties"
@@ -453,7 +453,7 @@ msgstr "Nomlangan grafikalar"
 
 #: src/tracker/tracker-sparql.c:1355
 msgid "Could not search classes"
-msgstr "Claslarni qidirib boʻlmadi"
+msgstr "Classlarni qidirib boʻlmadi"
 
 #: src/tracker/tracker-sparql.c:1363
 msgid "No classes were found to match search term"
