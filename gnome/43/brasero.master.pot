@@ -726,99 +726,102 @@ msgstr "Iltimos, diskni CD/DVD yozuvchisiga qayta joylashtiring."
 #: ../libbrasero-burn/brasero-burn-dialog.c:650
 #, c-format
 msgid "\"%s\" is busy."
-msgstr ""
+msgstr "\"%s\" band."
 
 #: ../libbrasero-burn/brasero-burn-dialog.c:654
 #, c-format
 msgid "There is no disc in \"%s\"."
-msgstr ""
+msgstr "\"%s\" da disk yo'q."
 
 #: ../libbrasero-burn/brasero-burn-dialog.c:658
 #, c-format
 msgid "The disc in \"%s\" is not supported."
-msgstr ""
+msgstr "\"%s\" ichidagi disk qo'llab-quvvatlanmaydi."
 
 #: ../libbrasero-burn/brasero-burn-dialog.c:662
 #, c-format
 msgid "The disc in \"%s\" is not rewritable."
-msgstr ""
+msgstr "\"%s\" ichidagi diskni qayta yozish mumkin emas."
 
 #: ../libbrasero-burn/brasero-burn-dialog.c:666
 #, c-format
 msgid "The disc in \"%s\" is empty."
-msgstr ""
+msgstr "\"%s\" ichidagi disk bo'sh."
 
 #: ../libbrasero-burn/brasero-burn-dialog.c:670
 #, c-format
 msgid "The disc in \"%s\" is not writable."
-msgstr ""
+msgstr "\"%s\" ichidagi diskni yozish mumkin emas."
 
 #: ../libbrasero-burn/brasero-burn-dialog.c:674
 #, c-format
 msgid "Not enough space available on the disc in \"%s\"."
-msgstr ""
+msgstr "\"%s\" diskida yetarli joy mavjud emas."
 
 #: ../libbrasero-burn/brasero-burn-dialog.c:682
 #, c-format
 msgid "The disc in \"%s\" needs to be reloaded."
-msgstr ""
+msgstr "\"%s\" ichidagi diskni qayta yuklash kerak."
 
 #: ../libbrasero-burn/brasero-burn-dialog.c:683
 msgid "Please eject the disc and reload it."
-msgstr ""
+msgstr "Iltimos, diskni chiqarib oling va qayta yuklang."
 
 #: ../libbrasero-burn/brasero-burn-dialog.c:728
 #: ../libbrasero-burn/brasero-sum-dialog.c:333
 msgid ""
 "A file could not be created at the location specified for temporary files"
 msgstr ""
+"Vaqtinchalik fayllar uchun belgilangan joyda fayl yaratib boʻlmadi"
 
 #: ../libbrasero-burn/brasero-burn-dialog.c:729
 msgid "The image could not be created at the specified location"
-msgstr ""
+msgstr "Tasvirni belgilangan joyda yaratib bo‘lmadi"
 
 #: ../libbrasero-burn/brasero-burn-dialog.c:730
 msgid ""
 "Do you want to specify another location for this session or retry with the "
 "current location?"
 msgstr ""
+"Ushbu seans uchun boshqa joyni belgilashni xohlaysizmi yoki joriy joylashuv"
+"bilan qayta urinib ko'rasizmi?"
 
 #: ../libbrasero-burn/brasero-burn-dialog.c:742
 msgid "You may want to free some space on the disc and retry"
-msgstr ""
+msgstr "Siz diskda biroz bo'sh joy bo'shatib, qayta urinib ko'rishingiz mumkin"
 
 #: ../libbrasero-burn/brasero-burn-dialog.c:749
 #: ../libbrasero-burn/brasero-drive-properties.c:244
 #: ../libbrasero-burn/brasero-drive-properties.c:282
 #: ../libbrasero-burn/brasero-drive-properties.c:334
 msgid "_Keep Current Location"
-msgstr ""
+msgstr "_Joriy joylashuvni saqlash"
 
 #: ../libbrasero-burn/brasero-burn-dialog.c:751
 #: ../libbrasero-burn/brasero-drive-properties.c:245
 #: ../libbrasero-burn/brasero-drive-properties.c:283
 #: ../libbrasero-burn/brasero-drive-properties.c:335
 msgid "_Change Location"
-msgstr ""
+msgstr "_Joylashuvni o'zgartirish"
 
 #: ../libbrasero-burn/brasero-burn-dialog.c:773
 #: ../libbrasero-burn/brasero-image-properties.c:459
 msgid "Location for Image File"
-msgstr ""
+msgstr "Tasvir fayli uchun joy"
 
 #: ../libbrasero-burn/brasero-burn-dialog.c:781
 #: ../libbrasero-burn/brasero-drive-properties.c:366
 msgid "Location for Temporary Files"
-msgstr ""
+msgstr "Vaqtinchalik fayllar uchun joy"
 
 #: ../libbrasero-burn/brasero-burn-dialog.c:889
 #: ../libbrasero-burn/brasero-burn-dialog.c:1135
 msgid "_Replace Disc"
-msgstr ""
+msgstr "_Diskni almashtiring"
 
 #: ../libbrasero-burn/brasero-burn-dialog.c:930
 msgid "Do you really want to blank the current disc?"
-msgstr ""
+msgstr "Haqiqatan ham joriy diskni tozalashni xohlaysizmi?"
 
 #: ../libbrasero-burn/brasero-burn-dialog.c:931
 msgid "The disc in the drive holds data."
@@ -827,83 +830,90 @@ msgstr ""
 #. Translators: Blank is a verb here
 #: ../libbrasero-burn/brasero-burn-dialog.c:933
 msgid "_Blank Disc"
-msgstr ""
+msgstr "_Bo'sh disk"
 
 #: ../libbrasero-burn/brasero-burn-dialog.c:947
 msgid ""
 "If you import them you will be able to see and use them once the current "
 "selection of files is burned."
 msgstr ""
+"Agar siz ularni import qilsangiz, joriy tanlangan fayllar yoqilgandan so'ng"
+"ularni ko'rishingiz va ishlatishingiz mumkin bo'ladi."
 
 #: ../libbrasero-burn/brasero-burn-dialog.c:948
 msgid "If you don't, they will be invisible (though still readable)."
-msgstr ""
+msgstr "Agar shunday qilmasangiz, ular ko'rinmas bo'lib qoladi (garchi hali ham o'qilishi mumkin)."
 
 #: ../libbrasero-burn/brasero-burn-dialog.c:951
 msgid ""
 "There are files already burned on this disc. Would you like to import them?"
 msgstr ""
+"Ushbu diskda allaqachon yozib olingan fayllar bor. Ularni import qilmoqchimisiz?"
 
 #: ../libbrasero-burn/brasero-burn-dialog.c:953
 msgid "_Import"
-msgstr ""
+msgstr "_Import"
 
 #: ../libbrasero-burn/brasero-burn-dialog.c:954
 msgid "Only _Append"
-msgstr ""
+msgstr "Faqat qo'shish"
 
 #: ../libbrasero-burn/brasero-burn-dialog.c:967
 msgid ""
 "CD-RW audio discs may not play correctly in older CD players and CD-Text "
 "won't be written."
 msgstr ""
+"CD-RW audio disklari eski CD pleyerlarda to'g'ri ishlamasligi mumkin"
+"va CD-matn yozilmaydi."
 
 #: ../libbrasero-burn/brasero-burn-dialog.c:968
 #: ../libbrasero-burn/brasero-burn-dialog.c:990
 msgid "Do you want to continue anyway?"
-msgstr ""
+msgstr "Baribir davom ettirmoqchimisiz?"
 
 #: ../libbrasero-burn/brasero-burn-dialog.c:971
 msgid "Appending audio tracks to a CD is not advised."
-msgstr ""
+msgstr "Audio treklarni CD diskga qo'shish tavsiya etilmaydi."
 
 #: ../libbrasero-burn/brasero-burn-dialog.c:973
 #: ../libbrasero-burn/brasero-burn-dialog.c:995
 #: ../libbrasero-burn/brasero-tool-dialog.c:422 ../src/brasero-data-disc.c:572
 msgid "_Continue"
-msgstr ""
+msgstr "_Davom etish"
 
 #: ../libbrasero-burn/brasero-burn-dialog.c:989
 msgid "CD-RW audio discs may not play correctly in older CD players."
-msgstr ""
+msgstr "CD-RW audio disklari eski CD pleyerlarda to'g'ri ishlamasligi mumkin."
 
 #: ../libbrasero-burn/brasero-burn-dialog.c:993
 msgid "Recording audio tracks on a rewritable disc is not advised."
-msgstr ""
+msgstr "Qayta yoziladigan diskda audio treklarni yozib olish tavsiya etilmaydi."
 
 #. Translators: %s is the name of a drive
 #: ../libbrasero-burn/brasero-burn-dialog.c:1037
 #, c-format
 msgid "Please eject the disc from \"%s\" manually."
-msgstr ""
+msgstr "Iltimos, diskni \"%s\" dan qo'lda chiqarib oling."
 
 #: ../libbrasero-burn/brasero-burn-dialog.c:1046
 msgid ""
 "The disc could not be ejected though it needs to be removed for the current "
 "operation to continue."
 msgstr ""
+"Diskni chiqarib bo'lmadi, lekin joriy operatsiya davom etishi uchun uni"
+"olib tashlash kerak."
 
 #: ../libbrasero-burn/brasero-burn-dialog.c:1133
 msgid "Do you want to replace the disc and continue?"
-msgstr ""
+msgstr "Diskni almashtirib, davom ettirmoqchimisiz?"
 
 #: ../libbrasero-burn/brasero-burn-dialog.c:1134
 msgid "The currently inserted disc could not be blanked."
-msgstr ""
+msgstr "Hozirda kiritilgan diskni bo'shatib bo'lmadi."
 
 #: ../libbrasero-burn/brasero-burn-dialog.c:1143
 msgid "Do you want to continue with full Windows compatibility disabled?"
-msgstr ""
+msgstr "To'liq Windows mosligi o'chirilgan holda davom etmoqchimisiz?"
 
 #: ../libbrasero-burn/brasero-burn-dialog.c:1144
 #: ../libbrasero-burn/brasero-status-dialog.c:340
@@ -911,19 +921,20 @@ msgstr ""
 msgid ""
 "Some files don't have a suitable name for a fully Windows-compatible CD."
 msgstr ""
+"Ba'zi fayllar Windows-ga to'liq mos keladigan CD uchun mos nomga ega emas."
 
 #: ../libbrasero-burn/brasero-burn-dialog.c:1145
 msgid "C_ontinue"
-msgstr ""
+msgstr "Davom etish"
 
 #: ../libbrasero-burn/brasero-burn-dialog.c:1365
 #: ../libbrasero-burn/brasero-burn-dialog.c:1386
 msgid "The simulation was successful."
-msgstr ""
+msgstr "Simulyatsiya muvaffaqiyatli bo'ldi."
 
 #: ../libbrasero-burn/brasero-burn-dialog.c:1368
 msgid "Real disc burning will take place in 10 seconds."
-msgstr ""
+msgstr "Haqiqiy diskni yozish 10 soniyadan keyin sodir bo'ladi."
 
 #: ../libbrasero-burn/brasero-burn-dialog.c:1371
 msgid "Burn _Now"
@@ -931,11 +942,11 @@ msgstr ""
 
 #: ../libbrasero-burn/brasero-burn-dialog.c:1660
 msgid "Save Current Session"
-msgstr ""
+msgstr "Joriy sessiyani saqlash"
 
 #: ../libbrasero-burn/brasero-burn-dialog.c:1735
 msgid "An unknown error occurred."
-msgstr ""
+msgstr "Noma'lum xatolik yuz berdi."
 
 #: ../libbrasero-burn/brasero-burn-dialog.c:1743
 #: ../libbrasero-burn/brasero-burn-dialog.c:1761 ../src/brasero-app.c:620
@@ -944,48 +955,48 @@ msgstr ""
 
 #: ../libbrasero-burn/brasero-burn-dialog.c:1751
 msgid "_Save Log"
-msgstr ""
+msgstr "_Jurnalni saqlash"
 
 #: ../libbrasero-burn/brasero-burn-dialog.c:1786
 msgid "Video DVD successfully burned"
-msgstr ""
+msgstr "Video DVD muvaffaqiyatli yoqildi"
 
 #: ../libbrasero-burn/brasero-burn-dialog.c:1788
 msgid "(S)VCD successfully burned"
-msgstr ""
+msgstr "(S)VCD muvaffaqiyatli yoqildi"
 
 #: ../libbrasero-burn/brasero-burn-dialog.c:1791
 msgid "Audio CD successfully burned"
-msgstr ""
+msgstr "Audio CD muvaffaqiyatli yoqildi"
 
 #: ../libbrasero-burn/brasero-burn-dialog.c:1793
 #: ../libbrasero-burn/brasero-burn-dialog.c:1824
 msgid "Image successfully created"
-msgstr ""
+msgstr "Tasvir muvaffaqiyatli yaratildi"
 
 #: ../libbrasero-burn/brasero-burn-dialog.c:1798
 msgid "DVD successfully copied"
-msgstr ""
+msgstr "DVD muvaffaqiyatli nusxalandi"
 
 #: ../libbrasero-burn/brasero-burn-dialog.c:1800
 msgid "CD successfully copied"
-msgstr ""
+msgstr "CD muvaffaqiyatli nusxalandi"
 
 #: ../libbrasero-burn/brasero-burn-dialog.c:1804
 msgid "Image of DVD successfully created"
-msgstr ""
+msgstr "DVD tasviri muvaffaqiyatli yaratildi"
 
 #: ../libbrasero-burn/brasero-burn-dialog.c:1806
 msgid "Image of CD successfully created"
-msgstr ""
+msgstr "CD tasviri muvaffaqiyatli yaratildi"
 
 #: ../libbrasero-burn/brasero-burn-dialog.c:1812
 msgid "Image successfully burned to DVD"
-msgstr ""
+msgstr "Tasvir DVDga muvaffaqiyatli yozildi"
 
 #: ../libbrasero-burn/brasero-burn-dialog.c:1814
 msgid "Image successfully burned to CD"
-msgstr ""
+msgstr "Tasvir CDga muvaffaqiyatli yozildi"
 
 #: ../libbrasero-burn/brasero-burn-dialog.c:1820
 msgid "Data DVD successfully burned"
@@ -998,17 +1009,19 @@ msgstr ""
 #: ../libbrasero-burn/brasero-burn-dialog.c:1881
 #, c-format
 msgid "Copy #%i has been burned successfully."
-msgstr ""
+msgstr "#%i nusxasi muvaffaqiyatli yozildi."
 
 #: ../libbrasero-burn/brasero-burn-dialog.c:1889
 msgid ""
 "Another copy will start as soon as you insert a new writable disc. If you do "
 "not want to burn another copy, press \"Cancel\"."
 msgstr ""
+"Yangi yoziladigan diskni kiritishingiz bilan boshqa nusxa ishga tushadi."
+"Agar boshqa nusxani yozishni xohlamasangiz, \"Bekor qilish\" tugmasini bosing."
 
 #: ../libbrasero-burn/brasero-burn-dialog.c:1963
 msgid "Make _More Copies"
-msgstr ""
+msgstr "_Ko'proq nusxa ko'chirish"
 
 #: ../libbrasero-burn/brasero-burn-dialog.c:1972
 msgid "Create Co_ver"
@@ -1029,12 +1042,12 @@ msgstr ""
 #: ../libbrasero-burn/brasero-burn-dialog.c:2451
 #: ../libbrasero-burn/brasero-tool-dialog.c:411
 msgid "Do you really want to quit?"
-msgstr ""
+msgstr "Haqiqatan ham chiqmoqchimisiz?"
 
 #: ../libbrasero-burn/brasero-burn-dialog.c:2455
 #: ../libbrasero-burn/brasero-tool-dialog.c:417
 msgid "Interrupting the process may make disc unusable."
-msgstr ""
+msgstr "Jarayonni to'xtatish diskni yaroqsiz holga keltirishi mumkin."
 
 #: ../libbrasero-burn/brasero-burn-dialog.c:2458
 msgid "C_ontinue Burning"
@@ -1049,19 +1062,21 @@ msgid ""
 "Please insert a writable CD or DVD if you don't want to write to an image "
 "file."
 msgstr ""
+"Agar tasvir fayliga yozishni xohlamasangiz, iltimos, yoziladigan CD yoki DVD"
+"ni joylashtiring."
 
 #: ../libbrasero-burn/brasero-burn-options.c:302 ../src/brasero-project.c:1595
 msgid "Create _Image"
-msgstr ""
+msgstr "Tasvir yaratish"
 
 #. Translators: This is a verb, an action
 #: ../libbrasero-burn/brasero-burn-options.c:307
 msgid "_Copy"
-msgstr ""
+msgstr "_Nusxa olish"
 
 #: ../libbrasero-burn/brasero-burn-options.c:310
 msgid "Make _Several Copies"
-msgstr ""
+msgstr "_Bir nechta nusxalarni yaratish"
 
 #. Translators: This is a verb, an action
 #: ../libbrasero-burn/brasero-burn-options.c:314 ../src/brasero-project.c:1524
@@ -1074,7 +1089,7 @@ msgstr ""
 
 #: ../libbrasero-burn/brasero-burn-options.c:433 ../src/brasero-project.c:949
 msgid "Would you like to burn the selection of files across several media?"
-msgstr ""
+msgstr "Tanlangan fayllarni bir nechta ommaviy axborot vositalarida yozishni xohlaysizmi?"
 
 #: ../libbrasero-burn/brasero-burn-options.c:434
 #: ../libbrasero-burn/brasero-burn-options.c:451
@@ -1091,7 +1106,7 @@ msgstr ""
 
 #: ../libbrasero-burn/brasero-burn-options.c:450 ../src/brasero-project.c:965
 msgid "Please choose another CD or DVD or insert a new one."
-msgstr ""
+msgstr "Iltimos, boshqa CD yoki DVD tanlang yoki yangisini joylashtiring."
 
 #: ../libbrasero-burn/brasero-burn-options.c:464 ../src/brasero-project.c:1010
 msgid "No track information (artist, title, ...) will be written to the disc."
@@ -1104,7 +1119,7 @@ msgstr ""
 #: ../libbrasero-burn/brasero-burn-options.c:477
 #: ../nautilus/nautilus-burn-extension.c:239
 msgid "Please add files."
-msgstr ""
+msgstr "Iltimos, fayllarni qo'shing."
 
 #: ../libbrasero-burn/brasero-burn-options.c:478
 #: ../libbrasero-burn/brasero-track-data.c:672
@@ -1113,35 +1128,35 @@ msgstr ""
 #: ../nautilus/nautilus-burn-extension.c:240 ../src/brasero-project.c:1277
 #, c-format
 msgid "There are no files to write to disc"
-msgstr ""
+msgstr "Diskga yozish uchun fayllar yo'q"
 
 #: ../libbrasero-burn/brasero-burn-options.c:483
 msgid "Please add songs."
-msgstr ""
+msgstr "Iltimos, qo'shiqlar qo'shing."
 
 #: ../libbrasero-burn/brasero-burn-options.c:484 ../src/brasero-project.c:1268
 msgid "There are no songs to write to disc"
-msgstr ""
+msgstr "Diskka yozish uchun qo'shiqlar yo'q"
 
 #: ../libbrasero-burn/brasero-burn-options.c:489
 msgid "Please add videos."
-msgstr ""
+msgstr "Iltimos, videolarni qo'shing."
 
 #: ../libbrasero-burn/brasero-burn-options.c:490
 msgid "There are no videos to write to disc"
-msgstr ""
+msgstr "Diskga yozish uchun video yo'q"
 
 #: ../libbrasero-burn/brasero-burn-options.c:502
 msgid "There is no inserted disc to copy."
-msgstr ""
+msgstr "Nusxa olish uchun o'rnatilgan disk yo'q."
 
 #: ../libbrasero-burn/brasero-burn-options.c:511
 msgid "Please select a disc image."
-msgstr ""
+msgstr "Iltimos, disk tasvirini tanlang."
 
 #: ../libbrasero-burn/brasero-burn-options.c:512
 msgid "There is no selected disc image."
-msgstr ""
+msgstr "Tanlangan disk tasviri yo'q."
 
 #. Translators: this is a disc image not a picture
 #. Translators: this is a disc image, not a picture
@@ -1149,24 +1164,24 @@ msgstr ""
 #: ../libbrasero-burn/brasero-src-image.c:167
 msgctxt "disc"
 msgid "Please select another image."
-msgstr ""
+msgstr "Iltimos, boshqa tasvir tanlang."
 
 #: ../libbrasero-burn/brasero-burn-options.c:523
 msgid "It doesn't appear to be a valid disc image or a valid cue file."
-msgstr ""
+msgstr "Bu yaroqli disk tasviri yoki to‘g‘ri ishora fayli emasga o‘xshaydi."
 
 #: ../libbrasero-burn/brasero-burn-options.c:532
 msgid "Please insert a disc that is not copy protected."
-msgstr ""
+msgstr "Iltimos, nusxa ko'chirishdan himoyalanmagan diskni joylashtiring."
 
 #: ../libbrasero-burn/brasero-burn-options.c:533
 #: ../libbrasero-burn/brasero-burn-options.c:1235 ../src/brasero-project.c:1445
 msgid "All required applications and libraries are not installed."
-msgstr ""
+msgstr "Barcha kerakli ilovalar va kutubxonalar o'rnatilmagan."
 
 #: ../libbrasero-burn/brasero-burn-options.c:540 ../src/brasero-project.c:1003
 msgid "Please replace the disc with a supported CD or DVD."
-msgstr ""
+msgstr "Iltimos, diskni qo'llab-quvvatlanadigan CD yoki DVD bilan almashtiring."
 
 #: ../libbrasero-burn/brasero-burn-options.c:549 ../src/brasero-project.c:976
 msgid "Would you like to burn beyond the disc's reported capacity?"
@@ -1180,10 +1195,14 @@ msgid ""
 "cannot be properly recognised and therefore need overburn option.\n"
 "NOTE: This option might cause failure."
 msgstr ""
+"Ma'lumotlar hajmi disk uchun juda katta va siz fayllarni tanlovdan olibtashlashingiz kerak.\n"
+"Agar siz 90 yoki 100 daqiqali CD R(W) dan foydalanayotgan bo'lsangiz, uni to'g'ri tanib bo'lmaydigan"
+"va shuning uchun ham ushbu parametrdan foydalaning. overburn opsiyasi kerak.\n"
+"DIQQAT: Bu parametr ishlamay qolishi mumkin."
 
 #: ../libbrasero-burn/brasero-burn-options.c:557 ../src/brasero-project.c:983
 msgid "_Overburn"
-msgstr ""
+msgstr "_Overburn"
 
 #: ../libbrasero-burn/brasero-burn-options.c:559 ../src/brasero-project.c:985
 msgid "Burn beyond the disc's reported capacity"
@@ -1193,16 +1212,18 @@ msgstr ""
 msgid ""
 "The drive that holds the source disc will also be the one used to record."
 msgstr ""
+"Resurs diskini saqlaydigan disk ham yozib olish uchun ishlatiladi."
 
 #: ../libbrasero-burn/brasero-burn-options.c:570
 msgid ""
 "A new writable disc will be required once the currently loaded one has been "
 "copied."
 msgstr ""
+"Joriy yuklanganidan nusxa ko'chirilgandan so'ng, yangi yoziladigan disk kerak bo'ladi."
 
 #: ../libbrasero-burn/brasero-burn-options.c:657
 msgid "Select a disc to write to"
-msgstr ""
+msgstr "Yozish uchun diskni tanlang"
 
 #: ../libbrasero-burn/brasero-burn-options.c:737
 #: ../libbrasero-burn/brasero-burn-options.c:755
@@ -1212,13 +1233,14 @@ msgstr ""
 
 #: ../libbrasero-burn/brasero-burn-options.c:764 ../src/brasero-project.c:1544
 msgid "Video Options"
-msgstr ""
+msgstr "Video opsiyalari"
 
 #: ../libbrasero-burn/brasero-burn-options.c:795 ../src/brasero-data-disc.c:613
 msgid ""
 "Do you want to create a disc from the contents of the image or with the "
 "image file inside?"
 msgstr ""
+"Tasvir mazmunidan yoki ichidagi tasvir fayli bilan disk yaratmoqchimisiz?"
 
 #. Translators: %s is the name of the image
 #: ../libbrasero-burn/brasero-burn-options.c:804
@@ -1227,10 +1249,12 @@ msgid ""
 "There is only one selected file (\"%s\"). It is the image of a disc and its "
 "contents can be burned."
 msgstr ""
+"Faqat bitta tanlangan fayl bor (\"%s\"). Bu diskning tasviri va uning"
+"mazmunini yozish mumkin."
 
 #: ../libbrasero-burn/brasero-burn-options.c:809
 msgid "Burn as _File"
-msgstr ""
+msgstr "_Fayl sifatida yozish"
 
 #: ../libbrasero-burn/brasero-burn-options.c:811
 msgid "Burn _Contents…"
@@ -1238,24 +1262,24 @@ msgstr ""
 
 #: ../libbrasero-burn/brasero-burn-options.c:893
 msgid "Image Burning Setup"
-msgstr ""
+msgstr "Tasvir yozishni sozlash"
 
 #. pack everything
 #: ../libbrasero-burn/brasero-burn-options.c:901
 msgid "Select a disc image to write"
-msgstr ""
+msgstr "Yozish uchun disk tasvirini tanlang"
 
 #: ../libbrasero-burn/brasero-burn-options.c:921
 msgid "Copy CD/DVD"
-msgstr ""
+msgstr "CD/DVDdan nusxa olish"
 
 #: ../libbrasero-burn/brasero-burn-options.c:927
 msgid "Select disc to copy"
-msgstr ""
+msgstr "Nusxa olish uchun diskni tanlang"
 
 #: ../libbrasero-burn/brasero-burn-options.c:1229 ../src/brasero-project.c:1439
 msgid "Please install the following manually and try again:"
-msgstr ""
+msgstr "Quyidagilarni qoʻlda oʻrnating va qaytadan urinib koʻring:"
 
 #: ../libbrasero-burn/brasero-cover.c:119
 msgid "Unknown song"
@@ -1275,34 +1299,34 @@ msgstr ""
 #: ../src/brasero-song-control.c:270
 #, c-format
 msgid "by %s"
-msgstr ""
+msgstr "%s tomonidan"
 
 #: ../libbrasero-burn/brasero-data-vfs.c:218
 #, c-format
 msgid "\"%s\" cannot be read"
-msgstr ""
+msgstr "\"%s\" o'qilmaydi"
 
 #: ../libbrasero-burn/brasero-dest-selection.c:605
 #: ../libbrasero-burn/brasero-image-type-chooser.c:133
 msgid "SVCD image"
-msgstr ""
+msgstr "SVCD tasvir"
 
 #: ../libbrasero-burn/brasero-dest-selection.c:607
 #: ../libbrasero-burn/brasero-image-type-chooser.c:127
 msgid "VCD image"
-msgstr ""
+msgstr "VCD tasvir"
 
 #: ../libbrasero-burn/brasero-dest-selection.c:611
 #: ../libbrasero-burn/brasero-image-type-chooser.c:106
 msgid "Video DVD image"
-msgstr ""
+msgstr "Video DVD tasvir"
 
 #. NOTE for translators: the first %s is medium_name ("File
 #. * Image") and the second the path for the image file
 #: ../libbrasero-burn/brasero-dest-selection.c:623
 #, c-format
 msgid "%s: \"%s\""
-msgstr ""
+msgstr "%s: \"%s\""
 
 #. Translators: this string is only used when the user
 #. * wants to copy a disc using the same destination and
@@ -1313,33 +1337,33 @@ msgstr ""
 #: ../libbrasero-burn/brasero-dest-selection.c:655
 #, c-format
 msgid "New disc in the burner holding the source disc"
-msgstr ""
+msgstr "Resurs diskini ushlab turgan yozgichdagi yangi disk"
 
 #. NOTE for translators, the first %s is the medium name
 #: ../libbrasero-burn/brasero-dest-selection.c:696
 #, c-format
 msgid "%s: not enough free space"
-msgstr ""
+msgstr "%s: boʻsh joy yetarli emas"
 
 #. NOTE for translators: the first %s is the medium name, the second %s
 #. * is its available free space. "Free" here is the free space available.
 #: ../libbrasero-burn/brasero-dest-selection.c:727
 #, c-format
 msgid "%s: %s of free space"
-msgstr ""
+msgstr "%s: %s bo‘sh joy"
 
 #. Translators: the first %s is the path of the directory where brasero
 #. * will store its temporary files; the second one is the size available
 #: ../libbrasero-burn/brasero-drive-properties.c:192
 #, c-format
 msgid "%s: %s free"
-msgstr ""
+msgstr "%s: %s bo'sh"
 
 #: ../libbrasero-burn/brasero-drive-properties.c:233
 #: ../libbrasero-burn/brasero-drive-properties.c:272
 #: ../libbrasero-burn/brasero-drive-properties.c:324
 msgid "Do you really want to choose this location?"
-msgstr ""
+msgstr "Haqiqatan ham bu joyni tanlashni xohlaysizmi?"
 
 #: ../libbrasero-burn/brasero-drive-properties.c:277
 #: ../libbrasero-burn/brasero-session.c:1287
@@ -1349,7 +1373,7 @@ msgstr ""
 #: ../plugins/libburnia/burn-libisofs.c:246
 #, c-format
 msgid "You do not have the required permission to write at this location"
-msgstr ""
+msgstr "Sizda bu joyda yozish uchun zarur ruxsat yoʻq"
 
 #: ../libbrasero-burn/brasero-drive-properties.c:330
 msgid ""
@@ -1357,61 +1381,65 @@ msgid ""
 "GiB).\n"
 "This can be a problem when writing DVDs or large images."
 msgstr ""
+"Ushbu jilddagi fayl tizimi katta fayllarni qo'llab-quvvatlamaydi (hajmi 2 GiB dan katta).\n"
+"Bu DVD yoki katta hajmdagi tasvirlarni yozishda muammo bo'lishi mumkin."
 
 #. Translators %s.1f is the speed used to burn
 #: ../libbrasero-burn/brasero-drive-properties.c:524
 #, c-format
 msgid "%.1f× (DVD)"
-msgstr ""
+msgstr "%.1f× (DVD)"
 
 #. Translators %s.1f is the speed used to burn
 #: ../libbrasero-burn/brasero-drive-properties.c:528
 #, c-format
 msgid "%.1f× (CD)"
-msgstr ""
+msgstr "%.1f× (CD)"
 
 #. Translators %s.1f is the speed used to burn. BD = Blu Ray
 #: ../libbrasero-burn/brasero-drive-properties.c:532
 #, c-format
 msgid "%.1f× (BD)"
-msgstr ""
+msgstr "%.1f× (BD)"
 
 #. Translators %s.1f is the speed used to burn for every medium
 #. * type. BD = Blu Ray
 #: ../libbrasero-burn/brasero-drive-properties.c:537
 #, c-format
 msgid "%.1f× (BD) %.1f× (DVD) %.1f× (CD)"
-msgstr ""
+msgstr "%.1f× (BD) %.1f× (DVD) %.1f× (CD)"
 
 #: ../libbrasero-burn/brasero-drive-properties.c:575
 msgid "Impossible to retrieve speeds"
-msgstr ""
+msgstr "Tezlikni olish mumkin emas"
 
 #: ../libbrasero-burn/brasero-drive-properties.c:584
 msgid "Maximum speed"
-msgstr ""
+msgstr "Maksimal tezlik"
 
 #: ../libbrasero-burn/brasero-drive-properties.c:710
 msgid "Burning speed"
-msgstr ""
+msgstr "Yozish tezligi"
 
 #: ../libbrasero-burn/brasero-drive-properties.c:723
 msgid "_Simulate before burning"
-msgstr ""
+msgstr "_Yozishdan oldin simulyatsiya qiling"
 
 #: ../libbrasero-burn/brasero-drive-properties.c:724
 msgid ""
 "Brasero will simulate the burning and, if it is successful, go on with "
 "actual burning after 10 seconds"
 msgstr ""
+"Brasero yozishni taqlid qiladi va agar u muvaffaqiyatli bo'lsa,"
+"10 soniyadan keyin haqiqiy yozishni davom ettiradi"
 
 #: ../libbrasero-burn/brasero-drive-properties.c:726
 msgid "Use burn_proof (decrease the risk of failures)"
-msgstr ""
+msgstr "burn_proof dan foydalaning (muvaffaqiyatsizliklar xavfini kamaytirish)"
 
 #: ../libbrasero-burn/brasero-drive-properties.c:728
 msgid "Burn the image directly _without saving it to disc"
-msgstr ""
+msgstr "Tasvirni diskda saqlamasdan to'g'ridan-to'g'ri yozish"
 
 #: ../libbrasero-burn/brasero-drive-properties.c:730
 msgid "Leave the disc _open to add other files later"
