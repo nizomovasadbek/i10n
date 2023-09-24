@@ -24,3 +24,47 @@ The whitepoint temperature is unlikely javobi kutilmoqda `gnome-color-manager.ma
 Cannot perform blocking operation during TLS handshake javobi kutilmoqda `glib-networking.glib-2-74.pot` 39-qator ismoilovdev <br>
 
 Receive flags are not supported javobi kutilmoqda `glib-networking.glib-2-74.pot` 69-74-qator ismoilovdev <br>
+
+"Photo burst mode", "Burst" javobi kutilmoqda `cheese.master.pot` 37-43-qator samiddastanbayev <br>
+
+"Shutter" javobi kutilmoqda `cheese.master.pot` 118-120-qator samiddastanbayev <br>
+
+"Burst mode" javobi kutilmoqda `cheese.master.pot` 130-132-qator samiddastanbayev <br>
+
+"Capture" javobi kutilmoqda `cheese.master.pot` 142-144-qator samiddastanbayev <br>
+
+"Take multiple photos in quick succession with burst mode. Use the countdown to give yourself time to strike a pose, and wait for the flash!" javobi kutilmoqda `cheese.master.pot` 204-206-qator samiddastanbayev <br>
+
+"Webcam Booth" javobi kutilmoqda `cheese.master.pot` 218-220-qator samiddastanbayev <br>
+
+"Fire flash before taking a photo", "Set to true to fire a flash before taking a photo" javobi kutilmoqda `cheese.master.pot` 243-249-qator samiddastanbayev <br>
+
+"The path to the device node which points to the camera, for example /dev/video0" javobi kutilmoqda `cheese.master.pot` 257-259-qator samiddastanbayev <br>
+
+"Time between photos in burst mode", "The length of time, in milliseconds, to delay between taking each photo in a burst sequence of photos. If the burst delay is less than the countdown duration, the countdown duration will be used instead.", "Number of photos in burst mode", "The number of photos to take in a single burst." javobi kutilmoqda `cheese.master.pot` 355-372-qator samiddastanbayev <br>
+
+"Shutter sound" javobi kutilmoqda `cheese.master.pot` 423-425-qator samiddastanbayev <br>
+
+"Cancellable initialization not supported" javobi kutilmoqda `cheese.master.pot` 459-461-qator samiddastanbayev <br>
+
+"Start in wide mode" javobi kutilmoqda `cheese.master.pot` 463-465-qator samiddastanbayev <br>
+
+"translator-credits" javobi kutilmoqda `cheese.master.pot` 487-489-qator samiddastanbayev <br>
+
+"The number of characters that must be typed before Evolution will attempt to autocomplete." javobi kutilmoqda `evolution.gnome-43.pot` 37-40-qator samiddastanbayev <br>
+
+"Whether force showing the mail address with the name of the autocompleted contact in the entry." javobi kutilmoqda `evolution.gnome-43.pot` 47-50-qator samiddastanbayev <br>
+
+"Whether to show mailing addresses Work in the editor", "Show mailing Other addresses", "Whether to show mailing addresses Other in the editor" javobi kutilmoqda `evolution.gnome-43.pot` 157-167-qator samiddastanbayev <br>
+
+"Toggle to bookmark this location" javobi kutilmoqda `dconf-editor.master.pot` 130-132-qator samiddastanbayev <br>
+
+"If the “restore-view” key is set to “true”, and if the path requested at startup is a parent path of this one, Dconf Editor tries to restore the pathbar state at this path." javobi kutilmoqda `dconf-editor.master.pot` 306-310-qator samiddastanbayev <br>
+
+"Change the behaviour of a key value change request" javobi kutilmoqda `dconf-editor.master.pot` 352-353-qator samiddastanbayev <br>
+
+"The “unsafe” value is discouraged: ..." javobi kutilmoqda `dconf-editor.master.pot` 357-366-qator samiddastanbayev <br>
+
+"A bytestring, type ‘ay’", "The bytestring type is commonly used ...", "A bytestring array, type ‘aay’", "This is the type of an array of ..." javobi kutilmoqda `dconf-editor.master.pot` 560-580-qator samiddastanbayev <br>
+
+"An object path is used to ..." javobi kutilmoqda `dconf-editor.master.pot` 609-611-qator samiddastanbayev <br>

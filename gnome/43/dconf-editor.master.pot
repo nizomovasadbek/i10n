@@ -27,14 +27,16 @@ msgstr "Haqida"
 #. Translators: on really small windows, the about dialog is replaced by an in-window view; here is the label of one of two buttons that have the same role as the stack switcher in the usual about dialog, the first is "About"
 #: editor/about-list.vala:46
 msgid "Credits"
-msgstr "--"
+msgstr "Kreditlar"
 
 #. Translators: on really small windows, the about dialog is replaced by an in-window view; here is the label of the link to the GPL license; TODO better text, as in the usual about dialog
 #: editor/about-list.vala:135
 msgid ""
 "GNU General Public License\n"
 "version 3 or later"
-msgstr "--"
+msgstr ""
+"GNU General Public License\n"
+"3 yoki yuqori versiya"
 
 #. Translators: on really small windows, the about dialog is replaced by an in-window view; here is the header of the programmers names
 #: editor/about-list.vala:154
@@ -49,13 +51,13 @@ msgstr "Tarjimonlar"
 #. Translators: menu entry of the pathbar menu
 #: editor/adaptative-pathbar.vala:251
 msgid "Copy current path"
-msgstr "Joriy --- nusxa olish"
+msgstr "Joriy yo'lni nusxalash"
 
 #. Translators: menu entry of the pathbar menu (not displayed for now)
 #. Translators: "open" action in the right-click menu on a "show folder info" row
 #: editor/adaptative-pathbar.vala:264 editor/key-list-box-row.vala:475
 msgid "Show properties"
-msgstr "--"
+msgstr "Xususiyatlarni ko'rsatish"
 
 #. Translators: accessible name of the hamburger menu
 #: editor/base-headerbar.ui:113
@@ -65,12 +67,12 @@ msgstr "Amallar"
 #. Translators: accessible description of the hamburger menu
 #: editor/base-headerbar.ui:115
 msgid "Current view actions"
-msgstr "--"
+msgstr "Joriy ko'rish amallari"
 
 #. Translators: usual menu entry of the hamburger menu
 #: editor/base-headerbar.vala:115
 msgid "Keyboard Shortcuts"
-msgstr "--"
+msgstr "Tezkor klavish"
 
 #. Translators: on really small windows, the bookmarks popover is replaced by an in-window view; here is the name of the view, displayed in the headerbar
 #. Translators: accessible name of the button for opening the bookmarks popover
@@ -88,7 +90,7 @@ msgstr "Xatcho'plarni yashirish"
 #. Translators: hamburger menu entry on small windows, to unbookmark the currently browsed path
 #: editor/bookmarks-headerbar.vala:259
 msgid "Unbookmark"
-msgstr "--"
+msgstr "Xatcho'pdan chiqarish"
 
 #. Translators: hamburger menu entry on small windows, to bookmark the currently browsed path
 #: editor/bookmarks-headerbar.vala:262
@@ -106,7 +108,7 @@ msgid ""
 "Bookmarks will\n"
 "be added here"
 msgstr ""
-"Xatcho'plar bu"
+"Xatcho'plar bu\n"
 "yerga qo'shiladi"
 
 #. Translators: label of one of the two buttons of the bookmarks list, to switch between using the bookmarks and editing the list; the second is "Edit"
@@ -152,7 +154,7 @@ msgstr "Ushbu manzilni xatcho'pga qo'shish"
 #. Translators: on really small windows, name of the view when showing a folder properties, displayed in the headerbar
 #: editor/browser-headerbar.vala:165
 msgid "Properties"
-msgstr "--"
+msgstr "Xususiyatlar"
 
 #. Translators: text of an infobar to sort again the keys list ("refresh" only, no "reload")
 #: editor/browser-view.vala:81
@@ -201,6 +203,9 @@ msgid ""
 "database. This is useful when developing applications that use these "
 "settings."
 msgstr ""
+"Dconf muharriri dconf konfiguratsiya ma'lumotlar bazasini to'g'ridan-to'g'ri "
+"tahrirlash imkonini beruvchi vositadir. Bu ushbu sozlamalardan foydalanadigan "
+"ilovalarni ishlab chiqishda foydalidir."
 
 #: editor/ca.desrt.dconf-editor.appdata.xml.in:17
 msgid ""
@@ -241,7 +246,7 @@ msgstr "Butun konfiguratsiya ma'lumotlar bazasini to'g'ridan-to'g'ri tahrirlang"
 #. Translators: some search Keywords to find this application, as defined in the desktop file spec. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
 #: editor/ca.desrt.dconf-editor.desktop.in:9
 msgid "settings;configuration;"
-msgstr "sozlamalar; konfiguratsiya;"
+msgstr "sozlamalar;konfiguratsiya;"
 
 #. see AdaptativeWindow.width-request at data/ui/adaptative-window.ui:22
 #. range min="350"/ FIXME
@@ -329,16 +334,18 @@ msgid ""
 "If “true”, Dconf Editor opens a popup when launched reminding the user to be "
 "careful."
 msgstr ""
+"Agar “true” bo'lsa, Dconf muharriri ishga tushganda qalqib chiquvchi oynani ochadi "
+"va foydalanuvchiga ehtiyot bo'lishni eslatadi."
 
 #. Translators: summary of a settings key, see 'dconf-editor /ca/desrt/dconf-editor/small-keys-list-rows'
 #: editor/ca.desrt.dconf-editor.gschema.xml:159
 msgid "A flag to enable small rows for keys list"
-msgstr ""
+msgstr "Tugmalar ro'yxati uchun kichik qatorlarni yoqish uchun belgi"
 
 #. Translators: description of a settings key, see 'dconf-editor /ca/desrt/dconf-editor/small-keys-list-rows'
 #: editor/ca.desrt.dconf-editor.gschema.xml:161
 msgid "If “true”, the keys list use smaller rows."
-msgstr ""
+msgstr "Agar “true” bo'lsa, tugmalar ro'yxati kichikroq qatorlardan foydalanadi"
 
 #. Translators: summary of a settings key, see 'dconf-editor /ca/desrt/dconf-editor/behaviour'
 #: editor/ca.desrt.dconf-editor.gschema.xml:166
@@ -361,7 +368,7 @@ msgstr ""
 #. Translators: summary of a settings key, see 'dconf-editor /ca/desrt/dconf-editor/sort-case-sensitive'
 #: editor/ca.desrt.dconf-editor.gschema.xml:173
 msgid "A flag to sort keys list case-sensitively"
-msgstr ""
+msgstr "Tugmalar ro'yxatini katta-kichik harflar sezgirligiga qarab tartiblash uchun belgi"
 
 #. Translators: description of a settings key, see 'dconf-editor /ca/desrt/dconf-editor/sort-case-sensitive'
 #: editor/ca.desrt.dconf-editor.gschema.xml:175
@@ -370,11 +377,14 @@ msgid ""
 "installation paths of schemas can. If “true”, the keys list is sorted case-"
 "sensitively, with in usual order upper-case folders first."
 msgstr ""
+"GSettings kalitlarga o'z nomlarida katta harflardan foydalanishga ruxsat bermaydi, "
+"lekin sxemalarni o'rnatish yo'llarida mumkin. Agar “true” bo'lsa, kalitlar ro'yxati "
+"katta harflar ro'yxatiga qarab tartiblanadi, birinchi navbatda katta harflar bilan papkalar joylashadi."
 
 #. Translators: summary of a settings key, see 'dconf-editor /ca/desrt/dconf-editor/mouse-use-extra-buttons'
 #: editor/ca.desrt.dconf-editor.gschema.xml:180
 msgid "Use “Back” and “Forward” mouse button events"
-msgstr ""
+msgstr "“Orqaga” va “Oldinga” sichqoncha tugmalari hodisalaridan foydalaning"
 
 #. Translators: description of a settings key, see 'dconf-editor /ca/desrt/dconf-editor/mouse-use-extra-buttons'
 #: editor/ca.desrt.dconf-editor.gschema.xml:182
@@ -383,11 +393,13 @@ msgid ""
 "will determine if any action is taken inside of a browser window when either "
 "is pressed."
 msgstr ""
+"“Oldinga” va “Orqaga” tugmalari bo'lgan sichqonchali foydalanuvchilar uchun "
+"bu tugma bosilganda brauzer oynasida biron bir harakat bajarilganligini aniqlaydi."
 
 #. Translators: summary of a settings key, see 'dconf-editor /ca/desrt/dconf-editor/mouse-back-buttons'
 #: editor/ca.desrt.dconf-editor.gschema.xml:188
 msgid "Mouse button to activate the “Back” command in browser window"
-msgstr ""
+msgstr "Brauzer oynasida “Orqaga” buyrug'ini faollashtirish uchun sichqoncha tugmasi"
 
 #. Translators: description of a settings key, see 'dconf-editor /ca/desrt/dconf-editor/mouse-back-buttons'
 #: editor/ca.desrt.dconf-editor.gschema.xml:190
@@ -396,11 +408,14 @@ msgid ""
 "will set which button activates the “Back” command in a browser window. "
 "Possible values range between 6 and 14."
 msgstr ""
+"“Oldinga” va “Orqaga” tugmalari bo'lgan sichqonchali foydalanuvchilar uchun "
+"bu tugma brauzer oynasida qaysi tugma “Orqaga” buyrug'ini faollashtirishini belgilaydi. "
+"Mumkin qiymatlar 6 dan 14 gacha."
 
 #. Translators: summary of a settings key, see 'dconf-editor /ca/desrt/dconf-editor/mouse-forward-buttons'
 #: editor/ca.desrt.dconf-editor.gschema.xml:196
 msgid "Mouse button to activate the “Forward” command in browser window"
-msgstr ""
+msgstr "Brauzer oynasida “Oldinga” buyrug'ini faollashtirish uchun sichqoncha tugmasi"
 
 #. Translators: description of a settings key, see 'dconf-editor /ca/desrt/dconf-editor/mouse-forward-buttons'
 #: editor/ca.desrt.dconf-editor.gschema.xml:198
@@ -409,11 +424,14 @@ msgid ""
 "will set which button activates the “Forward” command in a browser window. "
 "Possible values range between 6 and 14."
 msgstr ""
+"“Oldinga” va “Orqaga” tugmalari bo'lgan sichqonchali foydalanuvchilar uchun "
+"bu tugma brauzer oynasida qaysi tugma “Oldinga” buyrug'ini faollashtirishini belgilaydi. "
+"Mumkin qiymatlar 6 dan 14 gacha."
 
 #. Translators: summary of a settings key, see 'dconf-editor /ca/desrt/dconf-editor/refresh-settings-schema-source'
 #: editor/ca.desrt.dconf-editor.gschema.xml:203
 msgid "A flag to check for added or removed schemas"
-msgstr ""
+msgstr "Qo'shilgan yoki o'chirilgan sxemalarni tekshirish belgisi"
 
 #. Translators: description of a settings key, see 'dconf-editor /ca/desrt/dconf-editor/refresh-settings-schema-source'
 #: editor/ca.desrt.dconf-editor.gschema.xml:205
@@ -424,6 +442,11 @@ msgid ""
 "be disabled by setting this flag to “false”. Note that this option will be "
 "removed when a better way to do things is found."
 msgstr ""
+"Dconf Tahrirlovchi bir nechta mumkin bo'lgan joylardan sxemalar qo'shilgan yoki o'chirilganligini "
+"kuzatishi mumkin. Bu har uch soniyada sxemalar ro'yxati o'zgarganligini tekshirish orqali "
+"amalga oshiriladi. Bu usul suboptimal bo'lgani uchun, ushbu belgini “false” ga o'rnatish orqali "
+"ushbu funktsiyani o'chirib qo'yish mumkin. E'tibor bering, ishning yaxshiroq yo'li topilsa, "
+"ushbu parametr o'chiriladi."
 
 #. Translators: summary of a settings key, see 'dconf-editor /ca/desrt/dconf-editor/relocatable-schemas-enabled-mappings'
 #: editor/ca.desrt.dconf-editor.gschema.xml:210
@@ -443,7 +466,7 @@ msgstr ""
 #. Translators: summary of a settings key, see 'dconf-editor /ca/desrt/dconf-editor/relocatable-schemas-user-paths'
 #: editor/ca.desrt.dconf-editor.gschema.xml:217
 msgid "Mapping of paths to manually associated schemas"
-msgstr ""
+msgstr "Qo'lda bog'langan sxemalarga yo'llarni xaritalash"
 
 #. Translators: description of a settings key, see 'dconf-editor /ca/desrt/dconf-editor/relocatable-schemas-user-paths'
 #: editor/ca.desrt.dconf-editor.gschema.xml:219
@@ -458,7 +481,7 @@ msgstr ""
 #. Translators: summary of a settings key, see 'dconf-editor /ca/desrt/dconf-editor/use-shortpaths'
 #: editor/ca.desrt.dconf-editor.gschema.xml:224
 msgid "A flag for skipping unnecessary subfolders"
-msgstr ""
+msgstr "Keraksiz quyi jildlarni o'tkazib yuborish uchun belgi"
 
 #. Translators: description of a settings key, see 'dconf-editor /ca/desrt/dconf-editor/use-shortpaths'
 #: editor/ca.desrt.dconf-editor.gschema.xml:226
@@ -466,11 +489,14 @@ msgid ""
 "When a folder only contains one subfolder and no keys, Dconf Editor can jump "
 "to that subfolder directly. This flag enables that behaviour."
 msgstr ""
+"Agar jildda faqat bitta quyi jild bo'lsa va kalit bo'lmasa, Dconf muharriri "
+"to'g'ridan-to'g'ri ushbu quyi jildga o'tishi mumkin. Bu belgi bu xatti-harakatni "
+"amalga oshirish imkonini beradi."
 
 #. Translators: summary of a settings key, see 'dconf-editor /ca/desrt/dconf-editor/bookmarks'
 #: editor/ca.desrt.dconf-editor.gschema.xml:233
 msgid "A list of bookmarked paths"
-msgstr ""
+msgstr "Xatcho'plangan yo'llar ro'yxati"
 
 #. Translators: description of a settings key, see 'dconf-editor /ca/desrt/dconf-editor/bookmarks'
 #: editor/ca.desrt.dconf-editor.gschema.xml:235
@@ -480,29 +506,29 @@ msgstr ""
 #. Translators: summary of a settings key, see 'dconf-editor /ca/desrt/dconf-editor/small-bookmarks-rows'
 #: editor/ca.desrt.dconf-editor.gschema.xml:240
 msgid "A flag to enable small rows for bookmarks list"
-msgstr ""
+msgstr "Xatcho'plar ro'yxati uchun kichik qatorlarni yoqish uchun belgi"
 
 #. Translators: description of a settings key, see 'dconf-editor /ca/desrt/dconf-editor/small-bookmarks-rows'
 #: editor/ca.desrt.dconf-editor.gschema.xml:242
 msgid "If “true”, the bookmarks list use smaller rows."
-msgstr ""
+msgstr "Agar “true” bo'lsa, xatcho'plar ro'yxati kichikroq qatorlardan foydalanadi."
 
 #. Translators: summary of a demo key, see 'dconf-editor /ca/desrt/dconf-editor/Demo/boolean'
 #. Translators: summary of a demo key, see 'dconf-editor /ca/desrt/dconf-editor/Demo/relocatable/boolean' (with default /ca/desrt/dconf-editor/relocatable-* settings)
 #: editor/ca.desrt.dconf-editor.gschema.xml:268
 #: editor/ca.desrt.dconf-editor.gschema.xml:480
 msgid "A boolean, type ‘b’"
-msgstr ""
+msgstr "Mantiqiy, turi ‘b’"
 
 #. Translators: description of a demo key, see 'dconf-editor /ca/desrt/dconf-editor/Demo/boolean'
 #: editor/ca.desrt.dconf-editor.gschema.xml:270
 msgid "Booleans can only take two values, “true” or “false”."
-msgstr ""
+msgstr "Mantiqiy qiymatlar faqat ikkita qiymatni qabul qilishi mumkin: “true” yoki “false”."
 
 #. Translators: summary of a demo key, see 'dconf-editor /ca/desrt/dconf-editor/Demo/boolean-nullable'
 #: editor/ca.desrt.dconf-editor.gschema.xml:275
 msgid "A nullable boolean, type ‘mb’"
-msgstr ""
+msgstr "Null bo'ladigan mantiqiy, turi ‘mb’"
 
 #. Translators: description of a demo key, see 'dconf-editor /ca/desrt/dconf-editor/Demo/boolean-nullable'
 #: editor/ca.desrt.dconf-editor.gschema.xml:277
@@ -511,11 +537,14 @@ msgid ""
 "take a “nothing” value. A nullable boolean can only take three values, "
 "“true”, “false” and “nothing”."
 msgstr ""
+"GSettings boshqa turlarga o'xshash, lekin “hech qanday” qiymatini olishi mumkin "
+"bo'lgan null mumkin bo'lgan turlarga ruxsat beradi. Null bo'ladigan mantiqiy "
+"qiymat faqat uchta qiymatni qabul qilishi mumkin: “true”, “false” va “hech qanday”."
 
 #. Translators: summary of a demo key, see 'dconf-editor /ca/desrt/dconf-editor/Demo/byte'
 #: editor/ca.desrt.dconf-editor.gschema.xml:282
 msgid "A byte (unsigned), type ‘y’"
-msgstr ""
+msgstr "Bayt (imzolanmagan), turi ‘y’"
 
 #. Translators: description of a demo key, see 'dconf-editor /ca/desrt/dconf-editor/Demo/byte'
 #: editor/ca.desrt.dconf-editor.gschema.xml:284
@@ -523,6 +552,8 @@ msgid ""
 "A byte value is an integer between 0 and 255. It may be used to pass around "
 "characters."
 msgstr ""
+"Bayt qiymati 0 dan 255 gacha bo'lgan butun sondir. U belgilar atrofida o'tish uchun "
+"ishlatilishi mumkin."
 
 #. Translators: summary of a demo key, see 'dconf-editor /ca/desrt/dconf-editor/Demo/bytestring'
 #: editor/ca.desrt.dconf-editor.gschema.xml:289
@@ -552,7 +583,7 @@ msgstr ""
 #. Translators: summary of a demo key, see 'dconf-editor /ca/desrt/dconf-editor/Demo/dbus-handle'
 #: editor/ca.desrt.dconf-editor.gschema.xml:303
 msgid "A D-Bus handle type, type ‘h’"
-msgstr ""
+msgstr "D-Bus ishlash turi, turi ‘h’"
 
 #. Translators: description of a demo key, see 'dconf-editor /ca/desrt/dconf-editor/Demo/dbus-handle'
 #: editor/ca.desrt.dconf-editor.gschema.xml:305
@@ -562,11 +593,15 @@ msgid ""
 "D-Bus message. If you are not interacting with D-Bus, then there is no "
 "reason to make use of this type."
 msgstr ""
+"Ishlash turi bu 32 bitli imzolangan butun son qiymati bo'lib, qoidaga ko'ra, "
+"D-Bus xabari bilan birga yuboriladigan fayl identifikatorlari qatoriga indeks sifatida "
+"ishlatiladi. Agar siz D-Bus bilan o'zaro ishlamasangiz, unda bu turdan "
+"foydalanish uchun hech qanday sabab yo'q."
 
 #. Translators: summary of a demo key, see 'dconf-editor /ca/desrt/dconf-editor/Demo/dbus-object-path'
 #: editor/ca.desrt.dconf-editor.gschema.xml:310
 msgid "A D-Bus object path, type ‘o’"
-msgstr ""
+msgstr "D-Bus obyekt yo'li, turi ‘o’"
 
 #. Translators: description of a demo key, see 'dconf-editor /ca/desrt/dconf-editor/Demo/dbus-object-path'
 #: editor/ca.desrt.dconf-editor.gschema.xml:312
@@ -579,7 +614,7 @@ msgstr ""
 #. Translators: summary of a demo key, see 'dconf-editor /ca/desrt/dconf-editor/Demo/dbus-object-path-array'
 #: editor/ca.desrt.dconf-editor.gschema.xml:317
 msgid "A D-Bus object path array, type ‘ao’"
-msgstr ""
+msgstr "D-Bus obyekt yo'llari massivi, turi ‘ao’"
 
 #. Translators: description of a demo key, see 'dconf-editor /ca/desrt/dconf-editor/Demo/dbus-object-path-array'
 #: editor/ca.desrt.dconf-editor.gschema.xml:319
@@ -588,11 +623,14 @@ msgid ""
 "none: “[]”). If you are not interacting with D-Bus, then there is no reason "
 "to make use of this type."
 msgstr ""
+"Ob'ekt yo'llari massivida istalgan miqdordagi ob'ekt yo'llari bo'lishi mumkin "
+"(shu jumladan, “[]”). Agar siz D-Bus bilan o'zaro ishlamasangiz, "
+"unda bu turdan foydalanish uchun hech qanday sabab yo'q."
 
 #. Translators: summary of a demo key, see 'dconf-editor /ca/desrt/dconf-editor/Demo/dbus-signature'
 #: editor/ca.desrt.dconf-editor.gschema.xml:324
 msgid "A D-Bus signature, type ‘g’"
-msgstr ""
+msgstr "D-Bus imzosi, turi ‘g’"
 
 #. Translators: description of a demo key, see 'dconf-editor /ca/desrt/dconf-editor/Demo/dbus-signature'
 #: editor/ca.desrt.dconf-editor.gschema.xml:326
@@ -601,6 +639,9 @@ msgid ""
 "message. If you are not interacting with D-Bus, then there is no reason to "
 "make use of this type."
 msgstr ""
+"D-Bus imzosi D-Bus usuli yoki xabari turdagi imzo sifatida "
+"ishlatiladigan qatordir. Agar siz D-Bus bilan o'zaro ishlamasangiz, "
+"unda bu turdan foydalanish uchun hech qanday sabab yo'q."
 
 #. Translators: summary of a demo key, see 'dconf-editor /ca/desrt/dconf-editor/Demo/dict-entry'
 #: editor/ca.desrt.dconf-editor.gschema.xml:331
